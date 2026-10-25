@@ -20,7 +20,7 @@ If `status` says RESEARCH MORE TERMS, tell Taras in one line before the lesson (
 
 The targets are what `next` prints, in its order. If they mix a **new** item with old ones, play two scenes: first the old ones together, then the new one alone (§2), shorter. If time runs out, drop the new one; it comes back next time.
 
-Read the school's rules for language and characters in `resources/schools/post-soviet/README.md`. Read each target where it is defined: traps in `resources/curriculum/traps.md` with the moves they name in `resources/curriculum/moves.md`, terms and riddles in `resources/schools/post-soviet/reference.md`. Read the last five entries of `data/session-notes.md` (if it exists), so a scene is not repeated.
+Read the school's rules for language and characters in `resources/schools/post-soviet/README.md`. Read each target where it is defined: traps in `resources/curriculum/traps.md` with the moves they name in `resources/curriculum/moves.md`, concepts and riddles in `resources/schools/post-soviet/reference.md`, words in `resources/schools/post-soviet/terms.md`. Read the last five entries of `data/session-notes.md` (if it exists), so a scene is not repeated.
 
 ## 2. Build the scene, and seal it
 

@@ -187,3 +187,10 @@ A review of every file gave 30 points; Taras approved all but Windows encodings;
 - Decision: no new trap types. Each new riddle fits one of the 14; a new type needs more than one riddle behind it.
 - Check: quote check 382 quotes, 1 known unmatched; `pytest` 35 passed; `db.py status` 153 terms, 32 riddles, reserve ok.
 - Structure: `reference.md` is at 494 lines; the next harvest must first split it by topic (concepts and riddles / terms) and teach `tools/items.py` the new file. Two repeated quotes replaced by links. Otherwise ok.
+
+## 2026-10-25: Split the post-soviet reference
+
+- `reference.md` (494 lines) is now `reference.md` (concepts, riddles, interrogation traps; 329 lines) and `terms.md` (words; 164 lines).
+- `tools/items.py` names the files once (`REFERENCE_FILES`) and joins them (`reference_text()`); the item loader, the quote check and the tests read the reference only through it, so a later split is one line.
+- Check: the same numbers before and after: 382 quotes (1 known unmatched), 153 terms, 32 riddles; `pytest` 35 passed.
+- Structure: layout map, glossary, teaching method and `/interest` name the new file. Structure: ok.

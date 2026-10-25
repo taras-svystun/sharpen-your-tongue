@@ -11,6 +11,8 @@ import re
 import sys
 from pathlib import Path
 
+from items import reference_text
+
 ROOT = Path(__file__).resolve().parent.parent
 
 
@@ -53,7 +55,7 @@ def quotes(text):
 
 def unmatched(school, text):
     """Fragments of the school's reference quotes that are not in `text`, a corpus()."""
-    ref = (ROOT / "resources" / "schools" / school / "reference.md").read_text()
+    ref = reference_text(ROOT / "resources" / "schools" / school)
     qs, bad = quotes(ref), []
     for q in qs:
         # ellipses join fragments; "2." or "З." (an OCR "3") joins the senses of a dictionary entry

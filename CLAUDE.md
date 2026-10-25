@@ -25,7 +25,8 @@ resources/curriculum/                 shared by all schools
 resources/schools/<school>/           one folder per school: post-soviet, east-coast
   README.md                           language, characters, scope of the school
   sources.md                          source catalogue, IDs like ps:src:03
-  reference.md                        concepts and terms, each citing source IDs
+  reference.md                        concepts and riddles, each citing source IDs
+  terms.md                            the school's words, each citing source IDs
 .claude/skills/interest/SKILL.md      the lesson, /interest: order of steps only
 tools/                                scripts (items, db, transcribe, check_quotes)
 requirements.txt                      Python dependencies for tools/

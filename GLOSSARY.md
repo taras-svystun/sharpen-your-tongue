@@ -2,14 +2,14 @@
 
 Sharpen Your Tongue: a daily trainer for quick wit under pressure, using closed worlds with strict unwritten rules as training grounds.
 
-School jargon (смотрящий, хата, "Ebonics" slang) is not here: it lives in `resources/schools/<school>/reference.md`.
+School jargon (смотрящий, хата, "Ebonics" slang) is not here: it lives in `resources/schools/<school>/terms.md` and `reference.md`.
 
 - **school**: one training ground with its own reference, sources, language and characters. Now: `post-soviet`, `east-coast`.
 - **scene**: one simulated conversation in a school, where a character tests or provokes Taras. Built around 1-3 items.
 - **trap**: a type of manipulation or word trap, shared by all schools (for example a false choice). Lives in `resources/curriculum/traps.md`.
 - **move**: a type of answer that defuses a trap (for example rejecting the premise). Lives in `resources/curriculum/moves.md`.
 - **look-alike**: the trap, move or harmless situation most often mistaken for a given one, with the test that tells them apart. Every entry in `resources/curriculum/` names one.
-- **term**: a word or concept of one school, with sources. Lives in that school's `reference.md` (ID `ps:t:<word>`).
+- **term**: a word or concept of one school, with sources. A word lives in that school's `terms.md`, a concept in its `reference.md` (ID `ps:t:<word>`).
 - **riddle**: a trap as one school poses it: a test question for a newcomer, with the answer its source accepts. Lives in that school's `reference.md` (ID `ps:r:<n>`).
 - **item**: anything the database tracks and schedules: a trap, a move, a term or a riddle.
 - **scope**: where a source's claims hold: place, years, institution, genre.

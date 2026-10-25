@@ -5,6 +5,8 @@ An item is defined, not just mentioned, at one of these places:
 - a concept heading in a school reference:        `### Понятия ... `ps:t:ponyatiya``
 - a term bullet in a school reference:            `- **мужик** `ps:t:muzhik`: ...`
 - a riddle heading in a school reference:         `### ps:r:5 «Свадьба»`
+
+A school's reference is split by topic into REFERENCE_FILES; reference_text() joins them.
 """
 import re
 from pathlib import Path
@@ -15,6 +17,7 @@ SCHOOLS = ROOT / "resources" / "schools"
 
 KINDS = {"trap": "trap", "move": "move", "t": "term", "r": "riddle"}
 SHARED = "shared"  # the school of a trap or a move
+REFERENCE_FILES = ("reference.md", "terms.md")  # concepts and riddles; terms
 
 DEFINITION = re.compile(
     r"^## ((?:trap|move):[a-z-]+)$"             # curriculum heading
@@ -50,11 +53,16 @@ def kind(item_id):
     return KINDS[parts[0] if len(parts) == 2 else parts[1]]
 
 
+def reference_text(school_dir):
+    """The whole reference of one school, its files joined in order."""
+    return "\n".join((school_dir / n).read_text() for n in REFERENCE_FILES if (school_dir / n).exists())
+
+
 def load():
     """{item id: school} for every item. Traps and moves belong to SHARED."""
     out = {}
     for name in ("traps", "moves"):
         out.update(dict.fromkeys(defined_ids((CURRICULUM / f"{name}.md").read_text()), SHARED))
     for ref in sorted(SCHOOLS.glob("*/reference.md")):
-        out.update(dict.fromkeys(defined_ids(ref.read_text()), ref.parent.name))
+        out.update(dict.fromkeys(defined_ids(reference_text(ref.parent)), ref.parent.name))
     return out

@@ -98,6 +98,6 @@ def test_cli_record_then_next(tmp_path, monkeypatch, capsys):
 
 
 def test_items_are_defined_once_and_typed():
-    ids = [i for ref in items.SCHOOLS.glob("*/reference.md") for i in items.defined_ids(ref.read_text())]
+    ids = [i for ref in items.SCHOOLS.glob("*/reference.md") for i in items.defined_ids(items.reference_text(ref.parent))]
     assert len(ids) == len(set(ids))
     assert {items.kind(i) for i in items.load()} == {"trap", "move", "term", "riddle"}
