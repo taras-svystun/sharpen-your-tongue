@@ -40,3 +40,11 @@ def test_pick_track_takes_original_captions_never_a_translation():
 def test_pick_track_none_when_only_translations():
     meta = {"automatic_captions": {"ru": track("https://yt/timedtext?v=x&tlang=ru")}}
     assert transcribe.pick_track(meta, "ru") is None
+
+
+def test_youtube_labels_show_the_mislabel():
+    meta = {"language": "uk",
+            "formats": [{"vcodec": "none", "acodec": "opus", "language": "uk"},
+                        {"vcodec": "avc1", "acodec": "none"}],
+            "automatic_captions": {"uk-orig": [], "ru": []}}
+    assert transcribe.youtube_labels(meta) == "video uk, audio uk, original captions uk-orig"

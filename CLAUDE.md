@@ -43,6 +43,8 @@ Content stays educational: understanding, recognition and defence. No glorifying
 
 - **Personal data stays in `data/`**, which git ignores (the repo is public). Never copy his answers or scores into a tracked file: not the journal, not an example, not a commit message.
 - **No shared code with Fluent** (`~/Documents/Projects/Fluent`). Taras forbids it. Copy and adapt ideas only.
+- **Be polite to YouTube, so it never blocks us as a bot.** Every request goes through `tools/transcribe.py`, which uses yt-dlp's `-t sleep` pauses. A batch runs one video at a time, never in parallel, with at least a minute between videos. On HTTP 429 or a "not a bot" check, stop the batch: find which request failed and why before trying again. No retry loops.
+- **YouTube's labels can lie.** The tool prints what YouTube says (video, audio and caption languages); a Russian video was labelled "uk". When a label differs from `--lang`, read the text before trusting it.
 
 ## Finishing a step
 

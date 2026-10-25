@@ -28,6 +28,7 @@ Standing decisions. Each is written once, here; other files link to this list in
 14. One fact lives in one file; others link to it by ID. The layout is in `CLAUDE.md`.
 15. The repo is for other people too: anyone can clone it and rebuild everything from public instructions in `README.md`.
 16. After every step, a structure review (rule in `CLAUDE.md`, "Finishing a step"), so the repo never turns into mush. Cheap now, expensive later.
+17. Requests to YouTube are slow and polite, so we are never blocked as a bot (rule in `CLAUDE.md`). YouTube's captions come first; Whisper only for videos without them.
 
 ## Steps
 

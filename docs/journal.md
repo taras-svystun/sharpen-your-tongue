@@ -40,3 +40,11 @@ Newest at the bottom.
 - Tried and dropped: youtube-transcript-api (no gain once the right track is chosen, one more dependency); other player clients (tv, web_safari: errors; mweb: no captions).
 - Quality: YouTube's captions are about as good as Whisper `small` on jargon, slightly better on names, but have no punctuation. Whisper is now the fallback for videos with no captions, so a larger model can wait until it is actually used.
 - Structure: ok.
+
+## 2026-10-25: Transcript tool, polite requests and YouTube's labels
+
+- How the 429 was found (for next time): YouTube's track list (youtube-transcript-api's error message) showed only one generated track, "uk", for Russian speech; the "ru" URL in yt-dlp's metadata carried `tlang=ru`; downloading `uk-orig` worked at once while `ru` kept failing. Method: list what the server offers, compare a call that works with one that fails, change one thing at a time.
+- Polite requests: yt-dlp's `-t sleep` preset (0.75 s between requests, 5 s before subtitles, 10-20 s before a download). One video: 6 s → 17 s. Batches: one video at a time, a minute apart (rule in `CLAUDE.md`).
+- The tool now prints YouTube's labels (video, audio and original caption languages) and warns when they differ from `--lang`; they also go into the transcript header. The audio track was labelled "uk" too, so checking audio tracks does not reveal a wrong label; only the text does.
+- MacWhisper fallback passes `--model whisper-cpp:ggml-model-whisper-turbo` when downloaded, without changing the app's selected model. Same video: 7 min 16 s; on the test passage it matches YouTube's captions («тюрях маячит», «в инсте мы публикуем») where `small` garbled them.
+- Structure: ok.

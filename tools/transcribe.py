@@ -26,12 +26,17 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 OUT_DIR = ROOT / "data" / "transcripts"
 MW = "/Applications/MacWhisper.app/Contents/MacOS/mw"
+MW_MODEL = "whisper-cpp:ggml-model-whisper-turbo"  # used when downloaded in MacWhisper, else the app's selected model
 CHUNK_SECONDS = 30  # one timestamped paragraph per ~30 s, so claims can cite a moment
 
 
 def yt_dlp(*args):
-    """Run yt-dlp from this venv. Node 22+ or Deno solves YouTube's JS challenge."""
-    cmd = [sys.executable, "-m", "yt_dlp", "--js-runtimes", "node", "--quiet", "--no-warnings", *args]
+    """Run yt-dlp from this venv. Node 22+ or Deno solves YouTube's JS challenge.
+
+    `-t sleep` is yt-dlp's own polite preset (pauses between requests, before
+    subtitles and before each download), so YouTube does not block us as a bot.
+    """
+    cmd = [sys.executable, "-m", "yt_dlp", "--js-runtimes", "node", "-t", "sleep", "--quiet", "--no-warnings", *args]
     result = subprocess.run(cmd, capture_output=True, text=True)
     if result.returncode:
         raise RuntimeError((result.stderr.strip().splitlines() or ["yt-dlp failed"])[-1])
@@ -80,6 +85,15 @@ def pick_track(meta, lang):
     return ("automatic_captions", originals[0]) if originals else None
 
 
+def youtube_labels(meta):
+    """What YouTube says the video is. The label can be wrong (Russian speech marked "uk")."""
+    audio = sorted({f.get("language") or "?" for f in meta.get("formats") or []
+                    if f.get("vcodec") == "none" and f.get("acodec") not in (None, "none")})
+    orig = [key for key in meta.get("automatic_captions") or {} if key.endswith("-orig")]
+    return (f"video {meta.get('language') or '?'}, audio {', '.join(audio) or 'none'}, "
+            f"original captions {', '.join(orig) or 'none'}")
+
+
 def from_subtitles(url, kind, key, tmp):
     flag = "--write-subs" if kind == "subtitles" else "--write-auto-subs"
     yt_dlp(url, "--skip-download", flag, "--sub-langs", key, "--sub-format", "json3", "-o", f"{tmp}/sub.%(ext)s")
@@ -91,8 +105,11 @@ def from_audio(url, lang, tmp):
     yt_dlp(url, "-f", "bestaudio", "-x", "--audio-format", "m4a", "-o", f"{tmp}/audio.%(ext)s")
     audio = f"{tmp}/audio.m4a"
     if Path(MW).exists():
-        return subprocess.run([MW, "transcribe", audio, "--language", lang, "--format", "txt", "--timestamps"],
-                              check=True, capture_output=True, text=True).stdout.strip(), "MacWhisper (mw)"
+        cmd = [MW, "transcribe", audio, "--language", lang, "--format", "txt", "--timestamps"]
+        downloaded = subprocess.run([MW, "models", "list"], capture_output=True, text=True).stdout
+        if MW_MODEL in downloaded:
+            cmd += ["--model", MW_MODEL]
+        return subprocess.run(cmd, check=True, capture_output=True, text=True).stdout.strip(), "MacWhisper (mw)"
     if shutil.which("whisper-cli") and os.environ.get("WHISPER_MODEL"):
         wav = f"{tmp}/audio.wav"  # whisper.cpp wants 16 kHz mono WAV
         subprocess.run(["ffmpeg", "-loglevel", "error", "-i", audio, "-ar", "16000", "-ac", "1", wav], check=True)
@@ -110,6 +127,10 @@ def main():
     args = parser.parse_args()
 
     meta = json.loads(yt_dlp(args.url, "-J", "--skip-download"))
+    labels = youtube_labels(meta)
+    print(f"YouTube labels: {labels}", file=sys.stderr)
+    if meta.get("language") and meta["language"] != args.lang:
+        print(f"The label differs from --lang {args.lang}: it may be wrong; check the text.", file=sys.stderr)
     track = None if args.force_audio else pick_track(meta, args.lang)
     with tempfile.TemporaryDirectory() as tmp:
         text = None
@@ -131,7 +152,8 @@ def main():
         f"- URL: https://www.youtube.com/watch?v={meta['id']}",
         f"- Uploaded: {date[:4]}-{date[4:6]}-{date[6:]}" if date else "- Uploaded: unknown",
         f"- Duration: {stamp((meta.get('duration') or 0) * 1000)}",
-        f"- Method: {method}, language {args.lang}",
+        f"- Method: {method}, --lang {args.lang}",
+        f"- YouTube labels: {labels}",
         "",
     ])
     OUT_DIR.mkdir(parents=True, exist_ok=True)
