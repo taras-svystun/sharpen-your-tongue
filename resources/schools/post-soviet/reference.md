@@ -45,7 +45,7 @@ What the scenes and debriefs of this school may stand on. Every claim cites a so
 **Mechanism.** Three facts stack up. First, questions collect information, and in a cell the one who collects information is suspected of working for the опер: «сами никого ни о чем не расспрашивайте, а то и вас могут принять за курицу – а расправа обычно за это очень жестокая» (`ps:src:17`); «Не приставай к нему с вопросами: за что сел, как было дело?..» (`ps:src:18`, §2.5); «чрезмерное любопытство справедливо рассматривается как проявление дурного тона … вполне достаточно назвать статью, по которой тебя закрыли, да имя» (`ps:src:15`, Introduction). Second, the verb *спросить с кого-то* means to call someone to account and punish him (`ps:src:17`, quoted above; «нельзя спрашивать с человека за нарушение нормы, о которой он не знает», `ps:src:18`, §2.5), so "I want to ask you" can sound like a threat. Third, the root is old: «правила воровского „приличия“ не позволяют вору задавать вопросы», tied to the same belief in the power of words (`ps:src:06`, p. 62). Hence the safe verb: «На тюрьме не спрашивают, а интересуются» (`ps:src:17`, quoted on mybook.ru; not in our saved part).
 
 - In a riddle the phrase turns defensive: «с какой целью интересуешься» answers a question you do not want to answer (`ps:src:19` / JmHBUhEsCk4 @ 0:00, captions).
-- *Label*: the ban on questions is *general* (`ps:src:06` Соловки 1930s, `ps:src:18` Russia late 1980s, `ps:src:15` Kyiv 1997, `ps:src:17` Russia and Ukraine around 2000); so is «спросить с» as "call to account" (`ps:src:17`, `ps:src:18`, `ps:src:01`). The pair itself is *local*: `ps:src:17`, and a low-reliability article: «здесь не спрашивают, а интересуются», since «спросить» means «предъявить претензию» (`ps:src:20`).
+- *Label*: the ban on questions is *general* (`ps:src:06` Соловки 1930s, `ps:src:18` Russia late 1980s, `ps:src:15` Kyiv 1997, `ps:src:17` Russia and Ukraine around 2000); so is «спросить с» as "call to account" (`ps:src:17`, `ps:src:18`, `ps:src:01`). The pair itself is *local*: `ps:src:17`, and a low-reliability article: «здесь не спрашивают, а интересуются», since «спросить» means «предъявить претензию» (`ps:src:20`). Ukraine, a phone dispute between two former campmates of Буча (year not given): one man asked the other's rank and defended himself, «Я его не наведил, я просто поинтересовался»; the listeners did not accept it: «Кто по званию, это далеко не интерес», it already hints that the man is police (`ps:src:01` / -iAs9oLL2hk @ 10:24-10:38, Whisper).
 - **In ordinary life**: a question can be heard as an audit. Say why you ask before you ask.
 
 ### Масти: the ladder of status `ps:t:mast`
@@ -63,7 +63,7 @@ What the scenes and debriefs of this school may stand on. Every claim cites a so
 
 **Mechanism.** Who keeps order inside a colony? In a "black" one the prisoners' own order rules («людской ход»); in a "red" one the administration rules through prisoners who serve it. A Ukrainian ex-prisoner tells how a colony was "broken": the administration let a leader build a «секция правопорядка» — «группа козлов которые работают от администрациями», who put on «красные повязки» and broke newcomers in quarantine (`ps:src:01` / cxWhs1uv2HY @ 7:18-7:51, captions). Belarus: a red zone is «та которая полностью под администрацией», with no смотрящие (`ps:src:12` / fL9vcSlAIXk @ 25:39, captions); in Шклов beatings start in quarantine by staff and «карантинные активисты (там их всегда трое: завхоз, дневной и ночные …)» (`ps:src:16`). Georgia: staff delegate order to informal prisoner leaders (`ps:src:14`). Russia, late 1980s: a red zone's order «держится … на администрации и тех зеках, которые с ней напрямую сотрудничают (козлах)», a black one's on the unwritten law, where «администрация только следит за тем, чтобы все не разбежались»; but «в чистом виде таких отдельных "черных" и "красных" зон мне видеть не приходилось, обычно эти порядки перемешаны» (`ps:src:18`, §2.8). The СПП, «секцию профилактики правонарушений», of the Soviet camps (§2.6) is the section the Ukrainian narrators describe. *Our reading*: neither colour is safe; black order means the code's punishments; red order means the staff's.
 
-- The narrators of `ps:src:01` say the black order forbids pushing someone into the bottom caste: «опустили тоже запрещено за это очень жесткое наказание» (cxWhs1uv2HY @ 13:03, captions); they are former prisoners of black zones, so this is a claim, not a finding.
+- The narrators of `ps:src:01` say the black order forbids pushing someone into the bottom caste: «опустили тоже запрещено за это очень жесткое наказание» (cxWhs1uv2HY @ 13:03, captions); they are former prisoners of black zones, so this is a claim, not a finding. A Russian prisoner of seven terms says the same of the time he began: «именно в петушатник петушатник Ну в преступном мире по крайней мере когда я начинал сидеть не наказывали», though one could be named a гад or a сука (`ps:src:23` / jme3pQ-DVWA @ 40:38-41:09, captions).
 - A colony can look black and be red inside, «как калоша типа якобы чёрный но внутри бля красный» (`ps:src:01` / 1QuoAt57hBE @ 5:45, captions): there are братва and a общак, but the staff rule through reports for small things, three of which mean the punishment cell (ibid. @ 18:18).
 - The word moved: in 1992 «КРАСНАЯ ЗОНА — ИТУ с либеральным режимом содержания» (`ps:src:08`, p. 116), a mild regime; today's sources use it for a colony run by force through collaborators.
 - *General* (the two models): Russia 1988-1990s (`ps:src:18`), Ukraine (`ps:src:01`), Belarus (`ps:src:12`, `ps:src:16`), Georgia (`ps:src:14`).
@@ -95,9 +95,11 @@ What the scenes and debriefs of this school may stand on. Every claim cites a so
 
 **The procedure is a court.** «Для спроса должна быть выдвинута предъява – обвинение, и она должна быть обоснована. У человека есть право на защиту» (ibid.). Abramkin: «Запрещено без веских доказательств предъявлять человеку обвинение» (`ps:src:21`); a first-timer «согласно тюремному закону чист. На воле он мог быть кем угодно и творить что угодно, здесь он начинает новую жизнь» (ibid.); if a newcomer did not know a rule, the blame goes to the one who had to explain it, «это «смотрящий» или «угловой»» (`ps:src:21`, n. 12). A court verdict proves nothing to the cell: «Степень вины (и ответственности) за то или иное действие (в тюрьме или на воле) определяется в ходе разборки» (`ps:src:21`, n. 22). *Our reading*: the code copies a court because a closed group with no court of its own still needs a fair way to punish, or every charge becomes a grab for power.
 
+- Explain first, ask after. A Russian witness: «прежде чем с человека что-либо спросить получить ему нужно объяснить уклад», except in juvenile colonies: «на малолетке если ты оступился даже тебе никто не будет ничего объяснять» (`ps:src:23` / qOPssWEjRUc @ 9:05, 4:54, captions). A Belarusian one: a first-timer is told the rules, and «если уже после этого он начал говорить так тогда и спрос на него будет» (`ps:src:24`, the former police officer / Q8NQzICf2qQ @ 6:12, captions).
+- The accused can demand the charge be shown: «если ты мне что-то предъявляешь доведи мне покажи» (`ps:src:01` / -iAs9oLL2hk @ 22:51, Whisper).
 - Lozovsky on why to know this: the division «даст вам большую фору в любом словесном конфликте» (`ps:src:17`, pt. 2).
 - The two ways of taking one's due in `ps:src:18` (§2.7) are the same pair: `ps:t:kak-s-dostoynogo`.
-- *Local*: Russia and Ukraine around 2000 (`ps:src:17`), Russia 1988-2008 (`ps:src:18`, `ps:src:21`, one source).
+- *General* for two rules: no blame for a rule nobody explained (Russia 1988-2008 `ps:src:18`, `ps:src:21`; Russia and Ukraine around 2000 `ps:src:17`; Russia 1980s-2010s `ps:src:23`; Belarus 2010s `ps:src:24`), and a charge must be grounded (`ps:src:17`, `ps:src:21`, Ukraine `ps:src:01`). The two pairs of codes are *local* (`ps:src:17` only).
 - **In ordinary life**: before you answer a charge, make the accuser name it and the evidence for it. A vague accusation answered in detail becomes a real one.
 
 ## Trap riddles
@@ -115,7 +117,8 @@ The narrators of `ps:src:01` call the riddle tests mostly a myth: «заходи
 - **Trap type**: `trap:fishing`
 - **The trap**: a talkative cellmate asks «кто ты по жизни — мужик или пацан, поддерживаешь или нет воровскую жизнь». Both answers cost: one claims a rank you must then defend, the other gives it up; and in a pre-trial prison the answers reach the investigator. Kudin: such questions come from provocateurs, «это как раз то, что хотели узнать у тебя мусора» (`ps:src:15`, ch. 12).
 - **Accepted answer** (Kudin): before the verdict, «мы все невиновны, мы все случайно попали в тюрьму, никто из нас ни о чем понятия не имеет. Кто есть кто, разберемся позже, в лагере, после вынесения приговора» (ibid.).
-- *Local, one source*: Kyiv, Лукьяновское СИЗО, 1997.
+- Belarus, a colony after the verdict, 2000s: the смотрящий and his circle ask the newcomer «за что сел … как жить собираешься»; told in prison what to say, he answered «мужиком». Then «людское тебе чуждо», asked as a question, and the answer binds: «если бунт начинается я уже обязан поддержать потому что я сказал что людское мне не чуждо». They gave him drink and asked again, «одни и те же вопросы идут по кругу», to catch a slip; he poured his glass away unseen (`ps:src:24`, Станислав / 4gPlvix6-Vc @ 8:29-10:33, captions). After the verdict the question is expected, and the answer is a promise.
+- *Local*: Kyiv, Лукьяновское СИЗО, 1997 (`ps:src:15`); Belarus, a colony, 2000s (`ps:src:24`).
 
 ### ps:r:2 «Без интереса»
 
@@ -129,7 +132,8 @@ The narrators of `ps:src:01` call the riddle tests mostly a myth: «заходи
 - **Trap type**: `trap:drawn-in`
 - **The trap**: a noisy game draws you in; you let slip «Я бы пошел конем». A player moves the knight, the other shouts «Ты чего подсказываешь, я что ли с тобой играю?», and the chorus says «Ты не съезжай. Влез в игру — отвечай!» (`ps:src:15`, ch. 13). Kudin: often staged on purpose, with a provocateur and "neutral" witnesses.
 - **Accepted answer**: do not comment on other people's games at all; asking the guards for another cell is no exit, since those who did it «до конца срока попадали в зависимость к операм» (ibid.).
-- *Local, one source*: Kyiv, 1997.
+- A Russian card sharp on why the onlookers keep quiet when he cheats: «Ну люди стоят ещё смотрят и видят что ты жульничает и что А как ты Ты влезешь в это ты и будешь платить» (`ps:src:23` / LmsJKz8TCuY @ 11:04, captions).
+- *Local*: Kyiv, 1997 (`ps:src:15`); Russia, strict-regime colonies, 2000s-2010s (`ps:src:23`).
 
 ### ps:r:4 «Сыграй на балалайке»
 
@@ -157,7 +161,7 @@ The narrators of `ps:src:01` call the riddle tests mostly a myth: «заходи
 - **Trap type**: `trap:contact`
 - **The trap**: in the barber's shop all chairs are taken but one, the unclean one. «"Земляк, ты куда сел?! - А что такое? - Да это ж для пидеров место! - А я не знал... - Ну, мало ли, что не знал!"» (`ps:src:18`, §2.6). An attempt to drag a newcomer into the bottom caste by contact.
 - **Accepted answer**: the source calls such a setup «крупнейший косяк» of those who arrange it (ibid.), and gives rule «номер раз»: «нельзя спрашивать с человека за нарушение нормы, о которой он не знает» (§2.5). *Our reading*: the defence is to name that rule at once, out loud, and to take the question to the авторитеты.
-- *Local, one source*: Russia, late 1980s.
+- *Local, one source* for the scene: Russia, late 1980s. The rule behind the answer is general (`ps:t:lyudskoe-gadskoe`), but not in juvenile colonies.
 
 ### ps:r:8 The book with a hundred in it
 
@@ -180,7 +184,8 @@ The narrators of `ps:src:01` call the riddle tests mostly a myth: «заходи
 - **Accepted answer**: «Всегда можно попытаться найти третий выход». He wrote not the demanded explanation but a complaint to the prosecutor, citing the camp's own rule that prisoners may not approach the strip; he was not sent to ШИЗО (ibid.). Turn the opponent's own rules against the order.
 - The Center's dictionary names the same move for the broom: staff know that taking it «понижает неформальный статус заключенного, и ставят его перед выбором: либо выйти с метлой на плац … либо быть отправленным в ШИЗО» (`ps:src:22`, s.v. метла).
 - Ukraine, 2010s: at intake «сразу тебе подкидывают тряпку веник … чтоб ты хотя бы в руки взял веник», since taking it means «Ты подчинился легавым» (`ps:src:01` / 1QuoAt57hBE @ 16:09, captions), and the staff film it, «ляга вы ещё хитро с камерой приходят» (ibid. @ 16:40). It weighs on status-seekers, not on everyone: «если с мужика ещё там такие какой с него спрос Да ну взял да и взял» (ibid. @ 16:09). A known refuser can be set up for a new charge: they hand him the rag on camera, «они уже знают что ты откажешься», and he gets extra years (ibid. @ 23:31-24:01).
-- *Local*: Russia, late 1980s (`ps:src:18`; `ps:src:22` is the same source); Ukraine, 2010s (`ps:src:01`).
+- Belarus, 2000s-2010s, with a harder price: the staff put a prisoner who writes complaints on the toilet-cleaning list, which makes him an опущенный, «если ты допустим пишет жалобы если ты отстаиваешь свои интересы законные интересы она составляет график», and «если ты сейчас туалет не уберешь тебя ждет шизо и пкт», then more years on top (`ps:src:24`, Станислав / 4gPlvix6-Vc @ 1:36-2:06, captions). He refused: «говорят давай убирай я сказал что я не буду» (ibid. @ 11:37-12:07).
+- *General* for the move (staff use a task that lowers status, with ШИЗО for refusing): Russia, late 1980s (`ps:src:18`; `ps:src:22` is the same source); Ukraine, 2010s (`ps:src:01`); Belarus, 2000s-2010s (`ps:src:24`). The task and its price differ: the rake or broom makes a козёл, the toilet an опущенный.
 
 ### ps:r:11 Taken literally
 
@@ -305,7 +310,8 @@ The narrators of `ps:src:01` call the riddle tests mostly a myth: «заходи
 - **Accepted answer**: «Вот, если бы я мог летать … тогда бы другое дело. А раз я хожу по полу, почему же мне его не подмести?» The rule behind it: «позорным считается делать что-то за другого, прислуживать другому, а за собой человек сам должен убирать»; everyone cleans by turn, and «Заставить тебя в качестве наказания убирать камеру вне очереди тоже никто права не имеет. Такое право есть у тюремщиков» (ibid.). Refuse the premise, then name the rule.
 - The opposite belief lives on among juveniles: in a Ukrainian juvenile colony a boy who comes from the СИЗО «він ще на поняттях» says «Та ні, я убирать тут не буду», and the staff answer «Очередь есть убирать, твоя прийшла очередь» (`ps:src:13` / R6bgO2gqXaM @ 8:19-8:50, captions).
 - *Our reading*: cleaning your own cell by turn is not the broom of `ps:r:10`, which is work for the administration in front of everyone.
-- *Local*: Russia, late 1980s (`ps:src:18`); the juvenile belief, Ukraine 2021 (`ps:src:13`).
+- A Russian witness of the same rule: in a cell «каждый должен приносить пользу … каждый приносит пользу и это не считается зазорным», and «Почему у меня дома должно в падло мыть свой унитаз мне его не в падло мыть» (`ps:src:23` / qOPssWEjRUc @ 10:58-12:08, captions).
+- *Local*: Russia, late 1980s (`ps:src:18`) and 1980s-2010s (`ps:src:23`); the juvenile belief, Ukraine 2021 (`ps:src:13`).
 
 ### ps:r:28 «Где чалился?»
 
@@ -319,8 +325,9 @@ The narrators of `ps:src:01` call the riddle tests mostly a myth: «заходи
 
 - **Trap type**: `trap:unspoken-terms`
 - **The trap**: a first-timer is offered cigarettes, support or protection, and the real price is said only after: «Могут за "услуги" обещать и поддержку, и защиту - что угодно. Называется это "уболтать на х...й"» (`ps:src:18`, §2.6). The price is the bottom caste, for life (`ps:t:opushchennyy`). A milder version in Ukraine, 2000s: grown men offer an 18-year-old newcomer protection, and in return «малой греется можно похавать его передачу типа вот такой симбиоз получается» (`ps:src:01` / IGu_kzMoM0g @ 3:43, captions).
-- **Accepted answer**: no debt without a deal (`ps:t:dolg`): an unasked favour creates no debt, so ask the price out loud before you take anything. The source adds that the cheat is the one punished: «Такой обман считается крупным косяком» (§2.6).
-- *Local, one source*: Russia, late 1980s.
+- Belarus, 2000s-2010s, the same trap through cards: «вот моя посылка вот твоя ты сейчас с нами поиграешь»; the sharps «уже там мухлюют», the parcel is lost, then a money transfer, and when the mother cannot send it in time, «ну как будешь отрабатывать но что надо делать что делать такое как бы не говорится» (`ps:src:24`, Станислав / 4gPlvix6-Vc @ 3:09-3:42, captions). The price is again the bottom caste.
+- **Accepted answer**: no debt without a deal (`ps:t:dolg`): an unasked favour creates no debt, so ask the price out loud before you take anything. The source adds that the cheat is the one punished: «Такой обман считается крупным косяком» (§2.6). Against cards with strangers, see `ps:r:2`.
+- *Local*: Russia, late 1980s (`ps:src:18`); Belarus, 2000s-2010s (`ps:src:24`).
 
 ### ps:r:33 Forbidden words: «свидетель», «козья шерсть»
 
@@ -385,6 +392,7 @@ The narrators of `ps:src:01` call the riddle tests mostly a myth: «заходи
 - **Trap type**: `trap:false-choice`
 - **The trap**: a бродяга who disliked Lebed kept pressing him to play: «лебедь и под поддержи игру или не поддержишь» (`ps:src:01` / xrSLHHngrHY @ 10:30, captions). Lebed sat down once, won, and saw the бродяга cheat openly. To accuse him is to lose: the others «кивал и которые да да мы ничего не видели» (ibid. @ 17:26). To leave with the money is to hear «куда ты там хапуга» (ibid.).
 - **Accepted answer**: he stopped the game and gave up the winnings: «то что типа выиграл в общак отдайте я типа не хочу играть и пошел» (ibid. @ 17:26). Earlier he had refused to play at all with the reason said out loud: «сесть проиграть тебе денег которых у меня нету пододвинуть фуфло» (ibid. @ 11:01). When both sides of a dispute are rigged, give up the prize and keep your name.
+- Why the onlookers saw nothing: whoever steps into another's game pays for it (`ps:r:3`).
 - *Local, one source*: Ukraine, a pre-trial prison, 2000s.
 
 ## Interrogation traps

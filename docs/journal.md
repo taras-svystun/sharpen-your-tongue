@@ -236,3 +236,13 @@ A review of every file gave 30 points; Taras approved all but Windows encodings;
 - Check: 12 transcripts on disk, each Cyrillic with no Ukrainian letters (Russian speech, as labelled); Whisper text spot-checked, readable. One request per video, 60 s apart; no 429, no "not a bot" check.
 - Not yet read: all 12. They are the second, independent voices for records marked one source.
 - Structure: ok.
+
+## 2026-10-25: Second sources from the 12 new transcripts
+
+- Read all 12 transcripts of the last batch. Three new sources in the catalogue: `ps:src:23` PRO DОБРО (Андрей, seven terms in Russia, mid-1980s to about 2020), `ps:src:24` Onliner «#монолог» (two named Belarusian witnesses), `ps:src:25` Люди PRO (Ярослав, ИК-3 Харп, 2016-2025). Of the five Lebed & Shaman videos, two are cited (a phone dispute; guest Тарик Чиж); three hold nothing on the code.
+- Second sources added to 17 terms (этапник, баклан, рогатый, вертухай, стакан, хозяин, продол/продольный, раскрутка, дальняк, вечер в хату, шконка, кентовка, дорога, прописка, в отказ, метла, уделить) and to riddles `ps:r:1`, `ps:r:3`, `ps:r:29`, which lose their one-source flag.
+- Labels raised to *general*: the move of `ps:r:10` (a task that lowers status, with ШИЗО for refusing; now Russia, Ukraine, Belarus), and two rules in `ps:t:lyudskoe-gadskoe` (no blame for a rule nobody explained; a charge must be grounded). The rule is said not to hold in juvenile colonies (`ps:src:23`).
+- Also: the «интересоваться» pair gets a Ukrainian case; the ban on forced degradation a Russian witness; `ps:r:27` (cleaning by turn) a Russian witness.
+- Left out: a witness's razor defence against forced degradation (`ps:src:24`), as guidance for violence.
+- Check: quote check 544 quotes, 1 known unmatched; `pytest` 37 passed; `db.py status` 178 terms, 42 riddles, reserve ok. One-source flags: terms 81 → 67, reference 25 → 21.
+- Structure: `reference.md` 428 lines, `terms.md` 188, `sources.md` 278. Structure: ok.

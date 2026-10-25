@@ -15,7 +15,7 @@ The catalogue of this school. The reference may cite only sources listed here, b
 - Size: 732 videos, about 169 on prison by title (list: `data/catalogue/lebed-shaman.tsv`, made with `tools/transcribe.py --list`).
 - Link: https://www.youtube.com/@LebedShaman
 - Access: transcripts through `tools/transcribe.py`: YouTube captions for most videos (seconds, no punctuation, jargon sometimes garbled), MacWhisper for the rest.
-- Checked: channel listing 2026-10-25; six transcripts read, four cited (BWE9JSvtrng, S5UJgZkT2vw, cxWhs1uv2HY, 6CAxbmw6m0A). Not cited: oEFwzU8sk9U, a prank vlog, and TXHEJcQTlV8, a talk about the TV series «Слово пацана». 2026-10-25.
+- Checked: channel listing 2026-10-25; six transcripts read, four cited (BWE9JSvtrng, S5UJgZkT2vw, cxWhs1uv2HY, 6CAxbmw6m0A). Not cited: oEFwzU8sk9U, a prank vlog, and TXHEJcQTlV8, a talk about the TV series «Слово пацана». 2026-10-25. Five more by Whisper read the same day: -iAs9oLL2hk (a phone dispute with a former campmate) and IorOMHUBn20 (guest Тарик Чиж, a Kyiv former prisoner, усиленный and strict regime, 2001-2004) cited; 8Agq-Yt8N9Q, iSUIjVWPhWM, iBivH1hYT7o hold nothing on the code.
 
 ### ps:src:02 «Азбука тюрьмы», documentary series, Настоящее Время
 
@@ -202,6 +202,34 @@ The catalogue of this school. The reference may cite only sources listed here, b
 - Access: saved as text, `data/sources/text/22_center_glossary.txt`, 2026-10-25. Cite by headword: `ps:src:22, s.v. метла`.
 - Checked: preface and a sample of entries, 2026-10-25.
 
+### ps:src:23 PRO DОБРО, YouTube channel: Андрей, «отсидел 28 лет»
+
+- Genre: video interviews with one former prisoner, Андрей, 57 in 2024; a charity channel that also asks viewers for money for him.
+- Scope: Russia, seven terms from the mid-1980s to about 2020: a juvenile colony, a camp in the Komi ASSR, a strict-regime colony in his own town (Железногорск is named nearby), Ливны; card play «под интерес» was his trade inside. Russian speech.
+- Reliability: medium. One first-hand witness, frank about his own crimes; entertainment and fundraising format.
+- Videos: jme3pQ-DVWA (life and понятия, 54 min), LmsJKz8TCuY (card sharps), qOPssWEjRUc (first term, juvenile colony), dB3XjzXCoGI (ten slang words).
+- Link: https://www.youtube.com/watch?v=jme3pQ-DVWA
+- Access: transcripts in `data/transcripts/<video-id>.md` (YouTube captions, no punctuation, often garbled).
+- Checked: the four transcripts read, 2026-10-25.
+
+### ps:src:24 Onliner, «#монолог» series (Belarusian media)
+
+- Genre: video monologues by named former prisoners, edited by a news site.
+- Witnesses, each a separate source when cited by name: Станислав (surname garbled in the captions), 15 years for a murder, Belarusian colonies and prison, 2000s-2010s, now helps released prisoners in Гродно (4gPlvix6-Vc, 2020-05-07); a former police officer, convicted of fraud, a Belarusian colony until August 2019 (Q8NQzICf2qQ, 2020-05-21).
+- Reliability: medium: one first-hand witness each, edited journalism.
+- Link: https://www.youtube.com/watch?v=4gPlvix6-Vc
+- Access: transcripts in `data/transcripts/<video-id>.md` (YouTube captions, garbled in places).
+- Checked: both transcripts read, 2026-10-25.
+
+### ps:src:25 Люди PRO, «9 лет в самой жестокой тюрьме России: про пытки, убийства и понятия» (2026-10-06, 1:23:59)
+
+- Genre: video interview. The guest, Ярослав from Курган, served about 9 of 14 years for running a drug shop, most of them in ИК-3 Харп, a special-regime colony run by the staff, 2016-2025, with a stay at a TB colony in Karelia. The host, a former Belarusian prisoner of a strict-regime colony, adds his own memories; cited only when named.
+- Scope: Russia, a red special-regime colony and the transit prisons on the way (Екатеринбург, Киров, Воркута, Лабытнанги), 2016-2025.
+- Reliability: medium: one first-hand witness, an entertainment channel with advertising.
+- Link: https://www.youtube.com/watch?v=-6i1CFFPrTU
+- Access: transcript `data/transcripts/-6i1CFFPrTU.md` (YouTube captions, punctuated; the video has an English dub, the tool took the Russian original).
+- Checked: transcript read in full, 2026-10-25.
+
 ## Candidates
 
 Found, not yet checked. A candidate is cited only after it moves to the catalogue with all fields.
@@ -236,11 +264,7 @@ Found, not yet checked. A candidate is cited only after it moves to the catalogu
   - «Всё о тюрьме» (YouTube channel): short explainers on castes, козлы, правильная хата, погоняла, transit prisons (e.g. V15MVgyjVqs «Что такое правильная хата», KtbSHiahUH4 «Кто такой козел»). Narrator and his record unknown.
   - «ТЮРЕМНЫЙ ПОДКАСТ» (YouTube channel): long interviews with named former prisoners, men and women, Russia (e.g. Yjja1dZJnlc, Ue6K-xDR83U). Each guest may count as a separate witness.
   - Илья Варламов, playlist «Тюрьмы» (channel varlamov): documentary episodes on Russian colonies, transport, juvenile and women's prisons (e.g. 5bT1thBqh_Y «Тюрьмы России: гайд», gIBqNZG0mf4 on этап). Journalism with interviews.
-- Checked by search on 2026-10-25 (`--list`, three requests); a voice other than ps:src:01 in each. Transcripts of the 7 videos below fetched 2026-10-25, not yet read:
-  - PRO DОБРО: one man, 28 years inside; jme3pQ-DVWA «ОТСИДЕЛ 28 ЛЕТ - ПОНЯТИЯ И ТЮРЕМНЫЙ БЫТ» (54 min), LmsJKz8TCuY (card sharps), qOPssWEjRUc, dB3XjzXCoGI (slang; check the language). Country and colonies still to check.
-  - Onliner (Belarusian media, named speakers): 4gPlvix6-Vc «Опустить можно любого: #монолог отсидевшего 15 лет», Q8NQzICf2qQ «#монолог отсидевшего милиционера» (the view of a man the code despises).
-  - Люди PRO: -6i1CFFPrTU «9 лет в самой жестокой тюрьме России: про пытки, убийства и понятия».
-  - ТЮРЕМНЫЙ ПОДКАСТ: long interviews, many with sensational titles; lower priority.
+  - ТЮРЕМНЫЙ ПОДКАСТ: long interviews, many with sensational titles; lower priority (checked by search, 2026-10-25).
 - Rejected: «Мопс дядя Пес» (Сергей Новик, Ukraine, about 27 years inside): famous for humiliation streams for money (Медуза, 2017); entertainment, not testimony.
 
 ## Ask Taras
