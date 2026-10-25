@@ -213,7 +213,8 @@ A review of every file gave 30 points; Taras approved all but Windows encodings;
 
 ## 2026-10-25: Conflict stories from the new transcripts
 
-- Read 3 of the new Lebed & Shaman transcripts (2DKOko460eM, IGu_kzMoM0g, oGRj_2O3who); the others are on disk, not yet read.
+- Read 4 of the new Lebed & Shaman transcripts (2DKOko460eM, IGu_kzMoM0g, oGRj_2O3who, N1hiINQgAc8); the others are on disk, not yet read.
+- Also added `ps:r:38` (a false confession offered to end a beating: refuse it, and keep records) and the term дорожник.
 - Added riddles `ps:r:35` (a loan you cannot refuse: lend it as a game stake, with witnesses), `ps:r:36` (a rumour that you eat with a рогатый: ask why the accuser did not come to you), `ps:r:37` (a lie let off as a «непонятка»: make the judges name the same act done by you); a Ukrainian case for `ps:r:34` (a hidden past, «под вопросом», the search note), which is the first source for it independent of Абрамкин; a milder «protection for parcels» for `ps:r:29`; the loan/card-debt paradox in `ps:t:dolg`; 6 terms (рогатый, под вопросом, сбой по жизни, интрига, поисковая, уделить).
-- Check: quote check 457 quotes, 1 known unmatched; `pytest` 36 passed.
-- Structure: `reference.md` 379 lines, `terms.md` 187. Structure: ok.
+- Check: quote check 466 quotes, 1 known unmatched; `pytest` 36 passed.
+- Structure: `reference.md` 386 lines, `terms.md` 188. Structure: ok.

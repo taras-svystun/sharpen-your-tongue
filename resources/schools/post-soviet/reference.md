@@ -308,6 +308,7 @@ In juvenile pre-trial cells a newcomer gets «пацанское время дл
 - **Trap type**: `trap:declare-yourself`
 - **The trap**: a man with prison tattoos, or a hoodie printed with them, meets men just released: «о, привет, дружище. Где чалился?» If he says «да я нигде не чалился», or anything else, «даже если он что-то скажет, мы поймем, что он левый … И это будет повод к нему прицепиться» (`ps:src:01` / 6CAxbmw6m0A @ 8:30-8:48, Whisper). The tattoo was a claim made in advance; the question asks him to back it.
 - **Accepted answer**: none in the moment. The narrators advise prevention: «ни в коем случае, если вы не имеете никакого отношения к тюрьме, ни в коем случае не бейте себе эти наколки» (ibid. @ 9:09). The old dictionary has a name for the exposure: «КУПИТЬ ШТЫМПА - изобличить фраера, выдающего себя за блатного» (`ps:src:08`, p. 121). See `ps:t:nakolka`.
+- A pretext can be found in anything: «прицепиться найти повод к тебе могут даже за коленной чашечки» (`ps:src:01` / N1hiINQgAc8 @ 3:08, captions).
 - *Local, one source* for the scene (Ukraine, 2021); exposing a false claimant is also in `ps:src:08` (USSR 1992) and `ps:src:18` §2.5.
 
 ### ps:r:29 «Уболтать»
@@ -352,6 +353,13 @@ In juvenile pre-trial cells a newcomer gets «пацанское время дл
 - **The trap**: a flatterer of the смотрящий made up a story that 18-year-old Lebed had danced in shorts on the блатной barrack. Lebed took it to the смотрящий, the story fell apart, and the circle wanted to let it go as a misunderstanding: «он как бы подводит к тому что знаешь дала одного типа спустить на тормозах … ну там непонятка произошла» (`ps:src:01` / IGu_kzMoM0g @ 24:39, captions). A lie left as a "misunderstanding" keeps going round the camp: «а сейчас разойдется по лагерю что там вот так себя веду» (ibid. @ 26:45).
 - **Accepted answer**: he asked them to judge the same act done by him: «если я допустим завтра придумаю что этот тип в рот брал а потом у меня не ошибся … как мой поступок будет называться» (ibid. @ 25:10-25:41). The answer is the name of the offence: «интрига это серьезная интриган это уже поступок за который конкретно надо этого чувака лупить» (ibid. @ 25:41). Make the judges apply their own word to the deed.
 - *Local, one source*: Ukraine, a strict-regime colony, early 2000s.
+
+### ps:r:38 «Лучше признайся»
+
+- **Trap type**: `trap:false-choice`
+- **The trap**: 18-year-old Lebed ran the cell's «дорога» and, tired, stopped writing down every note that passed. An important note went missing between cells; it held contraband, so he was suspected of stealing from his own (`ps:t:krysa`): «у меня подозревают в крысятничество» (`ps:src:01` / N1hiINQgAc8 @ 16:18, captions). Then the offer: «либо лучше признайся либо тебе будет» (ibid. @ 16:49). Confess and be a крыса; deny and be beaten.
+- **Accepted answer**: he would not confess to what he had not done, «знаю точно шею не крысы дико признаваться» (ibid. @ 16:49; the captions are garbled, our reading: he knew he had not stolen and would not confess), and took the blows; by morning the note was found in another cell. The lesson the cell gave him: «ты сам запорол бочину я тебе говорил что надо записывать постоянно» (ibid. @ 18:20). Never buy peace with a false confession; and keep a record of what passes through your hands, or the evidence will point at you.
+- *Local, one source*: Ukraine, a pre-trial prison, early 2000s.
 
 ## Interrogation traps
 

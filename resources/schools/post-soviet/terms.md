@@ -131,6 +131,7 @@ The words of this school, grouped by topic. Each: ID, meaning, label and scope, 
 - **дорога** `ps:t:doroga`: any channel between cells, such as a rope along the wall. *Local, one source* (`ps:src:15`, ch. 4): «дорога — это любой вид связи».
 - **конь** `ps:t:kon`: a small parcel sent on a string from window to window. *General* (`ps:src:07`; `ps:src:18` §2.5; `ps:src:15` ch. 4).
 - **малява, ксива** `ps:t:malyava`: a note between cells. *General* (`ps:src:18` §2.8, «воровскую маляву, то есть записку»; `ps:src:15` ch. 4; «ксива» also `ps:src:08` p. 120). Kudin gives the polite formula: «Ночи доброй, братва! Мир и уют вам в доме нашем!» (`ps:src:15`, ch. 4). He warns that no channel is free from the опера (ibid.).
+- **дорожник** `ps:t:dorozhnik`: the prisoner who runs a cell's «дорога» at night, receives and passes on notes and parcels, and answers for each. *Local, one source* (`ps:src:01` / N1hiINQgAc8 @ 7:20, «на тебя на дорожники лежит ответственность»; @ 19:23, «дорога должна быть это святое», captions). See `ps:r:38`.
 - **прогон** `ps:t:progon`: a note of instruction to all prisoners. *Local, one source* (`ps:src:15`, ch. 4).
 
 ## Words, conflict and debts
