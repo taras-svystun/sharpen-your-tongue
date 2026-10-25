@@ -45,5 +45,6 @@ Content stays educational: understanding, recognition and defence. No glorifying
 
 ## Finishing a step
 
-- `README.md` has a copy-paste command for every way to run the project.
+- **Reproducible by a stranger.** `README.md` lets someone who just cloned the repo rebuild everything: prerequisites with minimum versions, install commands, how to create `data/` from `data-examples/`, and a copy-paste command for every tool and lesson. Nothing in it needs Taras's personal data or his Mac. Where a tool is Mac-only (MacWhisper), name an open alternative.
+- **Structure review.** Compare the tree with the Layout map above: no file outside the map, no fact written in two places (`grep` for it), no file past about 500 lines, no agreement from `docs/PLAN.md` repeated elsewhere, no file whose job overlaps another's. Fix what fails before committing, and end the journal entry with one line: `Structure: ok` or what was fixed.
 - `git status --ignored data/` shows `data/` only as ignored, and nothing personal is staged.

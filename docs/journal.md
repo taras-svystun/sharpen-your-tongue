@@ -15,3 +15,10 @@ Newest at the bottom.
 - Added a transcript tool step: YouTube interviews are a major source and the AI cannot watch video.
 - Standing decisions numbered in `docs/PLAN.md` ("What we agreed"); repo layout and one-home-per-fact rule in `CLAUDE.md`; project words in `GLOSSARY.md`.
 - Teaching method: source labels (general / local / one source / lyrics only) and the harshness rule with its limits.
+
+## 2026-10-25: Rules for reproducibility and structure review
+
+- Two standing rules added (agreements 15-16): README must let a stranger rebuild everything; every step ends with a structure review.
+- Research verdict: yt-dlp needs a JavaScript runtime for YouTube (Deno, or Node 22+ with `--js-runtimes node`), source: https://github.com/yt-dlp/yt-dlp/wiki/EJS (wiki, last edited 2026-07-12).
+- Research verdict: MacWhisper 14.7.1 ships a CLI, `mw transcribe <file> --language ru --format txt`; checked with `mw help transcribe`.
+- Structure: ok.

@@ -26,16 +26,19 @@ Standing decisions. Each is written once, here; other files link to this list in
 12. **Reserve rule**: the reference always holds at least as many researched terms he has not studied as terms he has studied (so at least twice what he knows in total).
 13. The lesson skill is `/interest`: in the post-Soviet code you do not "спрашивать", you "интересоваться".
 14. One fact lives in one file; others link to it by ID. The layout is in `CLAUDE.md`.
+15. The repo is for other people too: anyone can clone it and rebuild everything from public instructions in `README.md`.
+16. After every step, a structure review (rule in `CLAUDE.md`, "Finishing a step"), so the repo never turns into mush. Cheap now, expensive later.
 
 ## Steps
 
 Each step has a check. A step is done when its check passes.
 
 1. ✅ **Foundations.** Teaching method adapted from Fluent; `data/` git-ignored; repo layout set.
-2. **Transcript tool.** `tools/transcribe.py <url>`: download subtitles with `yt-dlp`; if there are none, transcribe locally with Whisper. Saves to `data/transcripts/`.
+2. **Transcript tool.** `tools/transcribe.py <url>`: take YouTube's subtitles with `yt-dlp` (it needs a JavaScript runtime: Node 22+ or Deno); if there are none, download the audio only and transcribe it locally with MacWhisper's `mw` CLI, or with open `whisper.cpp` on other machines. Saves to `data/transcripts/`.
    Why: YouTube interviews are a large source, and the AI cannot watch video.
-   Check: one video from the channel Taras names gives a text file in `data/transcripts/`.
+   Check: one prison video from Lebed & Shaman (https://www.youtube.com/@LebedShaman) gives a text file in `data/transcripts/`; then decide whether the `small` model is good enough for Russian or a larger one is needed.
 3. **Source catalogue, both schools.** For each source: ID, genre (memoir, ethnography, dictionary, journalism, video, lyrics), scope (place, years, institution), reliability, link.
+   Video: start from Lebed & Shaman (only the prison videos: series «Накумарі», «Как попасть на зону», «Зона строгого режима», феня, понятия), then find other channels of former prisoners, so no claim rests on one narrator.
    Why: the reference may only cite what is catalogued; scope tells a local rule from a general one.
    Check: every entry has all fields; the verdict is in the journal.
 4. **Post-Soviet reference.** Concepts (понятия, the difference спрашивать / интересоваться, roles such as смотрящий, масти, debts, words and responsibility), classic trap riddles with their accepted answers, and at least 60 terms. Each claim: meaning, a quote in its source language, source IDs, scope, general or local.
