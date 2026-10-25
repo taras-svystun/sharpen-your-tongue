@@ -4,9 +4,10 @@ Usage:
     .venv/bin/python tools/transcribe.py <url> [--lang ru] [--force-audio]
 
 Order of attempts:
-1. YouTube's own subtitles (manual first, then automatic), via yt-dlp.
-2. If there are none, if YouTube refuses them (it often answers HTTP 429 on
-   its subtitle server), or with --force-audio: download the audio only and
+1. YouTube's own subtitles (manual first, then its original automatic
+   captions, never a machine translation), via yt-dlp.
+2. If there are none, if YouTube refuses them (HTTP 429), or with
+   --force-audio: download the audio only and
    transcribe it locally with MacWhisper's `mw` CLI, or with whisper.cpp's
    `whisper-cli` when `mw` is missing (set WHISPER_MODEL to a ggml model).
 
@@ -62,13 +63,21 @@ def json3_to_text(data):
 
 
 def pick_track(meta, lang):
-    """Return (kind, key) of the best caption track, or None."""
-    for kind in ("subtitles", "automatic_captions"):
-        tracks = meta.get(kind) or {}
-        for key in (lang, f"{lang}-orig"):
-            if key in tracks:
-                return kind, key
-    return None
+    """Return (kind, key) of the best caption track, or None.
+
+    Manual subtitles in `lang` first, else YouTube's own speech recognition in
+    whatever language it labelled the video (the label can be wrong: Russian
+    speech marked "uk"; the text is still Russian). Never a machine
+    translation (URL with tlang=): it is worse, and YouTube answers it with
+    HTTP 429.
+    """
+    if lang in (meta.get("subtitles") or {}):
+        return "subtitles", lang
+    auto = meta.get("automatic_captions") or {}
+    originals = [key for key, formats in auto.items()
+                 if not any("tlang=" in f.get("url", "") for f in formats)]
+    originals.sort(key=lambda key: not key.endswith("-orig"))  # yt-dlp's explicit original label first
+    return ("automatic_captions", originals[0]) if originals else None
 
 
 def from_subtitles(url, kind, key, tmp):
@@ -107,7 +116,8 @@ def main():
         if track:
             try:
                 text = from_subtitles(args.url, *track, tmp)
-                method = "YouTube manual subtitles" if track[0] == "subtitles" else "YouTube automatic captions"
+                kind = "manual subtitles" if track[0] == "subtitles" else "automatic captions"
+                method = f"YouTube {kind} (track {track[1]})"
             except RuntimeError as err:
                 print(f"Subtitles failed ({err}); transcribing the audio instead.", file=sys.stderr)
         if text is None:

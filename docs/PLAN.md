@@ -41,7 +41,7 @@ Each step has a check. A step is done when its check passes.
    Video: start from Lebed & Shaman (only the prison videos: series «НаКумаре», «Культяпка» (juvenile prison), «Зона строгого режима», феня, понятия; the channel has about 730 videos), then find other channels of former prisoners, so no claim rests on one narrator.
    Why: the reference may only cite what is catalogued; scope tells a local rule from a general one.
    Check: every entry has all fields; the verdict is in the journal.
-   Transcripts from MacWhisper's `small` model garble jargon and names, so a term is quoted from a transcript only after checking it against a second source or the audio.
+   Machine transcripts (YouTube's captions or Whisper) garble jargon and names, so a term is quoted from a transcript only after checking it against a second source or the audio.
 4. **Post-Soviet reference.** Concepts (понятия, the difference спрашивать / интересоваться, roles such as смотрящий, масти, debts, words and responsibility), classic trap riddles with their accepted answers, and at least 60 terms. Each claim: meaning, a quote in its source language, source IDs, scope, general or local.
    Why: scenes and debriefs stand on this; a thin start means invented detail.
    Check: no claim without a source ID; at least 60 terms.

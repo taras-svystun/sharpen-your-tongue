@@ -20,9 +20,23 @@ def test_stamp_adds_hours_only_when_needed():
     assert transcribe.stamp(3_725_000) == "1:02:05"
 
 
-def test_pick_track_prefers_manual_then_automatic():
-    meta = {"subtitles": {}, "automatic_captions": {"ru": [], "en": []}}
-    assert transcribe.pick_track(meta, "ru") == ("automatic_captions", "ru")
-    meta["subtitles"] = {"ru": []}
+def track(url):
+    return [{"ext": "json3", "url": url}]
+
+
+def test_pick_track_takes_original_captions_never_a_translation():
+    # Real case: Russian speech that YouTube labelled "uk"; "ru" is a machine
+    # translation (tlang=), and YouTube answers translations with HTTP 429.
+    meta = {"subtitles": {}, "automatic_captions": {
+        "ru": track("https://yt/timedtext?v=x&tlang=ru"),
+        "uk": track("https://yt/timedtext?v=x"),
+        "uk-orig": track("https://yt/timedtext?v=x"),
+    }}
+    assert transcribe.pick_track(meta, "ru") == ("automatic_captions", "uk-orig")
+    meta["subtitles"] = {"ru": track("https://yt/timedtext?v=x&lang=ru")}
     assert transcribe.pick_track(meta, "ru") == ("subtitles", "ru")
-    assert transcribe.pick_track(meta, "uk") is None
+
+
+def test_pick_track_none_when_only_translations():
+    meta = {"automatic_captions": {"ru": track("https://yt/timedtext?v=x&tlang=ru")}}
+    assert transcribe.pick_track(meta, "ru") is None

@@ -36,7 +36,7 @@ Transcribe a YouTube video into `data/transcripts/<video-id>.md` (Russian by def
 .venv/bin/python tools/transcribe.py "https://www.youtube.com/watch?v=VIDEO_ID" --force-audio
 ```
 
-It tries YouTube's subtitles first. YouTube often refuses them with HTTP 429; the tool then downloads the audio only and transcribes it locally (a 34-minute video took about 4 minutes with MacWhisper's small model).
+It takes YouTube's own subtitles first: manual ones in `--lang`, else YouTube's original automatic captions, whatever language YouTube labelled them (a 34-minute video takes seconds). It never asks for a machine-translated track: those are worse, and YouTube answers them with HTTP 429. With no usable track, the tool downloads the audio only and transcribes it locally (about 4 minutes for 34 minutes with MacWhisper's small model).
 
 Run the tests:
 
