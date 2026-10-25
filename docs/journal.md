@@ -129,3 +129,12 @@ A review of every file gave 30 points; Taras approved all but Windows encodings;
 - In `data/` (not tracked): a duplicate Кудин copy removed, three copies renamed to the naming scheme.
 - Checked: `pytest` 16 passed; quote check 286 quotes, 1 known unmatched; a real `--subs-only` run on R6bgO2gqXaM gave the same text as before in 17 s; the README loops pass `bash -n`.
 - Structure: CLAUDE.md layout map now lists README, GLOSSARY and `docs/`; fixed.
+
+## 2026-10-25: Step 5, shared curriculum
+
+- `resources/curriculum/traps.md`: 14 trap types; `moves.md`: 11 answer moves. Each has a mechanism (what it takes, how, where it stops), a post-soviet example by riddle ID, an east-coast example, an everyday example, and a look-alike with the test that tells them apart. Which move answers which trap is written once, in `traps.md`.
+- Each of the 26 riddles in the post-soviet reference now names one trap type. The types came from the riddles, not from a textbook list: false choice is the commonest (5 riddles), performance next (4).
+- Decision: the east-coast examples are invented illustrations in plain English with no slang, labelled as such, because that school has no reference until step 9 and agreement 6 forbids unsourced facts. Step 9 replaces them with sourced ones.
+- Decision: 14 traps and 11 moves instead of about 12 and 8. Merging would have hidden pairs with opposite answers (performance: don't do it; nerve test: do it calmly), which are the most useful look-alikes to train.
+- Check: `tests/test_curriculum.py` (fields present, IDs resolve, every trap has a move, every riddle has exactly one trap type, a trap's example riddle carries that trap's tag). `pytest` 22 passed; a removed field and a misspelled tag each make it fail. Quote check unchanged: 286 quotes, 1 known unmatched.
+- Structure: "look-alike" added to `GLOSSARY.md`; otherwise ok.

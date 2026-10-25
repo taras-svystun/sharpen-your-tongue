@@ -48,7 +48,7 @@ Each step has a check. A step is done when its check passes.
 4. ✅ **Post-Soviet reference.** Concepts (понятия, the difference спрашивать / интересоваться, roles such as смотрящий, масти, debts, words and responsibility), classic trap riddles with their accepted answers, and at least 60 terms. Each claim: meaning, a quote in its source language, source IDs, scope, general or local.
    Why: scenes and debriefs stand on this; a thin start means invented detail.
    Check: no claim without a source ID; at least 60 terms.
-5. **Shared curriculum.** About 12 trap types and about 8 answer moves. Each: mechanism, an example from each school, an everyday example, and the test that tells it from its look-alike.
+5. ✅ **Shared curriculum.** About 12 trap types and about 8 answer moves. Each: mechanism, an example from each school, an everyday example, and the test that tells it from its look-alike.
    Each riddle in a school's reference names its trap type, so a riddle trains the abstraction (agreement 8).
    Why: this is what the database tracks and what lessons are built from.
    Check: every entry has the fields.

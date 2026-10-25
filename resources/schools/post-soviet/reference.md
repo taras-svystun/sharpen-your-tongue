@@ -8,6 +8,7 @@ What the scenes and debriefs of this school may stand on. Every claim cites a so
 - **Label**: *general* or *local* as defined in `GLOSSARY.md` (agreement 7 in `docs/PLAN.md`); a local entry says where it holds. *One source* is flagged, and so is *low reliability* (the source's rating in `sources.md`). Nothing is dropped for being thin (agreement 19): a scene may use a flagged entry, saying so in the debrief.
 - **Scope**: place and years of the sources. A word attested in the 1930s and in 2019 is general across time, but its meaning may have moved; the entry says so.
 - **Quote**: in the source's language. Books by chapter or page, dictionaries by headword (`s.v.`; their cross-references «(см.)» are left out), videos by `<video-id> @ m:ss`. A video quote is from YouTube's captions unless marked *Whisper*; both are machine text, so it is not checked against the audio unless the entry says *audio checked*. Each transcript's header in `data/transcripts/` names its method.
+- **Trap type**: each riddle names its type from `resources/curriculum/traps.md`, so a riddle trains the shared abstraction (agreement 8).
 - **Our reading**: a sentence so marked is our inference from the sources, not a source's claim.
 - **Caution**: the two dictionaries (`ps:src:07` Росси, `ps:src:08` Балдаев) may share material, so together they count as one source. Former prisoners on YouTube (`ps:src:01`) openly prefer the "black" order; human-rights sources (`ps:src:03`, `ps:src:16`) speak for its victims. Абрамкин (`ps:src:18`) retells many interviews in one voice: it counts as one source.
 
@@ -85,102 +86,119 @@ In juvenile pre-trial cells a newcomer gets «пацанское время дл
 
 ### ps:r:1 «Кто ты по жизни?»
 
+- **Trap type**: `trap:fishing`
 - **The trap**: a talkative cellmate asks «кто ты по жизни — мужик или пацан, поддерживаешь или нет воровскую жизнь». Both answers cost: one claims a rank you must then defend, the other gives it up; and in a pre-trial prison the answers reach the investigator. Kudin: such questions come from provocateurs, «это как раз то, что хотели узнать у тебя мусора» (`ps:src:15`, ch. 12).
 - **Accepted answer** (Kudin): before the verdict, «мы все невиновны, мы все случайно попали в тюрьму, никто из нас ни о чем понятия не имеет. Кто есть кто, разберемся позже, в лагере, после вынесения приговора» (ibid.).
 - *Local, one source*: Kyiv, Лукьяновское СИЗО, 1997.
 
 ### ps:r:2 «Без интереса»
 
+- **Trap type**: `trap:unspoken-terms`
 - **The trap**: a cellmate offers a game of нарды «без интереса». After the second game, which you lost, he says only the first was without a stake, and the witnesses nod (`ps:src:15`, ch. 13). The terms were never spoken, so the stronger side sets them afterwards.
 - **Accepted answer**: Kudin's victim played on to win it back and lost everything; the lesson is to fix the terms out loud before the first move, and to stop at the first dispute (ibid.).
 - *Local, one source*: Kyiv, 1997.
 
 ### ps:r:3 «Я бы пошел конем»
 
+- **Trap type**: `trap:drawn-in`
 - **The trap**: a noisy game draws you in; you let slip «Я бы пошел конем». A player moves the knight, the other shouts «Ты чего подсказываешь, я что ли с тобой играю?», and the chorus says «Ты не съезжай. Влез в игру — отвечай!» (`ps:src:15`, ch. 13). Kudin: often staged on purpose, with a provocateur and "neutral" witnesses.
 - **Accepted answer**: do not comment on other people's games at all; asking the guards for another cell is no exit, since those who did it «до конца срока попадали в зависимость к операм» (ibid.).
 - *Local, one source*: Kyiv, 1997.
 
 ### ps:r:4 «Сыграй на балалайке»
 
+- **Trap type**: `trap:performance`
 - **The trap**: a broom is thrown to you: «Сыграй на балалайке». At the radiator: «Сыграй на гармошке» (`ps:src:18`, §2.5). Refusing or trying to "play" both mark you as an outsider.
 - **Accepted answer**: throw the broom back: «Настрой струны»; at the radiator: «Раздвинь меха» (ibid.). Hand the absurd task back to the one who set it. The same family: «расписаться на потолке» → «подстав лестницу»; «заштопать кастрюлю» → «сначала выверните ее наизнанку» (`ps:src:19` / yZPTMttbTQQ @ 7:29-8:00, captions).
 - *Local*: Russia, late 1980s, mostly juvenile and first-timer cells (`ps:src:18`); the radiator answer also in `ps:src:19`.
 
 ### ps:r:5 «Свадьба»
 
+- **Trap type**: `trap:false-choice`
 - **The trap**: «Что будешь пить: вино, водку, шампанское?» Each answer gets a full mug of water, and the question comes again (`ps:src:18`, §2.5). Any choice from the offered menu keeps you drinking.
 - **Accepted answer**: say to the тамада: «То же, что и ты» (ibid.). Step out of the menu and put the host under his own rule.
 - *Local*: Russia, late 1980s (`ps:src:18`); the same riddle and answer in `ps:src:19` / JmHBUhEsCk4 @ 2:04.
 
 ### ps:r:6 «Летчиком или танкистом?»
 
+- **Trap type**: `trap:nerve-test`
 - **The trap**: «Кем хочешь стать - летчиком или танкистом? - Летчиком. - Прыгай вниз головой» (`ps:src:18`, §2.5). A blindfolded variant: tied to the upper bunk with what feels like a rope: «Прыгай».
 - **Accepted answer**: jump. The "rope" is a thread, and the jumper is caught; «Не прыгнешь, струсишь - сам себе приговор подпишешь» (ibid.). What is tested is nerve, not wit; if a jumper is hurt, the cell is held to account (ibid.).
 - *Local*: Russia, late 1980s (`ps:src:18`); the same test as «десантник»: «со второго яруса коек заставляют прыгать вниз головой … новичка внизу ловят» (`ps:src:19` / yZPTMttbTQQ @ 13:48, captions; low).
 
 ### ps:r:7 The unclean chair
 
+- **Trap type**: `trap:contact`
 - **The trap**: in the barber's shop all chairs are taken but one, the unclean one. «"Земляк, ты куда сел?! - А что такое? - Да это ж для пидеров место! - А я не знал... - Ну, мало ли, что не знал!"» (`ps:src:18`, §2.6). An attempt to drag a newcomer into the bottom caste by contact.
 - **Accepted answer**: the source calls such a setup «крупнейший косяк» of those who arrange it (ibid.), and gives rule «номер раз»: «нельзя спрашивать с человека за нарушение нормы, о которой он не знает» (§2.5). *Our reading*: the defence is to name that rule at once, out loud, and to take the question to the авторитеты.
 - *Local, one source*: Russia, late 1980s.
 
 ### ps:r:8 The book with a hundred in it
 
+- **Trap type**: `trap:admission-as-proof`
 - **The trap**: you leaf through someone's book and put it back. «"Давай стольник. - Какой стольник? - Ты книгу брал? - Брал. - А в ней стольник лежал, давай обратно"» (`ps:src:18`, §2.7). Your own honest "yes" becomes the proof.
 - **Accepted answer**: prevention only: «Боже тебя упаси взять чужое!» (ibid.). Do not touch what is not yours, even to look.
 - *Local, one source*: Russia, late 1980s.
 
 ### ps:r:9 «Твою шкварную буду есть?»
 
+- **Trap type**: `trap:silence-as-consent`
 - **The trap**: a weak cellmate spills someone's soup and offers his own; he hears «Твою шкварную буду есть?» and says nothing (`ps:src:18`, §2.7). The insult tests whether he accepts the place it gives him.
 - **Accepted answer**: answer the word yourself, at once: «Первое слово ты должен за себя сказать сам», and «нельзя отвечать другому за человека» (ibid.). The narrator stepped in with «Следи за базаром!», calls that his own косяк, and the dispute went to an авторитет by note (ibid.).
 - *Local, one source*: Russia, late 1980s, pre-trial prison.
 
 ### ps:r:10 The raked strip
 
+- **Trap type**: `trap:false-choice`
 - **The trap**: a newcomer is ordered to rake the запретка, the strip by the fence. By the code, whoever takes the rake becomes a козёл; refusing means ШИЗО: «предложили решить: стану я козлом или отправлюсь в ШИЗО» (`ps:src:18`, §2.8). A false choice, both options bad.
 - **Accepted answer**: «Всегда можно попытаться найти третий выход». He wrote not the demanded explanation but a complaint to the prosecutor, citing the camp's own rule that prisoners may not approach the strip; he was not sent to ШИЗО (ibid.). Turn the opponent's own rules against the order.
 - *Local, one source*: Russia, late 1980s.
 
 ### ps:r:11 Taken literally
 
+- **Trap type**: `trap:taken-at-word`
 - **The trap**: a political prisoner urging a hunger strike told the men «вы объективно на ментов работаете!»; «Эти слова были восприняты буквально, как оскорбление», and only the пахан stopped the fight (`ps:src:18`, §2.7). A figure of speech became an accusation of serving the guards.
 - **Accepted answer**: before judging anyone aloud, «арестант должен не до десяти, а до тысячи сосчитать» (ibid.). Say what you want people to do, not what their silence makes them.
 - *Local, one source*: Russia, late 1980s.
 
 ### ps:r:12 «Хитрая кружка»
 
+- **Trap type**: `trap:misdirection`
 - **The trap**: after tea a mug is held up: what kind of mug is it? A newcomer describes its colour, pattern, heat, and is hit for each wrong answer (`ps:src:19` / yZPTMttbTQQ @ 3:12; ZyjGVME3knk @ 1:00, captions).
 - **Accepted answer**: «хитрая», the name of the game itself (ibid.). The answer is in the question; do not look where they point.
 - *Local, low reliability* (`ps:src:19`, two videos agree).
 
 ### ps:r:13 «…или вилку в глаз?»
 
+- **Trap type**: `trap:misdirection`
 - **The trap**: a choice between a sexual humiliation and «вилку в глаз» (`ps:src:19` / JmHBUhEsCk4 @ 3:07; yZPTMttbTQQ @ 4:47, captions).
 - **Accepted answer**: the fork, because «загадка рассчитана на то что в камере нет вилок» (JmHBUhEsCk4 @ 3:07). Check whether the threatened option can happen at all.
 - *Local, low reliability* (`ps:src:19`, two videos agree).
 
 ### ps:r:14 «…или мать продашь?»
 
+- **Trap type**: `trap:false-choice`
 - **The trap**: a choice between being degraded and selling your mother (`ps:src:19` / yZPTMttbTQQ @ 4:17; XdDS0EejjSw @ 1:36, captions). Both options destroy you; the mother is sacred: «Для арестанта мать - понятие святое» (`ps:src:18`, §2.7).
 - **Accepted answer**: reject both halves: «мать не продается» (XdDS0EejjSw @ 1:36), and for the other half «пацан в жопу не ебется» (yZPTMttbTQQ @ 4:17). A false choice is answered by refusing the frame, not by picking.
 - *Local, low reliability* (`ps:src:19`, two videos agree), with `ps:src:18` on the mother.
 
 ### ps:r:15 «Сегодня кент, а завтра мент»
 
+- **Trap type**: `trap:loyalty-test`
 - **The trap**: in the desert a snake bites your friend («кент») where sucking out the poison would make you unclean. Will you sacrifice your standing for a friend? (`ps:src:19` / yZPTMttbTQQ @ 9:02-9:35, captions.)
 - **Accepted answer**: «сегодня кент а завтра мент»: a friend is «не друг ради которого можно пожертвовать своей репутации а просто приятель» (yZPTMttbTQQ @ 9:35). The test is whether you know what is sacred and what is not.
 - *Local, low reliability* (`ps:src:19`); audio checked by Taras, 2026-10-25.
 
 ### ps:r:16 Parachute
 
+- **Trap type**: `trap:false-choice`
 - **The trap**: you bail out of a plane; below, a sea and a forest, each of them defiling (`ps:src:19` / yZPTMttbTQQ @ 10:07; XdDS0EejjSw @ 1:06, captions). Either landing makes you unclean.
 - **Accepted answer**: «в любом море есть островки а в лесу есть полянке» (yZPTMttbTQQ @ 10:39); «в каждом лесочке есть полянка в каждом море есть островок» (XdDS0EejjSw @ 1:06). Find the third place the frame left out.
 - *Local, low reliability* (`ps:src:19`, two videos agree).
 
 ### ps:r:17 Quick ones: the cell, the article, the cliff, the truck
 
+- **Trap type**: `trap:misdirection`
 - «сколько в хате … углов» → «со мной 5», since a newcomer counts as a corner; answering «4» means being made to look for the fifth, a beating (`ps:src:19` / yZPTMttbTQQ @ 8:00). Another reading, from an anonymous YouTube comment under the video (lowest reliability): «угол» means «уголовник», so the right answer is the number of people in the cell.
 - «за что сел» → «сел за решетку»; the wrong answer offered first is «за бабу», meaning rape (yZPTMttbTQQ @ 2:08).
 - a pilot over the sea with one cliff: where do you land? → «сяду за решетку» (yZPTMttbTQQ @ 11:41).
@@ -190,48 +208,56 @@ In juvenile pre-trial cells a newcomer gets «пацанское время дл
 
 ### ps:r:18 «Тюрьма, тюрьма, дай погоняло»
 
+- **Trap type**: `trap:performance`
 - **The trap**: you are told everyone gets a new nickname from the prison itself, so climb to the window and shout «тюрьма тюрьма Дай погоняло» (`ps:src:19` / JmHBUhEsCk4 @ 3:40-4:11, captions). The cell watches you perform.
 - **Accepted answer**: «если ты не хочешь кричать решку про погоняла то не кричи никто тебя не заставит» (ibid. @ 4:42). Not every order is an order.
 - *Local, low reliability, one video*; audio checked by Taras, 2026-10-25.
 
 ### ps:r:19 The train: «кенты» or mother
 
+- **Trap type**: `trap:loyalty-test`
 - **The trap**: your train can turn only left or right; on the left your «кенты» are tied to the rails, on the right your mother (`ps:src:20`; also `ps:src:19` / XdDS0EejjSw @ 3:13, captions, garbled).
 - **Accepted answer**: «сегодня кенты, а завтра менты», meaning that «на зоне ни у кого на самом деле нет друзей»; whoever runs over his mother becomes a servant, since «мать – это святое» (`ps:src:20`).
 - *Local, low reliability* (`ps:src:20`, `ps:src:19`); the same answer in the snake riddle `ps:r:15`.
 
 ### ps:r:20 «Рога есть?»
 
+- **Trap type**: `trap:loaded-question`
 - **The trap**: asked «рога есть», a newcomer answers no, then yes; either answer is mocked (`ps:src:19` / JmHBUhEsCk4 @ 2:34, captions).
 - **Accepted answer**: «А отвечать надо потерял перед тюрьмой» (ibid. @ 3:07).
 - *Local, low reliability, one video*; audio checked by Taras, 2026-10-25.
 
 ### ps:r:21 Six or seven
 
+- **Trap type**: `trap:false-choice`
 - **The trap**: dominoes 6 and 7 are thrown down: «что возьмёшь шестёрку или Семёрку» (`ps:src:19` / JmHBUhEsCk4 @ 2:04, captions). Taking the шестёрка names you a servant.
 - **Accepted answer**: «половину или середину» (from the audio): take neither number, so neither names you. The same move as `ps:r:14`: refuse the frame.
 - *Local, low reliability, one video*; audio checked by Taras, 2026-10-25.
 
 ### ps:r:22 «Бурбулятор»
 
+- **Trap type**: `trap:performance`
 - **The trap**: «посадить на бурбуля Тор … это таз с водой»: sit on a basin of water and see if it bubbles; someone will always "see" bubbles (`ps:src:19` / JmHBUhEsCk4 @ 0:31-1:02, captions; the audio says «бурбулятор»).
 - **Accepted answer**: none given. The narrator's general advice applies: «с какой целью интересуешься» (ibid. @ 1:02).
 - *Local, low reliability, one video*; audio checked by Taras, 2026-10-25.
 
 ### ps:r:23 The swan
 
+- **Trap type**: `trap:loaded-question`
 - **The trap**: a vulgar riddle about riding someone like a swan (`ps:src:19` / yZPTMttbTQQ @ 4:47, captions).
 - **Accepted answer**: «лебедь не скачет я не лебедь я не птица хуй мне в крылья не годится» (ibid.). Refuse the role the riddle assigns, in rhyme.
 - *Local, low reliability, one video*; audio checked by Taras, 2026-10-25.
 
 ### ps:r:24 «Кем будешь жить?»
 
+- **Trap type**: `trap:declare-yourself`
 - **The trap**: in a pre-trial cell: will you live as a пацан or as an активист? (`ps:src:19` / yZPTMttbTQQ @ 5:17; the captions garble «пацаном», the audio has it.) Then: pick the strongest cellmate and hit him; he hits back.
 - **Accepted answer**: «пацаном», then hit the strongest and stay on your feet; picking the weakest, falling or freezing gives low status, and «активистом» makes you «ломиться из хаты» (ibid. @ 5:52-6:24).
 - *Local, low reliability, one video*; audio checked by Taras, 2026-10-25.
 
 ### ps:r:25 Precision tests
 
+- **Trap type**: `trap:taken-at-word`
 - «ты какого года рождения» → the full year: «а правильно сказать я 1985 года», not «85-го» (`ps:src:19` / yZPTMttbTQQ @ 6:24-6:57). The newcomer is caught on everyday sloppiness.
 - «обоснуй что ты пацан» → name an age of 16 or more, since under 16 one is a «микрон» (ibid. @ 8:31; «"микронов" - тех, кому 16 не исполнилось», `ps:src:18`, §2.5).
 - «хитрый сосед»: eyes closed, someone hits your hand, all raise their thumbs; answer «ударил хитрый сосед», do not guess a person (yZPTMttbTQQ @ 13:15).
@@ -239,6 +265,7 @@ In juvenile pre-trial cells a newcomer gets «пацанское время дл
 
 ### ps:r:26 Pranks with no right answer
 
+- **Trap type**: `trap:performance`
 - **The traps**: write a request to be let out «сходить на базар купить витаминов» for the cell; a phone moulded from bread (`ps:src:19` / JmHBUhEsCk4 @ 4:42-5:46); «игра в жмурки»: a blindfolded newcomer is offered genitals to touch, and touching them lowers his status (yZPTMttbTQQ @ 12:11-12:43).
 - **Accepted answer**: «надо не поддаваться на все эти провокации» (JmHBUhEsCk4 @ 5:46). *Our reading*: refuse any game with a blindfold.
 - *Local, low reliability*; audio checked by Taras, 2026-10-25 (the end of the bazaar prank is hard to hear).
