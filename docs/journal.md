@@ -204,3 +204,9 @@ A review of every file gave 30 points; Taras approved all but Windows encodings;
 - Safety: pages fetched as HTML or a zipped `.txt` only, each file type checked before opening, archives read by Python without extracting paths; Wayback was asked one page at a time, 6 s apart, after one 429 answer.
 - Check: quote check 428 quotes, 1 known unmatched; `pytest` 35 passed; `db.py status` 171 terms, 34 riddles, reserve ok.
 - Structure: `reference.md` 356 lines, `terms.md` 181. Structure: ok.
+
+## 2026-10-25: transcribe.py took an English dub for Russian
+
+- Cause: on videos where YouTube added an English dub, there are two original speech tracks (`en-US-orig`, `ru-orig`); `pick_track` took the first `-orig` key and ignored `--lang`. Evidence: vdiQJ2x2teg and N1hiINQgAc8, labels «audio en-US, ru, original captions en-US-orig, ru-orig», header «track en-US-orig», English text.
+- Fix: among original tracks, the one in `--lang` comes first; with none in `--lang` (a mislabelled video) the old order holds. Test: `test_pick_track_prefers_the_original_in_lang_over_a_dub` failed before, passes now; `pytest` 36 passed. The two transcripts are being fetched again.
+- Also seen: age-restricted videos (x6JtNdVZ5ng, 5vS9J4oM1S4) need a signed-in account; skipped, not a bot block. Signing in with Taras's browser cookies is his decision.

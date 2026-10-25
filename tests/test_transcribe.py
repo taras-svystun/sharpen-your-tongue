@@ -47,6 +47,16 @@ def test_pick_track_takes_original_captions_never_a_translation():
     assert transcribe.pick_track(meta, "ru") == ("subtitles", "ru")
 
 
+def test_pick_track_prefers_the_original_in_lang_over_a_dub():
+    # Real case (vdiQJ2x2teg): YouTube added an English dub, so both tracks
+    # are originals; the English one came first and was taken for Russian.
+    meta = {"subtitles": {}, "automatic_captions": {
+        "en-US-orig": track("https://yt/timedtext?v=x"),
+        "ru-orig": track("https://yt/timedtext?v=x"),
+    }}
+    assert transcribe.pick_track(meta, "ru") == ("automatic_captions", "ru-orig")
+
+
 def test_pick_track_none_when_only_translations():
     meta = {"automatic_captions": {"ru": track("https://yt/timedtext?v=x&tlang=ru")}}
     assert transcribe.pick_track(meta, "ru") is None

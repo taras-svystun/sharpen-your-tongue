@@ -89,9 +89,11 @@ def srt_to_text(srt):
 def pick_track(meta, lang):
     """Return (kind, key) of the best caption track, or None.
 
-    Manual subtitles in `lang` first, else YouTube's own speech recognition in
-    whatever language it labelled the video (the label can be wrong: Russian
-    speech marked "uk"; the text is still Russian). Never a machine
+    Manual subtitles in `lang` first, else YouTube's own speech recognition:
+    in `lang` if there is one (a video with a dubbed audio track has an
+    original for each language), else in whatever language it labelled the
+    video (the label can be wrong: Russian speech marked "uk"; the text is
+    still Russian). Never a machine
     translation (URL with tlang=): it is worse, and YouTube answers it with
     HTTP 429.
     """
@@ -100,7 +102,8 @@ def pick_track(meta, lang):
     auto = meta.get("automatic_captions") or {}
     originals = [key for key, formats in auto.items()
                  if not any("tlang=" in f.get("url", "") for f in formats)]
-    originals.sort(key=lambda key: not key.endswith("-orig"))  # yt-dlp's explicit original label first
+    # the speech language first, then yt-dlp's explicit original label
+    originals.sort(key=lambda key: (key.split("-")[0] != lang, not key.endswith("-orig")))
     return ("automatic_captions", originals[0]) if originals else None
 
 
