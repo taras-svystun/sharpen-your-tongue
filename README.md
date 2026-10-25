@@ -2,7 +2,7 @@
 
 A daily trainer for quick wit under pressure: read a situation, spot manipulation and word traps, and answer provocations briefly, precisely and calmly. The training grounds are "schools", closed worlds where words are binding: post-Soviet prison subculture first, US East Coast street culture next. Lessons run in [Claude Code](https://claude.com/claude-code) from this folder.
 
-Status: under construction, see `docs/PLAN.md`. The lesson itself (`/interest`) comes at step 7.
+Status: under construction, see `docs/PLAN.md`. The first school's lesson, `/interest`, is built and being tuned.
 
 ## Set up
 
@@ -86,6 +86,8 @@ The lesson database is one log, `data/sessions.jsonl`, one line per session; eac
 .venv/bin/python tools/db.py next --school post-soviet       # the next 1-3 targets
 .venv/bin/python tools/db.py record trap:false-choice=3 ps:r:5=4   # one session; quality 0-5
 ```
+
+Take a lesson: open [Claude Code](https://claude.com/claude-code) in this folder and type `/interest`. It reads the log, plays one scene in the post-soviet school, debriefs and records the scores (the steps are in `.claude/skills/interest/SKILL.md`). It also keeps short private notes of each scene in `data/session-notes.md`, so scenes do not repeat.
 
 Run the tests:
 

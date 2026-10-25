@@ -149,3 +149,12 @@ A review of every file gave 30 points; Taras approved all but Windows encodings;
 - The 0-5 quality scale moved into `teaching-method.md` §5, its one home; `db.py` links to it.
 - Check: `pytest` 33 passed (11 new for the database). Loosening the "weak" rule makes a test fail. `status` and `next` ran on the real, still empty, `data/`; nothing was recorded, so the real log stays empty.
 - Structure: layout map now lists `items` and says "session log" instead of "item states"; `data-examples/` holds the empty log template. Structure: fixed (2 items).
+
+## 2026-10-25: Step 7, the /interest skill (built, not yet played)
+
+- `.claude/skills/interest/SKILL.md`: the order of a lesson only (state, targets, sealed scene, 4-8 exchanges, the guess, debrief, record). How to teach and score stays in `teaching-method.md`; the skill links to it.
+- Decision: the scene's plan (hidden goal, trap moment, accepted answer) is written to `data/session-notes.md` before the first line. Why: otherwise nothing stops the hidden goal from drifting toward Taras's guess, and the guess is scored. The same file keeps one short entry per lesson, so scenes do not repeat and step 8 has material; the log stays numbers only.
+- Decision: when `next` mixes a new item with old ones, two scenes, old first, the new one alone and shorter (`teaching-method.md` §2); the new one is dropped if time runs out.
+- Decision: only the targets are scored. A move Taras happens to use is not recorded unless it was a target, so the log measures what was tested, not what came up.
+- Check: `tests/test_skill.py`, every file path the skill names exists (a misspelled path makes it fail). `pytest` 34 passed. `db.py next` on the empty log gives `trap:false-choice`, so the first lesson is one new trap, alone. The step's own check, one real session, waits for Taras.
+- Structure: layout map now lists the skill and the session notes; the skill links to agreements 1 and 13 instead of restating them. Structure: ok.
