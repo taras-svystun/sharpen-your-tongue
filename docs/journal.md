@@ -164,3 +164,10 @@ A review of every file gave 30 points; Taras approved all but Windows encodings;
 - Taras's worry from Fluent: method files that nothing points to are never read. Checked every tracked `.md`: who links to it and when it is read. `CLAUDE.md` loads every session and says when to read the plan, the method and the ADR; `/interest` names every file a lesson needs.
 - Found one gap: the school README (language and characters) was linked by nothing, and the skill restated its rule instead. The skill now reads it and links to it; `moves.md` is named by full path, so the path test covers it.
 - Structure: fixed (1 item).
+
+## 2026-10-25: First lesson played; /interest gets a check and a close
+
+- First real `/interest` session played (scores stay in `data/`). Step 7 done; step 8 at 1 of 3.
+- Taras could not tell when the lesson had ended. `/interest` §6 now checks that the log holds today's scores (`tail -1 data/sessions.jsonl`, `db.py next`), and a new §7 closes with one fixed line: done, what was recorded, what comes tomorrow.
+- Check: today's log line holds the session; `pytest` 34 passed (the path test covers the skill).
+- Structure: ok.

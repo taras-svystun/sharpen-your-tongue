@@ -57,3 +57,16 @@ Score each target 0-5 (§5). The guess counts: a good answer with the trap unnam
 ```
 
 Finish today's entry in `data/session-notes.md`: the scene in one line, his slips (short), the scores, and anything that suggests changing this method (for step 8 of `docs/PLAN.md`). Tell Taras in one line what comes back tomorrow (quality under 3) and what is pushed ahead.
+
+Then check that both records landed, before closing:
+
+```bash
+tail -1 data/sessions.jsonl
+.venv/bin/python tools/db.py next --school post-soviet
+```
+
+The last log line must hold today's date and every target with its score, and `next` must reflect them. If either is missing, fix it now; a lesson that is not in the log did not happen for SM-2.
+
+## 7. Close
+
+End with one line, so Taras knows he can leave: **«Заняття завершено. Записано: <ID=Q ...>. Завтра: <what `next` prints first>.»** After this line, nothing more is asked of him.

@@ -55,9 +55,9 @@ Each step has a check. A step is done when its check passes.
 6. ✅ **Database and script.** `tools/db.py` (standard library): read the state, record a session, schedule items with SM-2 (spaced repetition: a well-answered item comes back later and later, a failed one tomorrow), pick the next targets (due first, then weakest), and report the reserve rule. Tested with pytest.
    Why: the next lesson comes from a record, not from the AI's memory.
    Check: `pytest` passes.
-7. 🟡 **`/interest`, post-Soviet school.** Built; waiting for the first real session. Load the state, pick 1-3 targets, build a scene with a hidden goal for the character, play 4-8 exchanges, let Taras guess what the character wanted, debrief errors only, record.
+7. ✅ **`/interest`, post-Soviet school.** First real session played 2026-10-25. Load the state, pick 1-3 targets, build a scene with a hidden goal for the character, play 4-8 exchanges, let Taras guess what the character wanted, debrief errors only, record.
    Check: one real session end to end; `data/` changes; nothing from `data/` in `git status`.
-8. **Three real sessions, then tune.**
+8. 🟡 **Three real sessions, then tune.** 1 of 3 played.
    Check: a journal line per session with what changed.
 9. **East Coast school.** Reference (Big L "Ebonics" as a slang anchor; Nas, Wu-Tang, Common, Mos Def, Biggie, 2Pac, KRS-One, Mobb Deep; documentary sources first) and its characters in `/interest`.
    Check: as in steps 4 and 7.
