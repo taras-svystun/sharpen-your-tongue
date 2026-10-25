@@ -210,3 +210,10 @@ A review of every file gave 30 points; Taras approved all but Windows encodings;
 - Cause: on videos where YouTube added an English dub, there are two original speech tracks (`en-US-orig`, `ru-orig`); `pick_track` took the first `-orig` key and ignored `--lang`. Evidence: vdiQJ2x2teg and N1hiINQgAc8, labels «audio en-US, ru, original captions en-US-orig, ru-orig», header «track en-US-orig», English text.
 - Fix: among original tracks, the one in `--lang` comes first; with none in `--lang` (a mislabelled video) the old order holds. Test: `test_pick_track_prefers_the_original_in_lang_over_a_dub` failed before, passes now; `pytest` 36 passed. The two transcripts are being fetched again.
 - Also seen: age-restricted videos (x6JtNdVZ5ng, 5vS9J4oM1S4) need a signed-in account; skipped, not a bot block. Signing in with Taras's browser cookies is his decision.
+
+## 2026-10-25: Conflict stories from the new transcripts
+
+- Read 3 of the new Lebed & Shaman transcripts (2DKOko460eM, IGu_kzMoM0g, oGRj_2O3who); the others are on disk, not yet read.
+- Added riddles `ps:r:35` (a loan you cannot refuse: lend it as a game stake, with witnesses), `ps:r:36` (a rumour that you eat with a рогатый: ask why the accuser did not come to you), `ps:r:37` (a lie let off as a «непонятка»: make the judges name the same act done by you); a Ukrainian case for `ps:r:34` (a hidden past, «под вопросом», the search note), which is the first source for it independent of Абрамкин; a milder «protection for parcels» for `ps:r:29`; the loan/card-debt paradox in `ps:t:dolg`; 6 terms (рогатый, под вопросом, сбой по жизни, интрига, поисковая, уделить).
+- Check: quote check 457 quotes, 1 known unmatched; `pytest` 36 passed.
+- Structure: `reference.md` 379 lines, `terms.md` 187. Structure: ok.

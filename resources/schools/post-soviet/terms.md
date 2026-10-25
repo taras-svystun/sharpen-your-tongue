@@ -58,6 +58,9 @@ The words of this school, grouped by topic. Each: ID, meaning, label and scope, 
 - **прошляк** `ps:t:proshlyak`: a thief who has stepped back from the воровской закон without betraying it; still respected. *Local, one source* (`ps:src:22`): «отошедший от воровского закона вор, но в отличие от суки не изменивший ему».
 - **свояк** `ps:t:svoyak`: a candidate thief not yet crowned at a gathering. *Local, one source* (`ps:src:22`): «кандидат в касту воров, который, однако, еще не признан на сходке вором в законе».
 - **центряк** `ps:t:tsentryak`: the блатные and their circle. *Local, one source* (`ps:src:22`).
+- **рогатый** `ps:t:rogatyy`: one who has served the administration, a козёл; the job is enough, such as a баландёр, an electrician or a brigade leader. *Local, one source* (`ps:src:01` / oGRj_2O3who @ 8:54, captions: «баландёр там на в столовой либо там какой-то электрик либо же совхоз и тому подобное либо бригадир это есть масть рогатый»). See `ps:r:36`.
+- **под вопросом** `ps:t:pod-voprosom`: under a charge not yet settled; nobody may treat the man as one of them until it is. *Local, one source* (`ps:src:01` / oGRj_2O3who @ 13:08-13:39, captions: «под вопросом это друзья э туже очень в подвешенном состоянии»). See `ps:r:34`.
+- **сбой по жизни** `ps:t:sboy`: a stain in one's prison past, such as a staff job, that bars a man from the respected castes. *Local, one source* (`ps:src:01` / oGRj_2O3who @ 32:58, «у него есть сбой по жизни», captions).
 
 ## Staff and system
 
@@ -179,3 +182,6 @@ The words of this school, grouped by topic. Each: ID, meaning, label and scope, 
 - **предъява, предъявить** `ps:t:predyava`: a charge of breaking the code; to make one. *Local* (`ps:src:17` pt. 2; `ps:src:18` §2.5, §2.7; `ps:src:22`). «выдвинуть обвинение в нарушении неформальных норм и правил, бытующих в сообществе заключенных» (`ps:src:22`, s.v. предъявить); «Для спроса должна быть выдвинута предъява – обвинение, и она должна быть обоснована» (`ps:src:17`, pt. 2). See `ps:r:34`.
 - **очевидец, не свидетель** `ps:t:ochevidets`: an eyewitness at a разборка; «свидетель» is a court word and an insult. *Local, one source* (`ps:src:17`, pt. 2). See `ps:r:33`.
 - **бардак; канитель** `ps:t:bardak`: disorder with no rules at all, unlike беспредел, a deliberate breach of rules others keep; канитель, harm done to someone who neither resists nor seeks justice afterwards. *Local, one source* (`ps:src:22`, s.v. бардак): «бардак же - это отсутствие всяких правил и общая распущенность».
+- **интрига, интриган** `ps:t:intriga`: a false charge spread about someone; its author. Punished like the deed he invented. *Local, one source* (`ps:src:01` / IGu_kzMoM0g @ 25:41; oGRj_2O3who @ 9:59, «если ты не можешь это обосновать то ты есть интригант», captions). See `ps:r:37`.
+- **поисковая** `ps:t:poiskovaya`: a note sent round every cell and camp to find who knew a man and what he did. *Local, one source* (`ps:src:01` / oGRj_2O3who @ 29:49, captions: «маляву на Тюрягу Ну это поисковая называется»).
+- **уделить** `ps:t:udelit`: to share part of what you got, with the общак or with people. *Local, one source* (`ps:src:01` / 2DKOko460eM @ 9:30, «на общак уделяю», captions).

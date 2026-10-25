@@ -73,6 +73,7 @@ What the scenes and debriefs of this school may stand on. Every claim cites a so
 **Mechanism.** Games are played «под интерес», for a stake, and a debt is a matter of honour: in the 1992 dictionary «ОТВЕТ — долг (как правило, карточный)» (`ps:src:08`, p. 163), and the one who will not pay «двигает фуфло» (s.v. ДВИГАТЬ ФУФЛО, p. 65). In the 1930s certain things, which a thief must never stake, were called «кровь» (`ps:src:06`, p. 67). In Kyiv a game is also a trap for the bystander: «в чужую игру влезать нельзя … советчик будет виновен в проигрыше одного из игроков, а так как они играли под интерес, то советчик и должен платить по счету» (`ps:src:15`, ch. 13).
 
 - Russia, late 1980s: «Ты должен жизнь положить, но долг отдать, причем отдать вовремя»; a late payer gets a «счетчик», a daily penalty; and the winner of a dispute may take his due «как с "достойного" или как с "негодяя"» (`ps:src:18`, §2.7).
+- A loan is not a card debt: an unpaid loan does not make a man a фуфлыжник (`ps:src:01`, see `ps:r:35`).
 - No debt without a deal: «Не должен ты ничего и никому. Ничего у тебя нельзя отнимать … И даже просить у тебя что-то считается непорядочным» (`ps:src:18`, §2.5). *Our reading*: so a debt someone claims for a gift you never asked for has no ground in a правильная хата. See `ps:r:29`.
 - *General*: Соловки 1930s (`ps:src:06`), USSR 1992 (`ps:src:08`), Russia 1988-1990s (`ps:src:18`), Kyiv 1997 (`ps:src:15`).
 - **In ordinary life**: agree the stakes before the game, and do not give advice in other people's deals unless you will share the loss.
@@ -312,7 +313,7 @@ In juvenile pre-trial cells a newcomer gets «пацанское время дл
 ### ps:r:29 «Уболтать»
 
 - **Trap type**: `trap:unspoken-terms`
-- **The trap**: a first-timer is offered cigarettes, support or protection, and the real price is said only after: «Могут за "услуги" обещать и поддержку, и защиту - что угодно. Называется это "уболтать на х...й"» (`ps:src:18`, §2.6). The price is the bottom caste, for life (`ps:t:opushchennyy`).
+- **The trap**: a first-timer is offered cigarettes, support or protection, and the real price is said only after: «Могут за "услуги" обещать и поддержку, и защиту - что угодно. Называется это "уболтать на х...й"» (`ps:src:18`, §2.6). The price is the bottom caste, for life (`ps:t:opushchennyy`). A milder version in Ukraine, 2000s: grown men offer an 18-year-old newcomer protection, and in return «малой греется можно похавать его передачу типа вот такой симбиоз получается» (`ps:src:01` / IGu_kzMoM0g @ 3:43, captions).
 - **Accepted answer**: no debt without a deal (`ps:t:dolg`): an unasked favour creates no debt, so ask the price out loud before you take anything. The source adds that the cheat is the one punished: «Такой обман считается крупным косяком» (§2.6).
 - *Local, one source*: Russia, late 1980s.
 
@@ -328,7 +329,29 @@ In juvenile pre-trial cells a newcomer gets «пацанское время дл
 - **Trap type**: `trap:admission-as-proof`
 - **The trap**: a friendly question about your past. A charge can rest on «неожиданно всплывший компрометирующий факт, относящийся к далекому прошлому, иногда даже к вольной, долагерной жизни заключенного», or on something never chosen at all: «сам факт проживания в Москве или в Ленинграде, служба во внутренних войсках» (`ps:src:22`, s.v. предъявить). Your honest answer becomes the charge.
 - **Accepted answer**: the code's own rules: a first-timer «согласно тюремному закону чист. На воле он мог быть кем угодно» (`ps:src:21`), and a charge must be grounded, with a right to defence (`ps:t:lyudskoe-gadskoe`). Name the rule, and ask what the charge is. Our reading: which rule wins depends on the cell (compare `ps:r:7`).
-- *Local, one source* (`ps:src:21` and `ps:src:22` are one source): Russia, 1960s-1990s.
+- Ukraine, 2000s: a young man who had worked as a баландёр in a juvenile colony hid it and became the man «в ответе за бараком»; an old cellmate named him. The accuser must prove it, or «ты есть интригант» (`ps:src:01` / oGRj_2O3who @ 9:59, captions); until it is settled the accused is «под вопросом», and «ты не мужик ты не ни кто» (ibid. @ 13:39). A search note goes round every cell: «Кто знает такого-то такого-то который сидел там-то там-то в таких-то таких-то годах» (ibid. @ 29:49). The narrators' verdict: the one who hid a slip and lived quietly is forgiven more easily than the one who also beat others while in power (ibid. @ 33:28-35:03).
+- *Local*: Russia, 1960s-1990s (`ps:src:21`, `ps:src:22`, one source); Ukraine, 2000s (`ps:src:01`).
+
+### ps:r:35 «Займи до конца месяца»
+
+- **Trap type**: `trap:false-choice`
+- **The trap**: a man with power in the camp, who you guess will not pay back, asks for a big loan. Refusing insults him with no ground, since «у меня не было с ним прецедентов что он мне не отдавал»; lending means losing the money (`ps:src:01` / 2DKOko460eM @ 12:44-14:18, captions). The code makes it worse: an unpaid card debt makes a man a фуфлыжник, an unpaid loan does not: «по игре если ты вовремя не уплатил ну не вернул долг то что проиграл ты фуфлыжник А если ты Отдохни и не вернул то ты не фуфлыжник» (ibid. @ 15:51; «Отдохни» is the captions' «одолжил»).
+- **Accepted answer**: Lebed lent the money for a named purpose, the stake of a barrack tournament that collects for the общак: «Хочешь я тебе её могу дать до конца месяца А ты положишь её потом за за эту игру» (ibid. @ 14:18), so the debt became a stake, owed to the game. And with witnesses: «надо чтобы кто-то присутствовал по-любому при разговоре чтоб кто-то слышал» (ibid. @ 15:20). When the debtor later complained, «тебя же никто за язык не тянул Ты сам сказал» (ibid. @ 17:53). He did the same with other bad debts: «вон мне тип должен Хай на общее положит» (ibid. @ 16:51). Change who the debt is owed to, and say the terms in front of others.
+- *Local, one source*: Ukraine, a strict-regime colony, 2000s.
+
+### ps:r:36 «С кем хаваешь?»
+
+- **Trap type**: `trap:contact`
+- **The trap**: Lebed gave food to a hungry man he knew from outside, a «рогатый» who had served the staff; the man told the camp's смотрящий that he ate with Lebed. Eating together means you are mates («хавает Это получается что вы кенты»), «а если ты естественно кенту ешь с рогатым то тебя и воспринимают соответственно также» (`ps:src:01` / 2DKOko460eM @ 23:38, captions). A rival spread it behind his back.
+- **Accepted answer**: Lebed kept the facts straight (he helps an old acquaintance; they are not mates) and turned the charge on the way it was made: «А что ты не пришёл ко мне не спросил если тебя так сильно интересует эта тема Ну подойди Узнай у меня я тебе отвечу с первых уст» (ibid. @ 28:52). He also names a rule he broke by talking that night: «когда люди выпьют нельзя решать никакие вопросы» (ibid. @ 28:52). Ask why the accuser did not come to you first.
+- *Local, one source*: Ukraine, a black strict-regime colony, 2000s.
+
+### ps:r:37 «Непонятка»
+
+- **Trap type**: `trap:silence-as-consent`
+- **The trap**: a flatterer of the смотрящий made up a story that 18-year-old Lebed had danced in shorts on the блатной barrack. Lebed took it to the смотрящий, the story fell apart, and the circle wanted to let it go as a misunderstanding: «он как бы подводит к тому что знаешь дала одного типа спустить на тормозах … ну там непонятка произошла» (`ps:src:01` / IGu_kzMoM0g @ 24:39, captions). A lie left as a "misunderstanding" keeps going round the camp: «а сейчас разойдется по лагерю что там вот так себя веду» (ibid. @ 26:45).
+- **Accepted answer**: he asked them to judge the same act done by him: «если я допустим завтра придумаю что этот тип в рот брал а потом у меня не ошибся … как мой поступок будет называться» (ibid. @ 25:10-25:41). The answer is the name of the offence: «интрига это серьезная интриган это уже поступок за который конкретно надо этого чувака лупить» (ibid. @ 25:41). Make the judges apply their own word to the deed.
+- *Local, one source*: Ukraine, a strict-regime colony, early 2000s.
 
 ## Interrogation traps
 
