@@ -25,7 +25,7 @@ python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 ```
 
-Your own data lives in `data/`, which git ignores. The tools create the folders they need on first use. `data-examples/` will hold the public template of the lesson database (step 6 of `docs/PLAN.md`); until then it is empty.
+Your own data lives in `data/`, which git ignores. The tools create the folders they need on first use. `data-examples/` holds the public template of `data/`: `tools/db.py` copies it on the first recorded session.
 
 ## Run
 
@@ -77,6 +77,14 @@ Check that every quote in a school's reference appears word for word in your cop
 
 ```bash
 .venv/bin/python tools/check_quotes.py post-soviet
+```
+
+The lesson database is one log, `data/sessions.jsonl`, one line per session; each item's schedule is computed from it with SM-2. Lessons call it; you can too:
+
+```bash
+.venv/bin/python tools/db.py status                          # items studied and due; the reserve rule
+.venv/bin/python tools/db.py next --school post-soviet       # the next 1-3 targets
+.venv/bin/python tools/db.py record trap:false-choice=3 ps:r:5=4   # one session; quality 0-5
 ```
 
 Run the tests:

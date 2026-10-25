@@ -138,3 +138,14 @@ A review of every file gave 30 points; Taras approved all but Windows encodings;
 - Decision: 14 traps and 11 moves instead of about 12 and 8. Merging would have hidden pairs with opposite answers (performance: don't do it; nerve test: do it calmly), which are the most useful look-alikes to train.
 - Check: `tests/test_curriculum.py` (fields present, IDs resolve, every trap has a move, every riddle has exactly one trap type, a trap's example riddle carries that trap's tag). `pytest` 22 passed; a removed field and a misspelled tag each make it fail. Quote check unchanged: 286 quotes, 1 known unmatched.
 - Structure: "look-alike" added to `GLOSSARY.md`; otherwise ok.
+
+## 2026-10-25: One item parser; step 6, database and script
+
+- `tools/items.py`: the one place that knows where an item is defined (trap and move headings, concept headings, term bullets, riddle headings). Both reference tests and `db.py` use it; before, each test had its own regex, and a blank line already broke one of them once. 176 items: 14 traps, 11 moves, 125 terms (concepts included), 26 riddles.
+- `tools/db.py` (standard library): `record`, `next`, `status`. The only stored record is a log, `data/sessions.jsonl`, one line per session with item IDs and qualities. Item states are replayed from it with SM-2 on every run.
+- Decision: a log, not a state file or SQLite. Why: one home per fact (a state file would repeat what the log says, and the two can disagree), a change to the schedule rules re-applies to the whole history, and the file stays readable by eye and by the lesson. Cost: a replay on each run, under a millisecond at this size.
+- Decision: SM-2 as Wozniak wrote it (a failure starts over and keeps the easiness factor), with two changes from `teaching-method.md`: a first answer at 5 goes straight to 6 days (§6), and `next` offers at most one new item, since a new item gets its own scene (§2). Order: overdue, then weak (last quality under 4), then one new; a mastered item that is not due is never picked.
+- `record` refuses unknown IDs and qualities outside 0-5, so a typo never enters the log; `status` names IDs in the log that are no longer defined, so a renamed item is not lost silently.
+- The 0-5 quality scale moved into `teaching-method.md` §5, its one home; `db.py` links to it.
+- Check: `pytest` 33 passed (11 new for the database). Loosening the "weak" rule makes a test fail. `status` and `next` ran on the real, still empty, `data/`; nothing was recorded, so the real log stays empty.
+- Structure: layout map now lists `items` and says "session log" instead of "item states"; `data-examples/` holds the empty log template. Structure: fixed (2 items).

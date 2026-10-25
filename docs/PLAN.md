@@ -52,7 +52,7 @@ Each step has a check. A step is done when its check passes.
    Each riddle in a school's reference names its trap type, so a riddle trains the abstraction (agreement 8).
    Why: this is what the database tracks and what lessons are built from.
    Check: every entry has the fields.
-6. **Database and script.** `tools/db.py` (standard library): read the state, record a session, schedule items with SM-2 (spaced repetition: a well-answered item comes back later and later, a failed one tomorrow), pick the next targets (due first, then weakest), and report the reserve rule. Tested with pytest.
+6. ✅ **Database and script.** `tools/db.py` (standard library): read the state, record a session, schedule items with SM-2 (spaced repetition: a well-answered item comes back later and later, a failed one tomorrow), pick the next targets (due first, then weakest), and report the reserve rule. Tested with pytest.
    Why: the next lesson comes from a record, not from the AI's memory.
    Check: `pytest` passes.
 7. **`/interest`, post-Soviet school.** Load the state, pick 1-3 targets, build a scene with a hidden goal for the character, play 4-8 exchanges, let Taras guess what the character wanted, debrief errors only, record.

@@ -51,7 +51,7 @@ Default shape, one line per slip, in the order it happened:
 
 Never inflate a score to be kind. He wants honest numbers, even when they fall.
 
-- Each tracked item gets its own quality 0-5 (for SM-2), even inside one scene.
+- Each tracked item gets its own quality 0-5 (for SM-2), even inside one scene: 5 a strong answer at once; 4 good, with a small slip; 3 passed, but slowly or with effort; 2 dodged, or failed but close; 1 failed; 0 did not see the trap at all. Under 3 the item comes back tomorrow (`tools/db.py`).
 - **Dodging is not winning.** If he escapes a trap by ending the conversation, refusing to speak, or being rude, score what it showed: usually 2-3, and say it was dodged. The goal is an answer that keeps his position, not an exit.
 - Rudeness, swearing or a threat is a failed answer even when it "works": it breaks his own standard (laconic, precise, calm, polite).
 
