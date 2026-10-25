@@ -22,6 +22,7 @@ resources/schools/<school>/           one folder per school: post-soviet, east-c
   sources.md                          source catalogue, IDs like ps:src:03
   reference.md                        concepts and terms, each citing source IDs
 tools/                                scripts (db, transcribe)
+requirements.txt                      Python dependencies for tools/
 tests/                                pytest
 data-examples/                        public template of data/
 data/                                 git-ignored: profile, item states, sessions,
