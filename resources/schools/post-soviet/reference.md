@@ -361,6 +361,20 @@ In juvenile pre-trial cells a newcomer gets «пацанское время дл
 - **Accepted answer**: he would not confess to what he had not done, «знаю точно шею не крысы дико признаваться» (ibid. @ 16:49; the captions are garbled, our reading: he knew he had not stolen and would not confess), and took the blows; by morning the note was found in another cell. The lesson the cell gave him: «ты сам запорол бочину я тебе говорил что надо записывать постоянно» (ibid. @ 18:20). Never buy peace with a false confession; and keep a record of what passes through your hands, or the evidence will point at you.
 - *Local, one source*: Ukraine, a pre-trial prison, early 2000s.
 
+### ps:r:39 «Красное есть?»
+
+- **Trap type**: `trap:loaded-question`
+- **The trap**: in the prison van, grown men scare a 16-year-old on his way to the juvenile block with stories of its rules: «там же ж беспредел там за контачит можно и по воздуху», and then the question: «посмотри в бауле Красное есть у тебя что-то если … Если есть красная давай быстрее здесь избавляюсь» (`ps:src:01` / wnZ9sqEIM70 @ 2:34-3:06, captions). The question assumes a rule he cannot check, and its "solution" puts his things in their hands.
+- **Accepted answer**: someone in the van stopped it, «пацаны ну не гоните не пугайте малого» (ibid. @ 3:06); in the bath, when the jokes started again, Shaman found his own rule: «я понял что короче ну Походу они прикалываются жути нагоняют Ну думаю не буду вестись там уже сам в процессе разберусь» (ibid. @ 9:27). Do not act on a rule told by someone who gains from your fear; check it where it applies.
+- *Local, one source*: Kyiv, Лукьяновка, around 2000.
+
+### ps:r:40 «Есть колёса?»
+
+- **Trap type**: `trap:unspoken-terms`
+- **The trap**: in the exercise yards a voice from another cell asks the newcomers: «есть какие-то колёса у вас», for a boy going to the camp, and promises a swap: «сейчас сменку нормальную тебе» (`ps:src:01` / wnZ9sqEIM70 @ 23:46-25:22, captions). A boy passes his trainers through the net; the "swap" that comes back is two plastic bags: «это новая модель рыбачего шурша будешь шуршать по тюряге» (ibid. @ 26:57). He paid first, and the other side named the price afterwards.
+- **Accepted answer**: none given; the cell's own verdict was that the yard «тупо монстры … гипнозом тупо они нас всех» (ibid. @ 29:37). *Our reading*: nothing goes first through a wall before the other side's part is in your hands; a request made "for the arrestants' cause" is still a deal.
+- *Local, one source*: Kyiv, Лукьяновка, around 2000.
+
 ## Interrogation traps
 
 The investigator's room is a school of manipulation too, and a prisoner's word there is as binding as in the cell: «Каждая новая подпись уменьшает срок пребывания на свободе» (`ps:src:15`, ch. 2). Kudin lists the methods used on him in Kyiv in 1997. *Our reading*: the same moves are used by anyone whose power over you grows with what you say: a hostile interviewer, an auditor, a negotiator.
@@ -385,3 +399,10 @@ The investigator's room is a school of manipulation too, and a prisoner's word t
 - **The trap**: «Поговорим? У меня диктофона нет. Можешь пощупать … Мы не допрашиваем. Мы только беседуем» (`ps:src:15`, ch. 2). Then the "swing" («Качели»): talk of family and friends, a request for your professional advice; «Основная задача — вызвать симпатию, войти в доверие, постараться сделать уступчивым и разговорчивым», while a "bad" investigator threatens (ibid.).
 - **Accepted answer**: give only what they already know and ask for a lawyer: «Пусть запишут в протокол допроса выражение: “Требую адвоката с момента моего задержания”» (ibid.); «лишнего не говорит только тот, кто вообще ничего не говорит» (ibid.). The same rule for the cell: «Здесь хоть в камере, хоть где - держи язык за зубами» (`ps:src:18`, §2.2).
 - *Local*: Kyiv 1997 (`ps:src:15`), Russia 1988-1990s (`ps:src:18`).
+
+### ps:r:41 «Пиши, что видел»
+
+- **Trap type**: `trap:drawn-in`
+- **The trap**: after a cellmate was caught passing his trainers to another cell, each juvenile was called in alone: «пиши что ты гулял такой-то такой-то гулял на прогулке стоял рядом и видел как дружочек Ну твой сокамерник передал кроссовки в другую камеру» (`ps:src:01` / wnZ9sqEIM70 @ 31:11, captions). One line of "witness" makes you a party against your own; Shaman knew it as «сдача» (ibid. @ 31:42).
+- **Accepted answer**: «я во-первых я ничего не видел А во-вторых ну я не буду ничего писать» (ibid. @ 31:42). The whole cell did the same, «все пошли в отказ никто не видел» (ibid. @ 34:17), and paid together: a beating and two cigarettes a day instead of seven. Refuse the role of witness, not only the facts.
+- *Local, one source*: Kyiv, Лукьяновка, around 2000.
