@@ -135,7 +135,7 @@ The catalogue of this school. The reference may cite only sources listed here, b
 
 ### ps:src:15 Андрей Кудин, «Как выжить в тюрьме»
 
-- Genre: memoir and survival guide for a first-time prisoner, with a chapter on prison words (ch. 4), cellmates (ch. 12) and games (ch. 13).
+- Genre: memoir and survival guide for a first-time prisoner, with chapters on interrogation (ch. 2), prison words (ch. 4), cellmates (ch. 12) and games (ch. 13).
 - Scope: Ukraine, Kyiv: КПЗ on Подол, then Лукьяновское СИЗО, 1997 to February 1998. A pre-trial prison, not a colony; Russian with Ukrainian quotes.
 - Reliability: medium. One first-hand witness, educated, openly scornful of other prisoners and of блатные; acquitted, his arrest ruled illegal (ХПГ). He names some words as local to Kyiv ("пальма" here, "груша" in Dnipropetrovsk).
 - Access: text copy `data/sources/3_kak_vyzhit_v_tyurme.u.txt`. No page numbers: cite by chapter, `ps:src:15, ch. 4`. Publication year unknown.

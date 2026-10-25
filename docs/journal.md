@@ -178,3 +178,12 @@ A review of every file gave 30 points; Taras approved all but Windows encodings;
 - Not covered: a lesson where `record` is never run. The fixed close line names the recorded scores, which makes that slip visible to Taras; a hook would be the next step if it ever happens.
 - Check: `pytest` 35 passed; the new test edits the log after the write and expects the read-back to fail.
 - Structure: ok.
+
+## 2026-10-25: Harvest from sources already on disk
+
+- Read what the reference did not use yet: 4 uncited transcripts (BWE9JSvtrng, R6bgO2gqXaM, TXHEJcQTlV8, oEFwzU8sk9U), the tattoo video 6CAxbmw6m0A, Кудин ch. 2 (interrogation), Абрамкин §2.2-2.4 and §2.9, and the Балдаев dictionary for words on talk, deals and debts. No YouTube requests.
+- Verdict on the transcripts: three of four are near empty (recovery talk, a clickbait sketch); the yield came from the books. Кудин ch. 2 is a catalogue of manipulation methods; Абрамкин §2.9 explains the prisoners' семья.
+- Added: concept `ps:t:semya`; riddles `ps:r:27`-`ps:r:29` (cleaning by turn, «Где чалился?», «уболтать»); a new section, Interrogation traps, with `ps:r:30`-`ps:r:32`; 23 terms (people: порядочный, левый, штымп, терпила, подельник and others; words: маза, подписаться, замазать, гнилой заход, расколоться, сдать and others); additions to `ps:t:dolg` (no debt without a deal), `ps:t:fuflo` (an empty promise is a lie) and `ps:t:otvechat-za-slova`.
+- Decision: no new trap types. Each new riddle fits one of the 14; a new type needs more than one riddle behind it.
+- Check: quote check 382 quotes, 1 known unmatched; `pytest` 35 passed; `db.py status` 153 terms, 32 riddles, reserve ok.
+- Structure: `reference.md` is at 494 lines; the next harvest must first split it by topic (concepts and riddles / terms) and teach `tools/items.py` the new file. Two repeated quotes replaced by links. Otherwise ok.

@@ -30,7 +30,7 @@ What the scenes and debriefs of this school may stand on. Every claim cites a so
 
 **Mechanism.** In this world a word is not a description but an act with a price. Likhachev, a prisoner of Соловки, saw it in the 1930s: an insult addressed to a thief «составляет оскорбление, смыть которое может, по воровским представлениям, только кровь», and thieves swear oaths («лягавым буду», «сука буду») because they half believe in «магическую силу слова» (`ps:src:06`, p. 63). Sixty years later in Kyiv: «За каждое слово принято в жизни платить» (`ps:src:15`, ch. 4), and the one who comments on another's game hears «Влез в игру — отвечай!» (ch. 13). *Our reading*: where there are no contracts and no courts, a spoken word is the only contract, so it must be enforced, or nobody's word is worth anything.
 
-**Where it stops.** The word binds only inside the circle. To an outsider (a фраер, a guard) a thief owes nothing: «Дать честное слово вора фраеру, обмануть его, а затем растоптать клятву и нарушить ее — это воровская доблесть» (`ps:src:05`, ch. 3).
+**Where it stops.** The word binds only inside the circle. To an outsider (a фраер, a guard) a thief owes nothing: «Дать честное слово вора фраеру, обмануть его, а затем растоптать клятву и нарушить ее — это воровская доблесть» (`ps:src:05`, ch. 3). Kudin, stalling an investigator, quotes the joke version: «Пацан сказал — пацан сделал. Не сделал — ещё раз сказал» (`ps:src:15`, ch. 2).
 
 - Speaking carefully is a sign of rank: «чем серьезнее человек — тем культурнее его речь и тем более тщательно он выверяет каждое слово» (`ps:src:15`, ch. 4).
 - No excuses and no empty threats: «Нельзя просто пригрозить, а потом отказаться от этого … В этом мире нет слова "нечаянно"» (`ps:src:18`, §2.7).
@@ -73,8 +73,19 @@ What the scenes and debriefs of this school may stand on. Every claim cites a so
 **Mechanism.** Games are played «под интерес», for a stake, and a debt is a matter of honour: in the 1992 dictionary «ОТВЕТ — долг (как правило, карточный)» (`ps:src:08`, p. 163), and the one who will not pay «двигает фуфло» (s.v. ДВИГАТЬ ФУФЛО, p. 65). In the 1930s certain things, which a thief must never stake, were called «кровь» (`ps:src:06`, p. 67). In Kyiv a game is also a trap for the bystander: «в чужую игру влезать нельзя … советчик будет виновен в проигрыше одного из игроков, а так как они играли под интерес, то советчик и должен платить по счету» (`ps:src:15`, ch. 13).
 
 - Russia, late 1980s: «Ты должен жизнь положить, но долг отдать, причем отдать вовремя»; a late payer gets a «счетчик», a daily penalty; and the winner of a dispute may take his due «как с "достойного" или как с "негодяя"» (`ps:src:18`, §2.7).
+- No debt without a deal: «Не должен ты ничего и никому. Ничего у тебя нельзя отнимать … И даже просить у тебя что-то считается непорядочным» (`ps:src:18`, §2.5). *Our reading*: so a debt someone claims for a gift you never asked for has no ground in a правильная хата. See `ps:r:29`.
 - *General*: Соловки 1930s (`ps:src:06`), USSR 1992 (`ps:src:08`), Russia 1988-1990s (`ps:src:18`), Kyiv 1997 (`ps:src:15`).
 - **In ordinary life**: agree the stakes before the game, and do not give advice in other people's deals unless you will share the loss.
+
+### Семья: who shares your bread shares your guilt `ps:t:semya`
+
+**Mechanism.** Prisoners live in small groups that share what they have. In a pre-trial cell for five or seven, «они и составляют одну семью»; quarrels happen, «но от этого общее между вами не исчезает», and «Не пользуются уважением у арестантов хаты, где каждый сам за себя» (`ps:src:18`, §2.9). In a camp a семья keeps its own small общак, and the price of membership is a share of every fault: «посемейники связаны круговой порукой, то есть коллективной ответственностью за поступки каждого члена своей семьи. Семья и штраф за своего посемейника заплатить должна»; «Выход из семьи считается косяком» (ibid.). Yet the семья does not stand above the code: «И если он этот закон нарушил, семья заступаться за него не имеет права» (ibid.). *Our reading*: it is mutual insurance; you buy help in hard times and pay with a share of the others' mistakes.
+
+- How a newcomer is read: one who puts tea and cigarettes on the table, «"Это на общак..." Сразу видно: путевый человек, арестант, бродяга»; one who hides a big bag and «начинает, что называется, менжеваться - к кому бы ему повыгоднее пристроиться» loses it anyway (`ps:src:18`, §2.9).
+- A семья of people from one place is a «кентовка»; street and village feuds outside carry on between кентовки inside (`ps:src:18`, §2.9).
+- The older sense is narrower: «ВОРОВСКАЯ СЕМЬЯ - группировка воров в условиях ИТУ» (`ps:src:08`, p. 47).
+- *Local, one source* for the prisoners' семья with круговая порука (`ps:src:18`, Russia 1988-1990s); the thieves' семья also in `ps:src:08` (USSR 1992).
+- **In ordinary life**: joining a team means sharing its blame. Before you join, ask what the group will make you pay for, not only what it gives.
 
 ## Trap riddles
 
@@ -270,6 +281,53 @@ In juvenile pre-trial cells a newcomer gets «пацанское время дл
 - **Accepted answer**: «надо не поддаваться на все эти провокации» (JmHBUhEsCk4 @ 5:46). *Our reading*: refuse any game with a blindfold.
 - *Local, low reliability*; audio checked by Taras, 2026-10-25 (the end of the bazaar prank is hard to hear).
 
+### ps:r:27 «Если бы я мог летать»
+
+- **Trap type**: `trap:loaded-question`
+- **The trap**: a cellmate asks a famous thief, Вася Бриллиант, why he sweeps the cell and washes the параша with everyone else. The question assumes that cleaning is beneath a thief (`ps:src:18`, §2.5).
+- **Accepted answer**: «Вот, если бы я мог летать … тогда бы другое дело. А раз я хожу по полу, почему же мне его не подмести?» The rule behind it: «позорным считается делать что-то за другого, прислуживать другому, а за собой человек сам должен убирать»; everyone cleans by turn, and «Заставить тебя в качестве наказания убирать камеру вне очереди тоже никто права не имеет. Такое право есть у тюремщиков» (ibid.). Refuse the premise, then name the rule.
+- The opposite belief lives on among juveniles: in a Ukrainian juvenile colony a boy who comes from the СИЗО «він ще на поняттях» says «Та ні, я убирать тут не буду», and the staff answer «Очередь есть убирать, твоя прийшла очередь» (`ps:src:13` / R6bgO2gqXaM @ 8:19-8:50, captions).
+- *Local*: Russia, late 1980s (`ps:src:18`); the juvenile belief, Ukraine 2021 (`ps:src:13`).
+
+### ps:r:28 «Где чалился?»
+
+- **Trap type**: `trap:declare-yourself`
+- **The trap**: a man with prison tattoos, or a hoodie printed with them, meets men just released: «о, привет, дружище. Где чалился?» If he says «да я нигде не чалился», or anything else, «даже если он что-то скажет, мы поймем, что он левый … И это будет повод к нему прицепиться» (`ps:src:01` / 6CAxbmw6m0A @ 8:30-8:48, Whisper). The tattoo was a claim made in advance; the question asks him to back it.
+- **Accepted answer**: none in the moment. The narrators advise prevention: «ни в коем случае, если вы не имеете никакого отношения к тюрьме, ни в коем случае не бейте себе эти наколки» (ibid. @ 9:09). The old dictionary has a name for the exposure: «КУПИТЬ ШТЫМПА - изобличить фраера, выдающего себя за блатного» (`ps:src:08`, p. 121). See `ps:t:nakolka`.
+- *Local, one source* for the scene (Ukraine, 2021); exposing a false claimant is also in `ps:src:08` (USSR 1992) and `ps:src:18` §2.5.
+
+### ps:r:29 «Уболтать»
+
+- **Trap type**: `trap:unspoken-terms`
+- **The trap**: a first-timer is offered cigarettes, support or protection, and the real price is said only after: «Могут за "услуги" обещать и поддержку, и защиту - что угодно. Называется это "уболтать на х...й"» (`ps:src:18`, §2.6). The price is the bottom caste, for life (`ps:t:opushchennyy`).
+- **Accepted answer**: no debt without a deal (`ps:t:dolg`): an unasked favour creates no debt, so ask the price out loud before you take anything. The source adds that the cheat is the one punished: «Такой обман считается крупным косяком» (§2.6).
+- *Local, one source*: Russia, late 1980s.
+
+## Interrogation traps
+
+The investigator's room is a school of manipulation too, and a prisoner's word there is as binding as in the cell: «Каждая новая подпись уменьшает срок пребывания на свободе» (`ps:src:15`, ch. 2). Kudin lists the methods used on him in Kyiv in 1997. *Our reading*: the same moves are used by anyone whose power over you grows with what you say: a hostile interviewer, an auditor, a negotiator.
+
+### ps:r:30 «Ну хоть чуточку признаёшь?»
+
+- **Trap type**: `trap:admission-as-proof`
+- **The trap**: the investigator shows a photo of you at one table with repeat offenders: «Как ты их можешь не знать, если вы сидите за одним столом?» Kudin replied «Кто Вам сказал, что я отрицаю факт знакомства?», and across the table they «радостно заулыбались с той стороны стола, снимая колпачок с ручки» (`ps:src:15`, ch. 2). A harmless "yes" becomes a brick of the charge; «частично признаю» works the same way, since for the judges «совершенно нет никакой разницы между словом “частично” и словом “полностью”» (ibid.).
+- **Accepted answer**: «Я ничего не отрицаю, но я ничего и не признаю. По закону я имею право молчать и не обязан доказывать свою невиновность» (ibid.). Confirm nothing piece by piece.
+- *Local, one source*: Kyiv, 1997.
+
+### ps:r:31 «Все уже признались, кроме тебя»
+
+- **Trap type**: `trap:false-choice`
+- **The trap**: partners in one case are told «все уже во всем попризнавались, кроме тебя. Будешь молчать — будешь крайним», or offered a deal: «"Давай договоримся". Мол, мы тебя выпустим, если ты сдашь "дядю Васю"» (`ps:src:15`, ch. 2). Talk first or take the blame: both options are written by the one who holds you all.
+- **Accepted answer**: see the frame: «Имей в виду: "дяде Васе" предлагают то же самое» (ibid.). Kudin's rule, «ни в коем случае никого не топи», is in his words «прежде всего вопрос расчета»: partners who sink each other all end up sunk (ibid.).
+- *Local, one source*: Kyiv, 1997.
+
+### ps:r:32 «Мы только беседуем»
+
+- **Trap type**: `trap:fishing`
+- **The trap**: «Поговорим? У меня диктофона нет. Можешь пощупать … Мы не допрашиваем. Мы только беседуем» (`ps:src:15`, ch. 2). Then the "swing" («Качели»): talk of family and friends, a request for your professional advice; «Основная задача — вызвать симпатию, войти в доверие, постараться сделать уступчивым и разговорчивым», while a "bad" investigator threatens (ibid.).
+- **Accepted answer**: give only what they already know and ask for a lawyer: «Пусть запишут в протокол допроса выражение: “Требую адвоката с момента моего задержания”» (ibid.); «лишнего не говорит только тот, кто вообще ничего не говорит» (ibid.). The same rule for the cell: «Здесь хоть в камере, хоть где - держи язык за зубами» (`ps:src:18`, §2.2).
+- *Local*: Kyiv 1997 (`ps:src:15`), Russia 1988-1990s (`ps:src:18`).
+
 ## Terms
 
 Grouped by topic. Each: ID, meaning, label and scope, quote.
@@ -313,6 +371,15 @@ Grouped by topic. Each: ID, meaning, label and scope, quote.
 - **беспредельщик, беспредел** `ps:t:bespredel`: one who uses force without a reason the code accepts; lawlessness. *General* (`ps:src:18`, `ps:src:17`, `ps:src:01` / cxWhs1uv2HY @ 19:47). «беспредел - это полное отсутствие порядка, а произвол вполне возможен и при наличии порядка» (`ps:src:18`, §2.8).
 - **крыса** `ps:t:krysa`: one who steals from his own. *Local* (`ps:src:08` p. 119, `ps:src:18` §2.7): «Человек, ворующий у своих» (`ps:src:08`, p. 119); «Крыс на зоне мигом опускают» (`ps:src:18`, §2.7).
 - **апельсин** `ps:t:apelsin`: a вор в законе who bought the title. *Local, one source* (`ps:src:18`, §2.6).
+- **порядочный, порядочные люди** `ps:t:poryadochnyy`: one who lives by the prisoners' code; its opposite, «непорядочно», names a breach. *General* (`ps:src:08`, `ps:src:17`, `ps:src:01`, `ps:src:18`). «ЛЮДИ ПОРЯДОЧНЫЕ - блатные: воры и воровские мужики» (`ps:src:08`, p. 132); «по арестантским понятиям, "порядочный" человек не может сидеть с ней за столом» (`ps:src:17`); «В тюрьме нету спроса за наколки среди порядочных» (`ps:src:01` / 6CAxbmw6m0A @ 14:34, Whisper); asking a newcomer for things «считается непорядочным» (`ps:src:18`, §2.5).
+- **путевый** `ps:t:putevyy`: a prisoner who lives right, the one a cell trusts. *Local, one source* (`ps:src:18`, §2.6, §2.9). See `ps:t:semya`.
+- **левый** `ps:t:levyy`: not one of us; a man whose claim to the prison world is false. *Local, one source* (`ps:src:01` / 6CAxbmw6m0A @ 8:43, Whisper: «мы поймем, что он левый»). See `ps:r:28`.
+- **штымп** `ps:t:shtymp`: an outsider, a фраер; «купить штымпа», to expose a фраер posing as a блатной. *Local* (`ps:src:05`, `ps:src:08`). «Другие названия фраеров – «штымпы»» (`ps:src:05`, ch. 3); «ШТЫМП КУМОВСКОЙ - доносчик, осведомитель» (`ps:src:08`, p. 294).
+- **баклан** `ps:t:baklan`: a hooligan, one convicted for hooliganism; also «Молодой неопытный вор» (`ps:src:08`, p. 22). *Local, one source*.
+- **терпила** `ps:t:terpila`: the victim of a crime; to the блатные, a man to despise, all the more if he went to the police. *Local* (`ps:src:08` p. 243, «Жертва, потерпевший»; `ps:src:17`: «у кого украли – лох, а если еще и в ментовку заявил – "терпила" конченный»).
+- **подельник** `ps:t:podelnik`: an accomplice; one charged in the same case. *General* (`ps:src:08` p. 179, `ps:src:15` ch. 2, `ps:src:13`, `ps:src:01`). «соучастник; человек, проходящий (проходивший) по одному уголовному делу» (`ps:src:08`, p. 179). See `ps:r:31`.
+- **кидала** `ps:t:kidala`: a swindler; «кинуть», to cheat or rob. *Local, one source* (`ps:src:08`, p. 104): «мошенник, аферист».
+- **падла, падло** `ps:t:padla`: a man not to be trusted; a heavy insult. *Local* (`ps:src:08` p. 168, «Человек, не заслуживающий доверия; ненадежный человек»; `ps:src:15` ch. 16, partners to the one who gave them away: «Ты хоть понимаешь, падло, что ты наделал?»).
 
 ### Staff and system
 
@@ -365,6 +432,8 @@ Grouped by topic. Each: ID, meaning, label and scope, quote.
 - **намордник** `ps:t:namordnik`: the metal screen welded outside a cell window; in Kyiv also «баян или забрало» (`ps:src:15`, ch. 4). *General* (`ps:src:07`, `ps:src:08` p. 151, `ps:src:15` ch. 4, `ps:src:18` §2.10: «"жалюзи", "баяны", "намордники", "зонты"»).
 - **мойка** `ps:t:moyka`: a razor blade. *General* (`ps:src:07`, `ps:src:08` p. 142, `ps:src:15` ch. 4, `ps:src:18` §2.1: «бритву - "мойку"»).
 - **марочка** `ps:t:marochka`: a handkerchief, often painted as a gift home. *Local* (`ps:src:08` p. 136, `ps:src:15` ch. 4).
+- **сидор** `ps:t:sidor`: a prisoner's bag. *Local* (`ps:src:08` p. 223, «Мешок с вещами, продуктами»; `ps:src:18` §2.9, «закатывает в камеру с огромным сидором»).
+- **кентовка** `ps:t:kentovka`: a семья of people from one place. *Local, one source* (`ps:src:18`, §2.9). See `ps:t:semya`.
 - **кабан** `ps:t:kaban`: in Kyiv, a food and clothes parcel. *Local, one source* (`ps:src:15`, ch. 4); the 1992 dictionary knows other meanings only (`ps:src:08`, p. 98).
 - **грев, подогрев** `ps:t:grev`: food or goods sent to prisoners; help from outside. *Local* (`ps:src:07`, `ps:src:08` p. 60, 180, `ps:src:18`): the two dictionaries may share material, so this is two sources at most (see Caution). A правильный пахан must see «чтобы зона "грелась"» (`ps:src:18`, §2.6).
 - **чифир** `ps:t:chifir`: very strong tea, the cell's drink and the setting for serious talk. *General* (`ps:src:07`, `ps:src:08`, `ps:src:15` ch. 4, `ps:src:18` §2.5, `ps:src:17`).
@@ -399,11 +468,27 @@ Grouped by topic. Each: ID, meaning, label and scope, quote.
 - **наколка** `ps:t:nakolka`: a prison tattoo, read as a claim of rank that its wearer must live up to. *General* (`ps:src:08`, catalogue of tattoos, which names the «носители» of each; `ps:src:18` §2.5, «за татуировки, не соответствующие действительности, наказывали»; `ps:src:01` / 6CAxbmw6m0A). Those who «не соответствуют своим наколкам» cut or burn them off; «можешь ответить за эту наколку» is asked only of one who does not match his (6CAxbmw6m0A @ 12:15, 14:34, Whisper).
 - **под интерес** `ps:t:pod-interes`: playing for a stake. *Local, one source* (`ps:src:15`, ch. 13).
 - **ответ** `ps:t:otvet`: a debt, usually from cards. *Local, one source* (`ps:src:08`, p. 163).
-- **фуфло, двигать фуфло** `ps:t:fuflo`: a lie or cheat; to refuse to pay a card debt. *Local, one source* (`ps:src:08`, p. 65, 263).
+- **фуфло, двигать фуфло** `ps:t:fuflo`: a lie or cheat; to refuse to pay a card debt. *Local, one source* (`ps:src:08`, p. 65, 263). «ГНАТЬ ФУФЛО - 1. Лгать, обманывать. 2. Обещать, сулить что-либо невыполнимое» (p. 57): an empty promise is itself a lie. The talker is a «ФУФЛОМЕТ, ФУФЛОГОН», also «Неавторитетный заключенный» (p. 263).
 - **понт** `ps:t:pont`: a show, a bluff. *Local, one source* (`ps:src:08`, p. 185): «Обман; хитрость. 3. Напускной вид».
 - **прописка** `ps:t:propiska`: the reception of a newcomer into a cell, by riddles («приколы») or by beating. *Local* (`ps:src:08` p. 198, «Избиение новичка в камере»; `ps:src:18` §2.5). See the trap riddles.
 - **прикол** `ps:t:prikol`: a test or joke played on a newcomer. *Local* (`ps:src:08` p. 193, «Способ испытания новичков в камере»; `ps:src:18` §2.5).
 - **правилка, сходка** `ps:t:pravilka`: a thieves' court; a thieves' gathering. *Local* (`ps:src:05` ch. 3, «"правилок", этих "судов чести" блатарей»; `ps:src:08` p. 191, 239).
 - **божба** `ps:t:bozhba`: a thief's oath, «сука буду», «лягавым буду». *Local* (`ps:src:06` p. 63; `ps:src:08` p. 237).
 - **мокрое дело, мокруха** `ps:t:mokrukha`: murder; a euphemism, since the word itself is avoided. *General* (`ps:src:06` p. 67, `ps:src:07`, `ps:src:08` p. 142, `ps:src:15` ch. 12).
+- **маза, держать мазу** `ps:t:maza`: solidarity, backing; to stand up for someone, and to vouch for him. *Local* (`ps:src:08` p. 67, 133; `ps:src:07`; the two dictionaries may share material). «Заступничество, поддержка, солидарность» (`ps:src:08`, p. 133); «ДЕРЖАТЬ (ТЯНУТЬ) МАЗУ - 1. Поддерживать, защищать кого-либо. 2. Ручаться за кого-либо» (p. 67); «маза - солидарность, один за всех, все за одного», and «держать за кого-то мазу - делать на кого-то ставку, быть в ком-то уверенным» (`ps:src:07`, s.v. маза). *Our reading*: who vouches for you shares your answer.
+- **подписаться** `ps:t:podpisatsya`: to agree to something, and so to share in it. *Local, one source* (`ps:src:08`, p. 181): «Согласиться. 2. Принять участие в преступлении». A signature on paper binds as much (see Interrogation traps).
+- **замазать, замазаться** `ps:t:zamazat`: to make someone dependent through a shared deed or a bribe; to fall into debt. *Local, one source* (`ps:src:08`, p. 86): «Сделать человека зависимым (напр., соучастием в деле, дачей взятки и т. п.)»; «ЗАМАЗАТЬСЯ — 1. Проиграться, влезть в долги».
+- **гнилой заход** `ps:t:gniloy-zakhod`: a cunning approach; a prepared feint. *Local, one source* (`ps:src:08`, p. 57): «Хитрый подход. 2. Подготовленное обманное действие, ложный маневр».
+- **подлянка** `ps:t:podlyanka`: an insult or a dirty trick; also the rules whose knowledge shows how close one stands to the блатные. *Local, one source* (`ps:src:08`, p. 180): «Обида, оскорбление, унижение, подлость. 2. Правила поведения, знание которых говорит о степени близости человека к блатным»; «ПОДЛЯНА НА ПОДЛЯНУ месть за нанесенную обиду, оскорбление».
+- **качать права** `ps:t:kachat-prava`: to press a demand; to make a scene; to settle thieves' disputes. *Local* (`ps:src:08` p. 191, «Требовать, добиваться чего-либо. 2. Скандалить, ругаться»; everyday use in `ps:src:13` / R6bgO2gqXaM @ 3:35, of a stepfather: «начинає свої права качать»).
+- **лепить горбатого** `ps:t:lepit-gorbatogo`: to lie and wriggle under questioning. *Local, one source* (`ps:src:08`, p. 127): «лгать на допросе, изворачиваться».
+- **расколоться, расколоть** `ps:t:raskolotsya`: to confess; to break someone into confessing. *General* (`ps:src:08` p. 206, «признаться в чем-либо»; `ps:src:15` ch. 2, «Тот, кто раскалывается, потом говорит»; `ps:src:17`, a пресс-хата is used «чтобы издевательствами, побоями, пытками принудить дать определенные показания, расколоться»).
+- **сдать, топить** `ps:t:sdat`: to give someone away to the authorities; to put the blame on a partner. *General* (`ps:src:08` p. 219, «Выдать, донести, предать»; `ps:src:15` ch. 2; `ps:src:12`). Kudin's rule: «ни в коем случае никого не топи» (`ps:src:15`, ch. 2). Belarus: once you have given someone away, «у тебя клеймо у тебя уже печать стоит на всю жизнь» (`ps:src:12` / fL9vcSlAIXk @ 44:11, captions).
+- **в отказ** `ps:t:v-otkaz`: to withdraw one's statements and deny everything. *Local, one source* (`ps:src:15`, ch. 2): «Сначала всех сдать, а потом “в отказ” — типичная тюремная ситуация».
+- **чалиться** `ps:t:chalitsya`: to be held; to serve time. *Local* (`ps:src:08` p. 277, «Быть задержанным, арестованным. 2. Отбывать срок наказания в ИТУ»; `ps:src:07` s.v. чалка, «Пребывание в заключении»; `ps:src:01` / 6CAxbmw6m0A @ 8:33). See `ps:r:28`.
+- **заехать** `ps:t:zaekhat`: to arrive in a prison or a cell. *Local* (`ps:src:15` ch. 2, «заехали на тюрьму»; ch. 4, in a note: «К нам вчера заехал от вас»; `ps:src:01` / BWE9JSvtrng @ 30:26, «опять заехал на 7 лет», captions).
+- **погоняло** `ps:t:pogonyalo`: a nickname. *Local* (`ps:src:08` p. 178, «Кличка, прозвище»; `ps:src:19`, see `ps:r:18`). *Our reading*: a nickname given by the cell is a label; left unanswered, it sticks (`trap:silence-as-consent`).
+- **менжеваться** `ps:t:menzhevatsya`: to be afraid, to waver. *Local* (`ps:src:08` p. 140, «бояться, трусить»; `ps:src:18` §2.9, see `ps:t:semya`).
+- **головняк** `ps:t:golovnyak`: trouble, a problem one brings on oneself. *Local, one source* (`ps:src:01` / 6CAxbmw6m0A @ 4:10, Whisper: «ты можешь себе нажить головняк»).
+- **вилы** `ps:t:vily`: a dead end; a death threat. *Local, one source* (`ps:src:01` / 6CAxbmw6m0A @ 12:32, Whisper: «если через пару часов ты будешь еще с этими наколками, у тебя вилы»). In the 1992 dictionary «ставить вилы» is something else: «запутывать следствие» (`ps:src:08`, p. 233).
 - **раскрутиться** `ps:t:raskrutitsya`: to get a new sentence while inside. *Local* (`ps:src:15` ch. 12, «"Ну что — раскрутился?"»; `ps:src:12` / fL9vcSlAIXk @ 1:27:38).
