@@ -194,3 +194,13 @@ A review of every file gave 30 points; Taras approved all but Windows encodings;
 - `tools/items.py` names the files once (`REFERENCE_FILES`) and joins them (`reference_text()`); the item loader, the quote check and the tests read the reference only through it, so a later split is one line.
 - Check: the same numbers before and after: 382 quotes (1 known unmatched), 153 terms, 32 riddles; `pytest` 35 passed.
 - Structure: layout map, glossary, teaching method and `/interest` name the new file. Structure: ok.
+
+## 2026-10-25: Абрамкин found whole; Лозовский part 2; the Center's dictionary
+
+- Research verdict: the rest of Абрамкин's «Как выжить в советской тюрьме» is in the Wayback Machine, `prison.org/biblio/kakvizjit/` (2001-2002 copies); prison.org itself refused connections. New material is part 1 (the law of arrest and trial) and part 3 (prayers); part 2 is the chapter we had. The same archive holds the Center's «Краткий толковый словарь тюремного мира» (`biblio/glossary2.htm`, 2000), now `ps:src:22`. Source: Wayback CDX index, 2026-10-25.
+- Research verdict: Лозовский part 2 exists only as a paid book; the free ЛитРес preview (avidreaders.ru) holds the chapter «Понятия воровские, людские, гадские». Added to `ps:src:17`.
+- New source `ps:src:21`, Абрамкин's essay «Тюремная субкультура» (2008); with `ps:src:18` and `ps:src:22` it counts as one source.
+- Added: concept `ps:t:lyudskoe-gadskoe` (how a charge is judged: by-the-brother or as-with-a-гад, a charge must be grounded); riddles `ps:r:33` (forbidden words: свидетель, козья шерсть) and `ps:r:34` (a charge from your past life); 17 terms (гад, чушок, сухарь, угловой, предъява, метла, очевидец, душняк and others); the broom as a second description of `ps:r:10`.
+- Safety: pages fetched as HTML or a zipped `.txt` only, each file type checked before opening, archives read by Python without extracting paths; Wayback was asked one page at a time, 6 s apart, after one 429 answer.
+- Check: quote check 428 quotes, 1 known unmatched; `pytest` 35 passed; `db.py status` 171 terms, 34 riddles, reserve ok.
+- Structure: `reference.md` 356 lines, `terms.md` 181. Structure: ok.

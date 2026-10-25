@@ -155,7 +155,7 @@ The catalogue of this school. The reference may cite only sources listed here, b
 - Genre: survival guide grown from the author's mailing list, with readers' letters and his answers. Only the author's own voice is cited; a reader's letter is a separate, anonymous witness.
 - Scope: Russia and Ukraine, 1990s-early 2000s: 4 prisons in Russia, 7 in Ukraine, one year in a Ukrainian усиленный режим camp (3 years in all). Afterword dated Прага, 2004.
 - Reliability: medium: one first-hand witness, reflective; convicted of embezzlement, which he denies.
-- Access: online text of part 1 (about 8 000 words) saved as `data/sources/text/8_lozovsky_part1.txt`; it may be incomplete. Cite by section title.
+- Access: online text of part 1 (about 8 000 words) saved as `data/sources/text/8_lozovsky_part1.txt`; it may be incomplete. Part 2: the free preview from avidreaders.ru (ЛитРес text, about 8 900 words: связь, «Понятия воровские, людские, гадские», игры), saved as `data/sources/text/8_lozovsky_part2_fragment.txt`, 2026-10-25. Cite by part and section title: `ps:src:17, pt. 2, «Понятия воровские, людские, гадские»`.
 - Checked: author's background from the text itself; the phrase «На тюрьме не спрашивают, а интересуются» is quoted from this book on mybook.ru (citation page, 2020-01-22), but is not in the saved part. 2026-10-25.
 
 ### ps:src:18 Валерий Абрамкин, Юрий Чижов, «Как выжить в советской тюрьме: В помощь узнику», ch. 2 «Тюрьма — взгляд изнутри»
@@ -163,7 +163,7 @@ The catalogue of this school. The reference may cite only sources listed here, b
 - Genre: survival guide built on interviews: many interviews with former prisoners taken in 1988-91 by the Центр «Содействие», by a method of the sociologist В. Ф. Чеснокова, written as the monologue of an experienced prisoner answering a first-timer. Абрамкин was himself a political prisoner.
 - Scope: USSR and Russia, camps and pre-trial prisons, 1980s-1990s. First edition Красноярск, «Восток», 1992; the copy is the internet version of a planned 2nd edition, updated to at least 1997 (it cites the 1997 penal code).
 - Reliability: high: many witnesses, a stated method, an author who served. One narrating voice, so it counts as one source.
-- Access: chapter 2 only, `data/sources/11_abramkin_ch2.txt` (found by Taras). Cite by section: `ps:src:18, §2.6`.
+- Access: chapter 2, `data/sources/11_abramkin_ch2.txt` (found by Taras). The whole book (part 1, the law of arrest, investigation and trial; part 2, the same chapter 2; part 3, prayers; afterword) from the Center's old site, Wayback Machine copies of `prison.org/biblio/kakvizjit/` taken 2001-2002, saved as `data/sources/text/11_abramkin_book.txt`, 2026-10-25. Cite by section: `ps:src:18, §2.6`.
 - Checked: the chapter's own header (edition, method, interview years), 2026-10-25.
 
 ### ps:src:19 Anonymous YouTube channels on прописка riddles
@@ -184,12 +184,30 @@ The catalogue of this school. The reference may cite only sources listed here, b
 - Access: page saved as `data/sources/text/10_vse42_2020.txt`, read in full.
 - Checked: read in full, 2026-10-25.
 
+### ps:src:21 Валерий Абрамкин, «Тюремная субкультура», «Отечественные записки», 2008, № 2
+
+- Genre: essay by a researcher and former prisoner, drawing on his Center's interviews and letters.
+- Scope: Russia, prisons and camps from the 1960s to 2008, with a history back to the GULAG.
+- Reliability: high, but the same author and Center as `ps:src:18`: the two count as one source.
+- Link: https://strana-oz.ru/2008/2/tyuremnaya-subkultura
+- Access: page saved as text, `data/sources/text/21_abramkin_oz_2008.txt`, 2026-10-25. The footnotes hold most of the detail. Cite by footnote or by the essay: `ps:src:21, n. 15`.
+- Checked: read in full, 2026-10-25.
+
+### ps:src:22 Центр содействия реформе уголовного правосудия, «Краткий толковый словарь тюремного мира»
+
+- Genre: dictionary with commentary, the glossary to the Center's book series «Уголовная Россия. Тюрьмы и лагеря»; marks prison slang (т), staff slang (с) and official terms (о).
+- Scope: Russia, prisons and camps, 1960s to 1993 (the latest documents in the series).
+- Reliability: high. The same Center as `ps:src:18` and `ps:src:21`, so it counts with them as one source; it compares its meanings with Rossi (`ps:src:07`) and Балдаев (`ps:src:08`), and where it quotes them it is not independent of them.
+- Link: Wayback Machine copy of http://www.prison.org/biblio/glossary2.htm, taken 2000-09-29.
+- Access: saved as text, `data/sources/text/22_center_glossary.txt`, 2026-10-25. Cite by headword: `ps:src:22, s.v. метла`.
+- Checked: preface and a sample of entries, 2026-10-25.
+
 ## Candidates
 
 Found, not yet checked. A candidate is cited only after it moves to the catalogue with all fields.
 
 - Federico Varese, "The Russian Mafia: Private Protection in a New Market Economy" (Oxford University Press, 2001): Perm region, 1990s; from memory.
-- Валерий Абрамкин, other books from the Центр содействия реформе уголовного правосудия: «Тюремный мир глазами политзаключённых» (with Ю. Чеснокова, 1993?), from memory; the Center's 2021 collection «Романтик тюрьмы» exists. Chapter 2 of «Как выжить в советской тюрьме» is ps:src:18; Taras dropped the search for the rest.
+- Валерий Абрамкин, other books from the Центр содействия реформе уголовного правосудия: «Тюремный мир глазами политзаключённых» (with Ю. Чеснокова, 1993?), from memory; the Center's 2021 collection «Романтик тюрьмы» exists. The whole of «Как выжить в советской тюрьме» is now in ps:src:18 (found in the Wayback Machine, 2026-10-25).
 - Эдуард Кузнецов, «Мордовский марафон» (1979), and Андрей Амальрик, «Записки диссидента» (1982): political prisoners' memoirs on the lowest caste in the 1970s; cited by ps:src:04.
 - Laura Piacentini, "Surviving Russian Prisons" (2004): from memory.
 - Леся Ставицька, «Український жаргон. Словник» (2005): Ukrainian, includes criminal slang; from memory.

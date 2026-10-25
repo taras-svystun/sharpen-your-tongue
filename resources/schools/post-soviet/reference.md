@@ -10,7 +10,7 @@ What the scenes and debriefs of this school may stand on. Every claim cites a so
 - **Quote**: in the source's language. Books by chapter or page, dictionaries by headword (`s.v.`; their cross-references «(см.)» are left out), videos by `<video-id> @ m:ss`. A video quote is from YouTube's captions unless marked *Whisper*; both are machine text, so it is not checked against the audio unless the entry says *audio checked*. Each transcript's header in `data/transcripts/` names its method.
 - **Trap type**: each riddle names its type from `resources/curriculum/traps.md`, so a riddle trains the shared abstraction (agreement 8).
 - **Our reading**: a sentence so marked is our inference from the sources, not a source's claim.
-- **Caution**: the two dictionaries (`ps:src:07` Росси, `ps:src:08` Балдаев) may share material, so together they count as one source. Former prisoners on YouTube (`ps:src:01`) openly prefer the "black" order; human-rights sources (`ps:src:03`, `ps:src:16`) speak for its victims. Абрамкин (`ps:src:18`) retells many interviews in one voice: it counts as one source.
+- **Caution**: the two dictionaries (`ps:src:07` Росси, `ps:src:08` Балдаев) may share material, so together they count as one source. Former prisoners on YouTube (`ps:src:01`) openly prefer the "black" order; human-rights sources (`ps:src:03`, `ps:src:16`) speak for its victims. Абрамкин (`ps:src:18`) retells many interviews in one voice: it counts as one source, together with his 2008 essay (`ps:src:21`) and his Center's dictionary (`ps:src:22`).
 
 ## Concepts
 
@@ -86,6 +86,17 @@ What the scenes and debriefs of this school may stand on. Every claim cites a so
 - The older sense is narrower: «ВОРОВСКАЯ СЕМЬЯ - группировка воров в условиях ИТУ» (`ps:src:08`, p. 47).
 - *Local, one source* for the prisoners' семья with круговая порука (`ps:src:18`, Russia 1988-1990s); the thieves' семья also in `ps:src:08` (USSR 1992).
 - **In ordinary life**: joining a team means sharing its blame. Before you join, ask what the group will make you pay for, not only what it gives.
+
+### Людское and гадское: how a charge is judged `ps:t:lyudskoe-gadskoe`
+
+**Mechanism.** Lozovsky sorts the codes in two pairs. The prisoner's own: воровские and людские; their opposites: «понятия «отрицательные», которые делят на ментовские (противоположность воровским) и гадские (противоположность людским)» (`ps:src:17`, pt. 2, «Понятия воровские, людские, гадские»). The людские are the floor everyone stands on, «от КАЖДОГО заведомо ожидается их принятие», while the воровские are «добровольно принимаемые на себя обязательства» (ibid.). One who breaks the людские on purpose is a гад: «Это крысы, курицы, беспредельщики» (ibid.). Two ways to call someone to account follow: «спросить по-братски», «за незначительный проступок, часто по слабости или незнанке, первый раз, что может ограничиться беседой», and «Спрос как с гада – дело более серьёзное», which usually cannot be undone (ibid.).
+
+**The procedure is a court.** «Для спроса должна быть выдвинута предъява – обвинение, и она должна быть обоснована. У человека есть право на защиту» (ibid.). Abramkin: «Запрещено без веских доказательств предъявлять человеку обвинение» (`ps:src:21`); a first-timer «согласно тюремному закону чист. На воле он мог быть кем угодно и творить что угодно, здесь он начинает новую жизнь» (ibid.); if a newcomer did not know a rule, the blame goes to the one who had to explain it, «это «смотрящий» или «угловой»» (`ps:src:21`, n. 12). A court verdict proves nothing to the cell: «Степень вины (и ответственности) за то или иное действие (в тюрьме или на воле) определяется в ходе разборки» (`ps:src:21`, n. 22). *Our reading*: the code copies a court because a closed group with no court of its own still needs a fair way to punish, or every charge becomes a grab for power.
+
+- Lozovsky on why to know this: the division «даст вам большую фору в любом словесном конфликте» (`ps:src:17`, pt. 2).
+- The two ways of taking one's due in `ps:src:18` (§2.7) are the same pair: `ps:t:kak-s-dostoynogo`.
+- *Local*: Russia and Ukraine around 2000 (`ps:src:17`), Russia 1988-2008 (`ps:src:18`, `ps:src:21`, one source).
+- **In ordinary life**: before you answer a charge, make the accuser name it and the evidence for it. A vague accusation answered in detail becomes a real one.
 
 ## Trap riddles
 
@@ -163,7 +174,8 @@ In juvenile pre-trial cells a newcomer gets «пацанское время дл
 - **Trap type**: `trap:false-choice`
 - **The trap**: a newcomer is ordered to rake the запретка, the strip by the fence. By the code, whoever takes the rake becomes a козёл; refusing means ШИЗО: «предложили решить: стану я козлом или отправлюсь в ШИЗО» (`ps:src:18`, §2.8). A false choice, both options bad.
 - **Accepted answer**: «Всегда можно попытаться найти третий выход». He wrote not the demanded explanation but a complaint to the prosecutor, citing the camp's own rule that prisoners may not approach the strip; he was not sent to ШИЗО (ibid.). Turn the opponent's own rules against the order.
-- *Local, one source*: Russia, late 1980s.
+- The Center's dictionary names the same move for the broom: staff know that taking it «понижает неформальный статус заключенного, и ставят его перед выбором: либо выйти с метлой на плац … либо быть отправленным в ШИЗО» (`ps:src:22`, s.v. метла).
+- *Local, one source*: Russia, late 1980s (`ps:src:18`; `ps:src:22` is the same source).
 
 ### ps:r:11 Taken literally
 
@@ -287,6 +299,7 @@ In juvenile pre-trial cells a newcomer gets «пацанское время дл
 - **The trap**: a cellmate asks a famous thief, Вася Бриллиант, why he sweeps the cell and washes the параша with everyone else. The question assumes that cleaning is beneath a thief (`ps:src:18`, §2.5).
 - **Accepted answer**: «Вот, если бы я мог летать … тогда бы другое дело. А раз я хожу по полу, почему же мне его не подмести?» The rule behind it: «позорным считается делать что-то за другого, прислуживать другому, а за собой человек сам должен убирать»; everyone cleans by turn, and «Заставить тебя в качестве наказания убирать камеру вне очереди тоже никто права не имеет. Такое право есть у тюремщиков» (ibid.). Refuse the premise, then name the rule.
 - The opposite belief lives on among juveniles: in a Ukrainian juvenile colony a boy who comes from the СИЗО «він ще на поняттях» says «Та ні, я убирать тут не буду», and the staff answer «Очередь есть убирать, твоя прийшла очередь» (`ps:src:13` / R6bgO2gqXaM @ 8:19-8:50, captions).
+- *Our reading*: cleaning your own cell by turn is not the broom of `ps:r:10`, which is work for the administration in front of everyone.
 - *Local*: Russia, late 1980s (`ps:src:18`); the juvenile belief, Ukraine 2021 (`ps:src:13`).
 
 ### ps:r:28 «Где чалился?»
@@ -302,6 +315,20 @@ In juvenile pre-trial cells a newcomer gets «пацанское время дл
 - **The trap**: a first-timer is offered cigarettes, support or protection, and the real price is said only after: «Могут за "услуги" обещать и поддержку, и защиту - что угодно. Называется это "уболтать на х...й"» (`ps:src:18`, §2.6). The price is the bottom caste, for life (`ps:t:opushchennyy`).
 - **Accepted answer**: no debt without a deal (`ps:t:dolg`): an unasked favour creates no debt, so ask the price out loud before you take anything. The source adds that the cheat is the one punished: «Такой обман считается крупным косяком» (§2.6).
 - *Local, one source*: Russia, late 1980s.
+
+### ps:r:33 Forbidden words: «свидетель», «козья шерсть»
+
+- **Trap type**: `trap:taken-at-word`
+- **The trap**: everyday words carry an insult inside the walls. Defending yourself, you say you have a «свидетель»; but «слово «свидетель» относится к оскорбительным», so say «очевидец» (`ps:src:17`, pt. 2). The word козёл is taboo, so dominoes, called «козёл» outside, are «сто одно», and «сказать другому, что у него какая-то вещь связана из козьей шерсти, — значит оскорбить его» (`ps:src:21`, n. 15). The same with «обиделся» (`ps:t:obizhennyy`).
+- **Accepted answer**: know the words before you need them: «"Тюремный закон" требует строгой продуманности и сдержанности в речах: «следи за метлой!»» (`ps:src:21`). See `ps:t:metla`.
+- *Local*: Russia and Ukraine around 2000 (`ps:src:17`); Russia (`ps:src:21`).
+
+### ps:r:34 «Где служил?»
+
+- **Trap type**: `trap:admission-as-proof`
+- **The trap**: a friendly question about your past. A charge can rest on «неожиданно всплывший компрометирующий факт, относящийся к далекому прошлому, иногда даже к вольной, долагерной жизни заключенного», or on something never chosen at all: «сам факт проживания в Москве или в Ленинграде, служба во внутренних войсках» (`ps:src:22`, s.v. предъявить). Your honest answer becomes the charge.
+- **Accepted answer**: the code's own rules: a first-timer «согласно тюремному закону чист. На воле он мог быть кем угодно» (`ps:src:21`), and a charge must be grounded, with a right to defence (`ps:t:lyudskoe-gadskoe`). Name the rule, and ask what the charge is. Our reading: which rule wins depends on the cell (compare `ps:r:7`).
+- *Local, one source* (`ps:src:21` and `ps:src:22` are one source): Russia, 1960s-1990s.
 
 ## Interrogation traps
 

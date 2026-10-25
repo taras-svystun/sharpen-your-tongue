@@ -50,6 +50,14 @@ The words of this school, grouped by topic. Each: ID, meaning, label and scope, 
 - **подельник** `ps:t:podelnik`: an accomplice; one charged in the same case. *General* (`ps:src:08` p. 179, `ps:src:15` ch. 2, `ps:src:13`, `ps:src:01`). «соучастник; человек, проходящий (проходивший) по одному уголовному делу» (`ps:src:08`, p. 179). See `ps:r:31`.
 - **кидала** `ps:t:kidala`: a swindler; «кинуть», to cheat or rob. *Local, one source* (`ps:src:08`, p. 104): «мошенник, аферист».
 - **падла, падло** `ps:t:padla`: a man not to be trusted; a heavy insult. *Local* (`ps:src:08` p. 168, «Человек, не заслуживающий доверия; ненадежный человек»; `ps:src:15` ch. 16, partners to the one who gave them away: «Ты хоть понимаешь, падло, что ты наделал?»).
+- **гад** `ps:t:gad`: one who breaks the людские понятия on purpose; «спросить как с гада», to punish him in full. *Local, one source* (`ps:src:17`, pt. 2): «категория гадов, т.е. тех, кто сознательно пошёл против людских понятий». See `ps:t:lyudskoe-gadskoe`.
+- **чушок** `ps:t:chushok`: a low-status prisoner who has let himself go; only the опущенные are lower. *Local* (`ps:src:22`, `ps:src:17`, `ps:src:18` §2.6). «Их основной отличительный признак - запущенный внешний вид. Слово чушок чаще используется у малолеток» (`ps:src:22`, s.v. чушок); «чушков (не следящих за собой, морально опустившихся)» (`ps:src:17`, pt. 2).
+- **сухарь** `ps:t:sukhar`: a prisoner who poses as a блатной, or hides his past, such as a stay among the опущенные or the козлы. *Local, one source* (`ps:src:22`, s.v. сухарь): «Заключенный, выдающий себя за блатного или даже вора (обычно - это агент или провокатор оперчасти)». Compare `ps:t:levyy`, `ps:t:shtymp`.
+- **приблатнённый** `ps:t:priblatnennyy`: a candidate who wants to join the блатные and shows off his loyalty to the code. *Local, one source* (`ps:src:22`): «кандидат в блатные, стремящийся быть принятым в группу блатных и демонстрирующий приверженность правильным понятиям».
+- **угловой** `ps:t:uglovoy`: a блатной who leads a barrack or section; he sleeps in the honoured lower corner bunk. *Local, one source* (`ps:src:22`, s.v. угловой; `ps:src:21`, n. 12: he must explain the law to every newcomer).
+- **прошляк** `ps:t:proshlyak`: a thief who has stepped back from the воровской закон without betraying it; still respected. *Local, one source* (`ps:src:22`): «отошедший от воровского закона вор, но в отличие от суки не изменивший ему».
+- **свояк** `ps:t:svoyak`: a candidate thief not yet crowned at a gathering. *Local, one source* (`ps:src:22`): «кандидат в касту воров, который, однако, еще не признан на сходке вором в законе».
+- **центряк** `ps:t:tsentryak`: the блатные and their circle. *Local, one source* (`ps:src:22`).
 
 ## Staff and system
 
@@ -79,6 +87,11 @@ The words of this school, grouped by topic. Each: ID, meaning, label and scope, 
 - **непрерывка** `ps:t:nepreryvka`: back-to-back ШИЗО terms with one night in the barracks between them, «"через постель"» (`ps:src:18`, §2.8). *Local, one source*.
 - **стакан** `ps:t:stakan`: a standing-room holding box. *Local, one source* (`ps:src:17`).
 - **малолетка, взросляк** `ps:t:maloletka`: a juvenile colony or juvenile cells; взросляк, adult cells as opposed to them. *Local* (малолетка `ps:src:15` ch. 12, `ps:src:01` / S5UJgZkT2vw @ 6:46, `ps:src:18` §2.5; взросляк one source, `ps:src:18` §2.5).
+- **хозяин** `ps:t:khozyain`: the head of a prison or colony. *Local, one source* (`ps:src:22`); Абрамкин uses it too, «пайки "от хозяина"» (`ps:src:18`, §2.5), which is the same source.
+- **продол** `ps:t:prodol`: a prison corridor. *Local, one source* (`ps:src:22`).
+- **раскрутка** `ps:t:raskrutka`: a second, added sentence for a new crime committed inside. *Local, one source* (`ps:src:22`): «получение в лагере второго дополнительного срока за новое преступление по решению суда».
+- **душняк** `ps:t:dushnyak`: unbearable conditions made for one prisoner or a whole colony to change their behaviour; made by the staff or by prisoners. *Local, one source* (`ps:src:22`): «Душняк может быть ментовской (создаваемый администрацией) или зековский».
+- **сдать шкурку; сектант** `ps:t:sdat-shkurku`: to hand the administration a written report on another prisoner; a member of a staff "section". *Local, one source* (`ps:src:21`, n. 32: «"сектант" — член секции, "сдать шкурку" — подать рапорт о нарушении, допущенном другим заключенным»; `ps:src:22`).
 
 ## Cell life
 
@@ -129,7 +142,7 @@ The words of this school, grouped by topic. Each: ID, meaning, label and scope, 
 - **игрульки** `ps:t:igrulki`: another word for приколы. *Local, low reliability, one source* (`ps:src:19` / yZPTMttbTQQ @ 0:00).
 - **базар** `ps:t:bazar`: talk; a conversation. *Local* (`ps:src:08` p. 21-22; `ps:src:15` ch. 13, «вклинится в чужой базар»).
 - **западло** `ps:t:zapadlo`: beneath one's dignity, against the code. *General* (`ps:src:08` p. 87, `ps:src:15`, `ps:src:17`). «О том, что считается ниже собственного достоинства. 2. О нарушении воровских законов» (`ps:src:08`, p. 87).
-- **законтачить, зашкварить** `ps:t:zakontachit`: to make someone or something unclean by contact. *Local* for each word (законтачить `ps:src:17`; зашкварить, шкварный `ps:src:18` §2.6-2.7: «не "зашквариваются", то есть не оскверняются»); the mechanism is general (see `ps:t:mast`).
+- **законтачить, зашкварить** `ps:t:zakontachit`: to make someone or something unclean by contact. «Зачушканить» is about the same, and a «зачушканенный» thing «может иногда использоваться после ритуального очищения» (`ps:src:22`, s.v. зачушканить). *Local* for each word (законтачить `ps:src:17`; зашкварить, шкварный `ps:src:18` §2.6-2.7: «не "зашквариваются", то есть не оскверняются»); the mechanism is general (see `ps:t:mast`).
 - **косяк, косячный** `ps:t:kosyak`: a breach of the code; a person who keeps making them, dangerous to those near him. *Local* (`ps:src:18` §2.7; «КОСЯК ЗАПОРОТЬ - совершить ненужные действия», `ps:src:08` p. 114). «Косяк - это нарушение? - Да, нарушение правильных понятий» (`ps:src:18`, §2.7).
 - **разборка** `ps:t:razborka`: a hearing of a dispute by the prisoners. *Local, one source* (`ps:src:18`, §2.7): «Разборка - это решение спора. Участвовать в разборке могут все, кроме козлов и петухов».
 - **счетчик** `ps:t:schetchik`: a daily penalty added to an overdue debt. *Local, one source* (`ps:src:18`, §2.7).
@@ -162,3 +175,7 @@ The words of this school, grouped by topic. Each: ID, meaning, label and scope, 
 - **головняк** `ps:t:golovnyak`: trouble, a problem one brings on oneself. *Local, one source* (`ps:src:01` / 6CAxbmw6m0A @ 4:10, Whisper: «ты можешь себе нажить головняк»).
 - **вилы** `ps:t:vily`: a dead end; a death threat. *Local, one source* (`ps:src:01` / 6CAxbmw6m0A @ 12:32, Whisper: «если через пару часов ты будешь еще с этими наколками, у тебя вилы»). In the 1992 dictionary «ставить вилы» is something else: «запутывать следствие» (`ps:src:08`, p. 233).
 - **раскрутиться** `ps:t:raskrutitsya`: to get a new sentence while inside. *Local* (`ps:src:15` ch. 12, «"Ну что — раскрутился?"»; `ps:src:12` / fL9vcSlAIXk @ 1:27:38).
+- **метла, следить за метлой** `ps:t:metla`: the tongue; to watch your words. *Local, one source* (`ps:src:21`, `ps:src:22`). «не допускать в разговоре оскорбительных выражений или отдельных матерных слов» (`ps:src:22`, s.v. следить за метлой). The broom is also a staff tool for lowering a prisoner (see `ps:r:10`). See `ps:r:33`.
+- **предъява, предъявить** `ps:t:predyava`: a charge of breaking the code; to make one. *Local* (`ps:src:17` pt. 2; `ps:src:18` §2.5, §2.7; `ps:src:22`). «выдвинуть обвинение в нарушении неформальных норм и правил, бытующих в сообществе заключенных» (`ps:src:22`, s.v. предъявить); «Для спроса должна быть выдвинута предъява – обвинение, и она должна быть обоснована» (`ps:src:17`, pt. 2). See `ps:r:34`.
+- **очевидец, не свидетель** `ps:t:ochevidets`: an eyewitness at a разборка; «свидетель» is a court word and an insult. *Local, one source* (`ps:src:17`, pt. 2). See `ps:r:33`.
+- **бардак; канитель** `ps:t:bardak`: disorder with no rules at all, unlike беспредел, a deliberate breach of rules others keep; канитель, harm done to someone who neither resists nor seeks justice afterwards. *Local, one source* (`ps:src:22`, s.v. бардак): «бардак же - это отсутствие всяких правил и общая распущенность».
