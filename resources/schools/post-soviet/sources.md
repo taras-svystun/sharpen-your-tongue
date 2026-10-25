@@ -23,8 +23,8 @@ The catalogue of this school. The reference may cite only sources listed here, b
 - Scope: Russia, 2000s-2010s, mostly political and high-profile prisoners. Director Андрей Сильвестров, premiere summer 2021.
 - Reliability: high for what people lived through (edited journalism, many narrators); their view is of outsiders thrown into the system, not of блатные.
 - Link: https://www.currenttime.tv/a/azbuka-tyurmy-podkast/31682968.html
-- Access: video on the Current Time site and YouTube; transcripts through the tool; not tried yet.
-- Checked: the page above, 2026-10-25.
+- Access: video on the Current Time site and YouTube (channel «Настоящее Время. Док»); transcripts `data/transcripts/<video-id>.md` (YouTube captions, no punctuation, garbled in places). Each witness is named on screen with his case and years and counts as a separate source when cited by name.
+- Checked: the page above; five episodes read, 2026-10-25: w_Et9AAqBMI (1, arrest and first days), WOlLUely8O4 (3, rules of life), VPhmRZQ1lfY (5, the two faces of the hierarchy), gc4XYoIXGBg (8, castes), Aje3zjCW2Hg (9, what prisoners fear to tell).
 
 ### ps:src:03 Медиазона (zona.media), journalism on Russian prisons
 
@@ -229,6 +229,22 @@ The catalogue of this school. The reference may cite only sources listed here, b
 - Link: https://www.youtube.com/watch?v=-6i1CFFPrTU
 - Access: transcript `data/transcripts/-6i1CFFPrTU.md` (YouTube captions, punctuated; the video has an English dub, the tool took the Russian original).
 - Checked: transcript read in full, 2026-10-25.
+
+### ps:src:26 MY CRIMES, YouTube channel: Герман
+
+- Genre: video advice to first-timers by a former prisoner, Герман, with advertising.
+- Scope: Russia, pre-trial prisons (Moscow named) and a camp; years not given. WzZ0_w3rSG4 «Первые дни в тюрьме! Как себя вести первоходу?!».
+- Reliability: medium-low: one witness, record not checked, a commercial channel.
+- Access: transcript `data/transcripts/WzZ0_w3rSG4.md` (YouTube captions, punctuated).
+- Checked: transcript read, 2026-10-25.
+
+### ps:src:27 Дмитрий Анцупов, YouTube channel: interview with Рауль
+
+- Genre: video interview with a former prisoner, Рауль. W7NieGXUkFo «Как ВСТРЕЧАЮТ новичка в тюрьме».
+- Scope: Russia, Moscow pre-trial prisons Медведковский (СИЗО-4) and Матросская тишина (СИЗО-1), recent years.
+- Reliability: medium-low: one witness, record not checked.
+- Access: transcript `data/transcripts/W7NieGXUkFo.md` (YouTube captions; the video has an English dub, the tool took the Russian original).
+- Checked: transcript read, 2026-10-25.
 
 ## Candidates
 

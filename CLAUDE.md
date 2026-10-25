@@ -45,7 +45,7 @@ Taras is learning social intelligence: how status, words and responsibility work
 
 Who does what: the AI writes the scenarios, the feedback and the code; Taras owns the ideas and the answers, and must be able to explain every piece. Explain at the level of the mechanism: why a rule exists, what it protects, what happens to the one who breaks it.
 
-Content stays educational: understanding, recognition and defence. No glorifying crime, and no guidance for real criminal activity.
+Content stays educational: understanding, recognition and defence. No glorifying crime, and no guidance for committing violence or other crime. Self-defence is in scope and taught plainly: life and health come first, before any code of honour or moral principle. Details: `resources/teaching-method.md` §8.
 
 ## Rules of this project
 

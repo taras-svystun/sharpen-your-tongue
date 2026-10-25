@@ -246,3 +246,12 @@ A review of every file gave 30 points; Taras approved all but Windows encodings;
 - Left out: a witness's razor defence against forced degradation (`ps:src:24`), as guidance for violence.
 - Check: quote check 544 quotes, 1 known unmatched; `pytest` 37 passed; `db.py status` 178 terms, 42 riddles, reserve ok. One-source flags: terms 81 → 67, reference 25 → 21.
 - Structure: `reference.md` 428 lines, `terms.md` 188, `sources.md` 278. Structure: ok.
+
+## 2026-10-25: Second sources for Абрамкин's riddles; self-defence rule
+
+- Rule changed by Taras: no guidance for committing violence or crime, but self-defence is in scope, and life and health come before any code of honour (`CLAUDE.md`, `resources/teaching-method.md` §8). How to make or hide a weapon stays out. So the razor defence left out in the last entry is now in `ps:r:10`, with a counter-case from Saratov where cutting oneself did not stop a beating by staff.
+- Research: no independent copy on disk (the Center's dictionary is Абрамкин's own source); web search found nothing usable; four `--list` searches, then 7 transcripts by captions, 60 s apart, no 429. Five episodes of «Азбука тюрьмы» (`ps:src:02`, now read), plus `ps:src:26` (Герман, MY CRIMES) and `ps:src:27` (Рауль, Moscow СИЗО).
+- Verdict: a second source for `ps:r:7` (Радзинский: contamination as a planned way to remove a rival, and it works). None found for `ps:r:8`, `ps:r:9`, `ps:r:11`.
+- Also: `ps:r:1` and `ps:r:29` raised to *general*; `ps:r:33` *general*; `ps:r:10` a Russian 2020 case (the broom on camera, Покров); the riddle tests called mostly a myth by three more witnesses, except for juveniles; a cell reading a court verdict and judging it (`ps:t:lyudskoe-gadskoe`).
+- Check: quote check 565 quotes, 1 known unmatched; `pytest` 37 passed.
+- Structure: `reference.md` under 500 lines. Structure: ok.
