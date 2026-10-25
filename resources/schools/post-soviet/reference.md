@@ -375,6 +375,13 @@ In juvenile pre-trial cells a newcomer gets «пацанское время дл
 - **Accepted answer**: none given; the cell's own verdict was that the yard «тупо монстры … гипнозом тупо они нас всех» (ibid. @ 29:37). *Our reading*: nothing goes first through a wall before the other side's part is in your hands; a request made "for the arrestants' cause" is still a deal.
 - *Local, one source*: Kyiv, Лукьяновка, around 2000.
 
+### ps:r:42 «Хапнул и встаёшь?»
+
+- **Trap type**: `trap:false-choice`
+- **The trap**: a бродяга who disliked Lebed kept pressing him to play: «лебедь и под поддержи игру или не поддержишь» (`ps:src:01` / xrSLHHngrHY @ 10:30, captions). Lebed sat down once, won, and saw the бродяга cheat openly. To accuse him is to lose: the others «кивал и которые да да мы ничего не видели» (ibid. @ 17:26). To leave with the money is to hear «куда ты там хапуга» (ibid.).
+- **Accepted answer**: he stopped the game and gave up the winnings: «то что типа выиграл в общак отдайте я типа не хочу играть и пошел» (ibid. @ 17:26). Earlier he had refused to play at all with the reason said out loud: «сесть проиграть тебе денег которых у меня нету пододвинуть фуфло» (ibid. @ 11:01). When both sides of a dispute are rigged, give up the prize and keep your name.
+- *Local, one source*: Ukraine, a pre-trial prison, 2000s.
+
 ## Interrogation traps
 
 The investigator's room is a school of manipulation too, and a prisoner's word there is as binding as in the cell: «Каждая новая подпись уменьшает срок пребывания на свободе» (`ps:src:15`, ch. 2). Kudin lists the methods used on him in Kyiv in 1997. *Our reading*: the same moves are used by anyone whose power over you grows with what you say: a hostile interviewer, an auditor, a negotiator.

@@ -219,3 +219,4 @@ A review of every file gave 30 points; Taras approved all but Windows encodings;
 - Check: quote check 466 quotes, 1 known unmatched; `pytest` 36 passed.
 - Structure: `reference.md` 387 lines, `terms.md` 188. Structure: ok.
 - Later the same evening: read wnZ9sqEIM70 (first day at Лукьяновка) and GZirh8MxB0w (nicknames). Added `ps:r:39` (fear of an unknown rule used to take your things), `ps:r:40` (a swap where you pay first), `ps:r:41` (the staff ask you to write what you saw: refuse the role of witness); a line on how a nickname sticks. Quote check 480 quotes, 1 known unmatched; `pytest` 36 passed.
+- Read xrSLHHngrHY (a cheating бродяга at cards): added `ps:r:42` (both sides of a dispute are rigged: give up the prize, keep your name). Quote check 485 quotes, 1 known unmatched; `pytest` 36 passed.
