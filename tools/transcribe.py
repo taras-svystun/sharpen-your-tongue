@@ -91,9 +91,9 @@ def pick_track(meta, lang):
 
     Manual subtitles in `lang` first, else YouTube's own speech recognition:
     in `lang` if there is one (a video with a dubbed audio track has an
-    original for each language), else in whatever language it labelled the
-    video (the label can be wrong: Russian speech marked "uk"; the text is
-    still Russian). Never a machine
+    original for each language), else in the language it labelled the video
+    (the label can be wrong: Russian speech marked "uk"; the text is still
+    Russian). Never a machine
     translation (URL with tlang=): it is worse, and YouTube answers it with
     HTTP 429.
     """
@@ -102,8 +102,9 @@ def pick_track(meta, lang):
     auto = meta.get("automatic_captions") or {}
     originals = [key for key, formats in auto.items()
                  if not any("tlang=" in f.get("url", "") for f in formats)]
-    # the speech language first, then yt-dlp's explicit original label
-    originals.sort(key=lambda key: (key.split("-")[0] != lang, not key.endswith("-orig")))
+    # the speech language, then the video's own label (a dub is never in it), then yt-dlp's original label
+    label = meta.get("language")
+    originals.sort(key=lambda key: (key.split("-")[0] != lang, key.split("-")[0] != label, not key.endswith("-orig")))
     return ("automatic_captions", originals[0]) if originals else None
 
 

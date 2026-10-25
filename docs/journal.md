@@ -222,3 +222,9 @@ A review of every file gave 30 points; Taras approved all but Windows encodings;
 - Read xrSLHHngrHY (a cheating бродяга at cards): added `ps:r:42` (both sides of a dispute are rigged: give up the prize, keep your name). Quote check 485 quotes, 1 known unmatched; `pytest` 36 passed.
 - Read 1QuoAt57hBE (red and black colonies): a Ukrainian case for `ps:r:10` (the rag at intake, filmed; it weighs only on status-seekers; a set-up for a new charge), the first source for it independent of Абрамкин; a black-outside, red-inside colony in the zone concept. Quote check 491 quotes, 1 known unmatched.
 - Read RF56GM6X_TI (prison myths): the narrators call the newcomer riddles mostly a myth (now said before the riddles); for `ps:r:34`, «со свободы нет спроса» with two exceptions, and a lie about the past is what gets punished. Quote check 495 quotes, 1 known unmatched.
+
+## 2026-10-25: transcribe.py, a mislabelled video with a dub
+
+- Cause: ih9QIwMSWX8 is Russian speech labelled "uk" with an English dub; originals `en-US-orig` and `uk-orig`, none in `ru`, so the old order took the English one. Evidence: header «track en-US-orig», English text.
+- Fix: after `--lang`, the track in the video's own label comes next (a dub is never in it). Test `test_pick_track_prefers_the_video_label_over_a_dub` failed before, passes now; `pytest` 37 passed; the video fetched again gives `uk-orig`, Russian text.
+- Batch result: 27 of 30 videos have transcripts; 2 age-restricted (skipped), 3 more without captions joined the Whisper queue (5 in all). One request per video, 60 s apart; no 429.

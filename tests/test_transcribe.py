@@ -57,6 +57,16 @@ def test_pick_track_prefers_the_original_in_lang_over_a_dub():
     assert transcribe.pick_track(meta, "ru") == ("automatic_captions", "ru-orig")
 
 
+def test_pick_track_prefers_the_video_label_over_a_dub():
+    # Real case (ih9QIwMSWX8): Russian speech labelled "uk", plus an English
+    # dub; no track in "ru", so the video's own label decides, not the dub.
+    meta = {"language": "uk", "subtitles": {}, "automatic_captions": {
+        "en-US-orig": track("https://yt/timedtext?v=x"),
+        "uk-orig": track("https://yt/timedtext?v=x"),
+    }}
+    assert transcribe.pick_track(meta, "ru") == ("automatic_captions", "uk-orig")
+
+
 def test_pick_track_none_when_only_translations():
     meta = {"automatic_captions": {"ru": track("https://yt/timedtext?v=x&tlang=ru")}}
     assert transcribe.pick_track(meta, "ru") is None
