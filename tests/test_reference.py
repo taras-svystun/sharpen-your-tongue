@@ -1,19 +1,12 @@
 """Step 4 check: every entry of a school reference cites a catalogued source, with enough terms."""
 import re
+import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-SCHOOL = ROOT / "resources" / "schools" / "post-soviet"
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
+from items import SCHOOLS, entries, kind  # noqa: E402
 
-
-def entries(text):
-    """Split a reference into (id, body) pairs: a term bullet, or a concept/riddle section."""
-    out = []
-    for block in re.split(r"\n(?=### |- \*\*[^*]+\*\* `ps:t:)", text):
-        m = re.search(r"`(ps:t:[a-z-]+)`|^### (ps:r:\d+)", block, re.M)
-        if m:
-            out.append((m.group(1) or m.group(2), block))
-    return out
+SCHOOL = SCHOOLS / "post-soviet"
 
 
 def test_every_entry_cites_a_source():
@@ -23,8 +16,7 @@ def test_every_entry_cites_a_source():
 
 
 def test_at_least_60_terms():
-    text = (SCHOOL / "reference.md").read_text()
-    terms = set(re.findall(r"`(ps:t:[a-z-]+)`", text))
+    terms = {i for i, _ in entries((SCHOOL / "reference.md").read_text()) if kind(i) == "term"}
     assert len(terms) >= 60
 
 

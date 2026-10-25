@@ -1,20 +1,21 @@
 """Step 5 check: every trap and move has its fields, links resolve, and every riddle names a trap type."""
 import re
+import sys
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent
-CURRICULUM = ROOT / "resources" / "curriculum"
-REFERENCE = ROOT / "resources" / "schools" / "post-soviet" / "reference.md"
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
+import items  # noqa: E402
+
+CURRICULUM = items.CURRICULUM
+REFERENCE = items.SCHOOLS / "post-soviet" / "reference.md"
 
 COMMON = ["**Mechanism.**", "- **Post-soviet**:", "- **East coast** (*illustration*):", "- **Everyday**:", "- **Look-alike**:"]
 FIELDS = {"traps": COMMON + ["- **Answered by**:"], "moves": COMMON}
 
 
 def entries(kind):
-    """Split traps.md or moves.md into {id: body} by its '## trap:x' or '## move:x' headings."""
-    text = (CURRICULUM / f"{kind}.md").read_text()
-    parts = re.split(r"^## ((?:trap|move):[a-z-]+)\n", text, flags=re.M)
-    return dict(zip(parts[1::2], parts[2::2]))
+    """{id: body} of traps.md or moves.md."""
+    return dict(items.entries((CURRICULUM / f"{kind}.md").read_text()))
 
 
 def test_sizes():
@@ -31,8 +32,7 @@ def test_links_resolve():
     text = "".join((CURRICULUM / f"{k}.md").read_text() for k in FIELDS) + REFERENCE.read_text()
     cited = set(re.findall(r"`((?:trap|move):[a-z-]+)`", text))
     assert cited <= known, cited - known
-    ps_ids = set(re.findall(r"`(ps:t:[a-z-]+)`|^### (ps:r:\d+)", REFERENCE.read_text(), re.M))
-    ps_known = {a or b for a, b in ps_ids}
+    ps_known = set(items.defined_ids(REFERENCE.read_text()))
     ps_cited = set(re.findall(r"`(ps:[tr]:[a-z0-9-]+)`", "".join((CURRICULUM / f"{k}.md").read_text() for k in FIELDS)))
     assert ps_cited <= ps_known, ps_cited - ps_known
 
