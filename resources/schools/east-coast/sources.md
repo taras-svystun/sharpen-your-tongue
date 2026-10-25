@@ -2,7 +2,7 @@
 
 The catalogue of this school. The reference may cite only sources listed here, by ID (`ec:src:03`). Fields and the reliability scale: `GLOSSARY.md` (scope, reliability). Documentary sources come first; lyrics are a romanticised layer (agreement 11 in `docs/PLAN.md`).
 
-**Checked** says what was confirmed and how. "From memory" means the details are not yet confirmed: fix them before the first citation.
+**Access** says whether we can actually read it. **Checked** says what was confirmed and how. "From memory" means the details are not yet confirmed: fix them before the first citation.
 
 ## Catalogue
 
@@ -11,6 +11,7 @@ The catalogue of this school. The reference may cite only sources listed here, b
 - Genre: ethnography. The core text on the street's unwritten code of respect: how status is won, lost and defended, and why backing down costs so much.
 - Scope: Philadelphia, Germantown Avenue, 1990s; street, not prison.
 - Reliability: high (years of fieldwork; Komarovsky Award).
+- Access: paid book.
 - Checked: Norton catalogue record and Yale page (web search, 2026-10-25).
 
 ### ec:src:02 Philippe Bourgois, "In Search of Respect: Selling Crack in El Barrio" (Cambridge University Press, 1995)
@@ -18,6 +19,7 @@ The catalogue of this school. The reference may cite only sources listed here, b
 - Genre: ethnography; the author lived in an East Harlem tenement from 1985 and spent about three and a half years among crack dealers.
 - Scope: East Harlem (El Barrio), New York, 1985-1990; Puerto Rican street dealers.
 - Reliability: high.
+- Access: paid book; a PDF on americananthro.org answers 403.
 - Checked: library catalogue and Kirkus review (web search, 2026-10-25).
 
 ### ec:src:03 Geoffrey Canada, "Fist Stick Knife Gun: A Personal History of Violence in America" (Beacon Press, 1995)
@@ -25,6 +27,7 @@ The catalogue of this school. The reference may cite only sources listed here, b
 - Genre: memoir. How boys learned the street's codes and were ranked through fist, stick and knife, and how the gun changed that.
 - Scope: South Bronx, New York, 1950s-1960s childhood; 1990s view.
 - Reliability: high as a witness.
+- Access: paid book.
 - Checked: Beacon Press page and Publishers Weekly review (web search, 2026-10-25).
 
 ### ec:src:04 Ted Conover, "Newjack: Guarding Sing Sing" (Random House, 2000)
@@ -32,6 +35,7 @@ The catalogue of this school. The reference may cite only sources listed here, b
 - Genre: participant journalism: ten months as a corrections officer.
 - Scope: Sing Sing and the New York State prison system, 1997-1998; the guard's side.
 - Reliability: high (National Book Critics Circle Award, Pulitzer finalist); sees prisoners from outside.
+- Access: paid book.
 - Checked: publisher pages (web search, 2026-10-25).
 
 ### ec:src:05 Big L, "Ebonics" (single, 1998; album "The Big Picture", 2000)
@@ -39,6 +43,7 @@ The catalogue of this school. The reference may cite only sources listed here, b
 - Genre: lyrics; a song that defines slang words one by one. The slang anchor for this school.
 - Scope: Harlem, New York, late 1990s.
 - Reliability: lyrics only (romanticised layer); good for what words meant to a Harlem MC in 1998.
+- Access: lyrics sites; copyrighted, so short quotes only (agreement 11).
 - Checked: Wikipedia, Big L discography: single 1998-10-18, album 2000-08-01 on Rawkus (web search, 2026-10-25).
 
 ## Candidates

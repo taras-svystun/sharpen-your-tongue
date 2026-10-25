@@ -60,3 +60,16 @@ def test_subs_only_skips_whisper_when_no_captions(monkeypatch):
     with pytest.raises(SystemExit) as exit_info:
         transcribe.main()
     assert exit_info.value.code == 3
+
+
+def test_subs_only_stops_on_a_refusal(monkeypatch):
+    # HTTP 429 means "stop the batch" (CLAUDE.md), so it must not exit 3 like "no captions".
+    meta = '{"id": "x", "automatic_captions": {"ru": [{"url": "https://yt/timedtext?v=x"}]}}'
+    monkeypatch.setattr(transcribe, "yt_dlp", lambda *args: meta)
+    def refused(*args):
+        raise RuntimeError("HTTP Error 429: Too Many Requests")
+    monkeypatch.setattr(transcribe, "from_subtitles", refused)
+    monkeypatch.setattr(sys, "argv", ["transcribe.py", "https://yt/x", "--subs-only"])
+    with pytest.raises(SystemExit) as exit_info:
+        transcribe.main()
+    assert exit_info.value.code != 3

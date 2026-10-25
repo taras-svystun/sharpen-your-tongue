@@ -157,6 +157,8 @@ def main():
                 kind = "manual subtitles" if track[0] == "subtitles" else "automatic captions"
                 method = f"YouTube {kind} (track {track[1]})"
             except RuntimeError as err:
+                if args.subs_only:  # a refusal (e.g. HTTP 429) must stop the batch, not join the Whisper queue
+                    sys.exit(f"Subtitles failed ({err}); stop the batch and find the cause.")
                 print(f"Subtitles failed ({err}); transcribing the audio instead.", file=sys.stderr)
         if text is None and args.subs_only:
             print("No usable subtitles: leave this video for the Whisper pass.", file=sys.stderr)

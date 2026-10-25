@@ -60,3 +60,11 @@ Newest at the bottom.
 - Research verdict: «Мопс дядя Пес» rejected: a humiliation stream for money, not testimony (Медуза, 2017-06-08).
 - Weak spots: Ukraine has only one catalogued voice (Lebed & Shaman); its Ukrainian candidates must be checked before step 4 calls any Ukrainian rule general. Олейник's publisher and year, and every "from memory" candidate, are unconfirmed. Russian web search returned thin results; YouTube search through the tool worked better.
 - Structure: added "video lists" to `data/` in the layout map; otherwise ok.
+
+## 2026-10-25: Step 3 review, what the first pass missed
+
+- Bug: with `--subs-only`, a refusal from YouTube (HTTP 429) exited with code 3, so the batch queued the video for Whisper and went on, against the rule "on 429, stop the batch". Cause: the subtitle `except` treated "refused" like "absent". Fix: in that mode a refusal exits 1, which stops the loop; test added. The README loop checked by hand with exit codes 0, 3 and 1.
+- Gap: the catalogue said nothing about whether we can read a source, and step 4 can quote only what it reads. Added an **Access** field. Free and read: Медиазона, Новая газета, Шаламов. Paid or library only: Лихачёв (the lihachev.ru PDF found earlier is just his bibliography), Росси, Олейник, Galeotti, all East Coast books. Videos: transcripts through the tool.
+- Fixed: the Новая газета entry named a second article that was never found; it is one piece by А. Виноградов (written 2019-11-10). Its citations (Кузнецов, Амальрик) went to Candidates.
+- Defined **independent** in `GLOSSARY.md`: a retelling does not count as a second source, and guests of a channel may count separately when cited by name.
+- Structure: ok.
