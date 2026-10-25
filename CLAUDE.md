@@ -13,6 +13,11 @@ A daily trainer for quick wit under pressure, using Ukrainian and post-Soviet pr
 One job per file, one home per fact. Other files link to a fact by its ID, never copy it.
 
 ```
+README.md                             how a stranger sets up and runs everything
+GLOSSARY.md                           the project's words
+docs/PLAN.md                          plan and what we agreed
+docs/journal.md                       finished steps and research verdicts
+docs/adr/                             decisions that are hard to undo
 resources/teaching-method.md          how to teach (all schools)
 resources/curriculum/                 shared by all schools
   traps.md                            trap types, IDs like trap:false-choice

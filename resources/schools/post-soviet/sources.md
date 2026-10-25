@@ -11,11 +11,11 @@ The catalogue of this school. The reference may cite only sources listed here, b
 - Genre: video (two former prisoners talk; series «НаКумаре», «Культяпка» and «Ломовая Культяпка» on juvenile prison, «Зона строгого режима», «Чёрная берлога», single talks on понятия, conflicts, tattoos, red and black zones).
 - Scope: Ukraine. Places named in titles: Бучанская колония (строгий режим), Бердянская колония 77, Лукьяновское СИЗО (Kyiv), Чернигов, a juvenile colony («малолетка»). Years: one host was sentenced to 7 years in 2009 (transcript `BWE9JSvtrng` @ 1:05). Russian speech.
 - Reliability: medium. First-hand, but two narrators with one shared story, entertainment format, uploads 2019-2025.
-- Guests (Костя Белый, Толя Лютый, Юра Слон and others) are other witnesses: a guest's own story may count as a separate source when cited by name.
+- Guests (Костя Белый, Толя Лютый, Юра Слон and others) are other witnesses (see *independent* in `GLOSSARY.md`).
 - Size: 732 videos, about 169 on prison by title (list: `data/catalogue/lebed-shaman.tsv`, made with `tools/transcribe.py --list`).
 - Link: https://www.youtube.com/@LebedShaman
-- Access: transcripts through `tools/transcribe.py`; YouTube captions worked on the one video tried (seconds, no punctuation, jargon sometimes garbled).
-- Checked: channel listing 2026-10-25; one transcript.
+- Access: transcripts through `tools/transcribe.py`: YouTube captions for most videos (seconds, no punctuation, jargon sometimes garbled), MacWhisper for the rest.
+- Checked: channel listing 2026-10-25; six transcripts read, four cited (BWE9JSvtrng, S5UJgZkT2vw, cxWhs1uv2HY, 6CAxbmw6m0A). Not cited: oEFwzU8sk9U, a prank vlog, and TXHEJcQTlV8, a talk about the TV series «Слово пацана». 2026-10-25.
 
 ### ps:src:02 «Азбука тюрьмы», documentary series, Настоящее Время
 
@@ -163,7 +163,7 @@ The catalogue of this school. The reference may cite only sources listed here, b
 - Genre: survival guide built on interviews: many interviews with former prisoners taken in 1988-91 by the Центр «Содействие», by a method of the sociologist В. Ф. Чеснокова, written as the monologue of an experienced prisoner answering a first-timer. Абрамкин was himself a political prisoner.
 - Scope: USSR and Russia, camps and pre-trial prisons, 1980s-1990s. First edition Красноярск, «Восток», 1992; the copy is the internet version of a planned 2nd edition, updated to at least 1997 (it cites the 1997 penal code).
 - Reliability: high: many witnesses, a stated method, an author who served. One narrating voice, so it counts as one source.
-- Access: chapter 2 only, `data/sources/abramkin_2chapter.txt` (found by Taras). Cite by section: `ps:src:18, §2.6`.
+- Access: chapter 2 only, `data/sources/11_abramkin_ch2.txt` (found by Taras). Cite by section: `ps:src:18, §2.6`.
 - Checked: the chapter's own header (edition, method, interview years), 2026-10-25.
 
 ### ps:src:19 Anonymous YouTube channels on прописка riddles
@@ -189,14 +189,14 @@ The catalogue of this school. The reference may cite only sources listed here, b
 Found, not yet checked. A candidate is cited only after it moves to the catalogue with all fields.
 
 - Federico Varese, "The Russian Mafia: Private Protection in a New Market Economy" (Oxford University Press, 2001): Perm region, 1990s; from memory.
-- Валерий Абрамкин, books from the Центр содействия реформе уголовного правосудия: «Как выжить в советской тюрьме» (1992?), «Тюремный мир глазами политзаключённых» (with Ю. Чеснокова, 1993?). Titles and years from memory; the Center's 2021 collection «Романтик тюрьмы» exists.
+- Валерий Абрамкин, other books from the Центр содействия реформе уголовного правосудия: «Тюремный мир глазами политзаключённых» (with Ю. Чеснокова, 1993?), from memory; the Center's 2021 collection «Романтик тюрьмы» exists. Chapter 2 of «Как выжить в советской тюрьме» is ps:src:18; Taras dropped the search for the rest.
 - Эдуард Кузнецов, «Мордовский марафон» (1979), and Андрей Амальрик, «Записки диссидента» (1982): political prisoners' memoirs on the lowest caste in the 1970s; cited by ps:src:04.
 - Laura Piacentini, "Surviving Russian Prisons" (2004): from memory.
 - Леся Ставицька, «Український жаргон. Словник» (2005): Ukrainian, includes criminal slang; from memory.
 - Ukrainian Ombudsman, National Preventive Mechanism visit reports: record "informal groups of prisoners" and segregation (e.g. Старобабанівська колонія 92, 2024: https://ombudsman.gov.ua/en/news_details/vidviduvannya-derzhavnoyi-ustanovi-starobabanivska-vipravna-koloniya-92). Official, Ukrainian, recent; thin on detail.
 - Джужа, Колб, on criminal subculture in Ukrainian places of detention (Історико-правовий часопис, 2016): https://evnuir.vnu.edu.ua/bitstream/123456789/10812/1/%d0%b4%d0%b6%d1%83%d0%b6%d0%b0.pdf (the link opens only a DSpace page).
 - YouTube, from one search on 2026-10-25 (scope to check for each):
-  - PRO DОБРО: a man who served 28 years explains понятия, slang and words you must not say; country and colonies unknown.
+  - PRO DОБРО, «ОТСИДЕЛ 28 ЛЕТ - ПОНЯТИЯ И ТЮРЕМНЫЙ БЫТ» (jme3pQ-DVWA): a man who served 28 years explains понятия, slang and words you must not say; country and colonies unknown. Came up in two searches.
   - Onliner, «Опустить можно любого: #монолог отсидевшего 15 лет» (Belarusian media).
   - СПЕКТР: a women's colony; a tattooist from the zone.
   - Доброе семя: Леонид Семиколенов, six years as положенец, Novosibirsk.
@@ -208,7 +208,6 @@ Found, not yet checked. A candidate is cited only after it moves to the catalogu
   - Харківська правозахисна група (khpg.org): human-rights monitoring of Ukrainian prisons since the 1990s.
 - Other post-Soviet voices, from searches on 2026-10-25:
   - vitaminE, «Закон в натуре»: a series on prison in Belarus and Russia (e.g. https://www.youtube.com/watch?v=oxLEZT8GiCU, «Политика в белорусской тюрьме» https://www.youtube.com/watch?v=zlVjjA-iinU).
-  - Onliner, «Опустить можно любого: #монолог отсидевшего 15 лет» (Belarus).
   - Вясна and the International Committee for the Investigation of Torture in Belarus: a report on ИК-17 (Шклов) from 18 former political prisoners, 2020-2024; full text not yet found.
   - Gavin Slade, "Reorganizing Crime: Mafia and Anti-Mafia in Post-Soviet Georgia" (Oxford University Press, 2013): has a chapter on prison and recruitment of воры.
   - Kazakhstan: searches found only news about torture, no testimony on понятия yet.
@@ -219,8 +218,6 @@ Found, not yet checked. A candidate is cited only after it moves to the catalogu
   - «Всё о тюрьме» (YouTube channel): short explainers on castes, козлы, правильная хата, погоняла, transit prisons (e.g. V15MVgyjVqs «Что такое правильная хата», KtbSHiahUH4 «Кто такой козел»). Narrator and his record unknown.
   - «ТЮРЕМНЫЙ ПОДКАСТ» (YouTube channel): long interviews with named former prisoners, men and women, Russia (e.g. Yjja1dZJnlc, Ue6K-xDR83U). Each guest may count as a separate witness.
   - Илья Варламов, playlist «Тюрьмы» (channel varlamov): documentary episodes on Russian colonies, transport, juvenile and women's prisons (e.g. 5bT1thBqh_Y «Тюрьмы России: гайд», gIBqNZG0mf4 on этап). Journalism with interviews.
-  - Playlist «Азбука тюрьмы»: this is ps:src:02; the playlist is its access.
-  - PRO DОБРО, «ОТСИДЕЛ 28 ЛЕТ - ПОНЯТИЯ И ТЮРЕМНЫЙ БЫТ» (jme3pQ-DVWA), already listed above, came up again.
 - Rejected: «Мопс дядя Пес» (Сергей Новик, Ukraine, about 27 years inside): famous for humiliation streams for money (Медуза, 2017); entertainment, not testimony.
 
 ## Ask Taras

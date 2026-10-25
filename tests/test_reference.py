@@ -37,3 +37,9 @@ def test_cited_sources_are_catalogued():
     cited = set(re.findall(r"ps:src:\d+", (SCHOOL / "reference.md").read_text()))
     catalogued = set(re.findall(r"^### (ps:src:\d+)", (SCHOOL / "sources.md").read_text(), re.M))
     assert cited <= catalogued, cited - catalogued
+
+
+def test_every_entry_has_a_label():
+    found = entries((SCHOOL / "reference.md").read_text())
+    unlabelled = [i for i, body in found if not re.search(r"\*(general|local|one source)", body, re.I)]
+    assert not unlabelled, unlabelled

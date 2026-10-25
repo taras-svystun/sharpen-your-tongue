@@ -62,7 +62,7 @@ He does not want to tread water. An item answered at quality 5 the first time is
 ## 7. Sources, never invention
 
 - Facts about a school come from its `reference.md`, which cites its `sources.md`. A term or rule not there is labelled **unverified**, never presented as fact.
-- Say how sure the claim is: **general** (three or more independent sources from different places) may be stated plainly; **local** is stated with its scope ("у такій-то колонії в 90-х"); **one source only** or **lyrics only** is flagged to him in so many words, and he decides what to do with it.
+- Say how sure the claim is: **general** (`GLOSSARY.md`) may be stated plainly; **local** is stated with its scope ("у такій-то колонії в 90-х"); **one source only** or **lyrics only** is flagged to him in so many words, and he decides what to do with it.
 - Quotes keep the language of their source. Explanations are in Ukrainian.
 
 ## 8. Realistic and harsh

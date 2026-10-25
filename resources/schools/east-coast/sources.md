@@ -11,7 +11,7 @@ The catalogue of this school. The reference may cite only sources listed here, b
 - Genre: ethnography. The core text on the street's unwritten code of respect: how status is won, lost and defended, and why backing down costs so much.
 - Scope: Philadelphia, Germantown Avenue, 1990s; street, not prison.
 - Reliability: high (years of fieldwork; Komarovsky Award).
-- Access: paid book.
+- Access: paid book. Taras found a Bookey summary (`data/sources/ec_anderson_summary_bookey.pdf`, 117 pages): a retelling, not Anderson's words, so it guides reading but is never quoted or cited as him.
 - Checked: Norton catalogue record and Yale page (web search, 2026-10-25).
 
 ### ec:src:02 Philippe Bourgois, "In Search of Respect: Selling Crack in El Barrio" (Cambridge University Press, 1995)
@@ -35,7 +35,7 @@ The catalogue of this school. The reference may cite only sources listed here, b
 - Genre: participant journalism: ten months as a corrections officer.
 - Scope: Sing Sing and the New York State prison system, 1997-1998; the guard's side.
 - Reliability: high (National Book Critics Circle Award, Pulitzer finalist); sees prisoners from outside.
-- Access: paid book.
+- Access: paid book. Taras found a Bookey summary (`data/sources/ec_conover_summary_bookey.pdf`, 90 pages): a retelling, never quoted or cited as Conover.
 - Checked: publisher pages (web search, 2026-10-25).
 
 ### ec:src:05 Big L, "Ebonics" (single, 1998; album "The Big Picture", 2000)
@@ -63,6 +63,6 @@ Found, not yet checked. A candidate is cited only after it moves to the catalogu
 
 Worth having, but I could not open it. Not urgent: this school starts at step 9. A copy goes to git-ignored `data/sources/` (agreement 18 in `docs/PLAN.md`).
 
-1. Anderson, "Code of the Street" (1999).
+1. Anderson, "Code of the Street" (1999): only a summary found so far.
 2. Bourgois, "In Search of Respect" (1995): a PDF on americananthro.org answered 403.
-3. Conover, "Newjack" (2000).
+3. Conover, "Newjack" (2000): only a summary found so far.

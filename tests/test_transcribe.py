@@ -17,6 +17,14 @@ def test_json3_groups_into_timestamped_paragraphs():
     assert transcribe.json3_to_text(data) == "[0:00] за базар отвечаешь понял\n\n[0:31] дальше"
 
 
+def test_srt_groups_into_timestamped_paragraphs():
+    # whisper.cpp writes SRT; its transcripts must be citable @ m:ss like the captions.
+    srt = ("1\n00:00:00,000 --> 00:00:04,000\nза базар\nотвечаешь\n\n"
+           "2\n00:00:10,500 --> 00:00:12,000\nпонял\n\n"
+           "3\n01:00:31,000 --> 01:00:33,000\nдальше\n")
+    assert transcribe.srt_to_text(srt) == "[0:00] за базар отвечаешь понял\n\n[1:00:31] дальше"
+
+
 def test_stamp_adds_hours_only_when_needed():
     assert transcribe.stamp(65_000) == "1:05"
     assert transcribe.stamp(3_725_000) == "1:02:05"
@@ -73,3 +81,23 @@ def test_subs_only_stops_on_a_refusal(monkeypatch):
     with pytest.raises(SystemExit) as exit_info:
         transcribe.main()
     assert exit_info.value.code != 3
+
+
+def test_a_refusal_never_falls_back_to_the_audio(monkeypatch):
+    # Without --subs-only too: after a refusal, an audio download is one more request to YouTube.
+    meta = '{"id": "x", "automatic_captions": {"ru": [{"url": "https://yt/timedtext?v=x"}]}}'
+    monkeypatch.setattr(transcribe, "yt_dlp", lambda *args: meta)
+    def refused(*args):
+        raise RuntimeError("HTTP Error 429: Too Many Requests")
+    monkeypatch.setattr(transcribe, "from_subtitles", refused)
+    monkeypatch.setattr(transcribe, "from_audio", lambda *args: pytest.fail("audio downloaded after a refusal"))
+    monkeypatch.setattr(sys, "argv", ["transcribe.py", "https://yt/x"])
+    with pytest.raises(SystemExit) as exit_info:
+        transcribe.main()
+    assert exit_info.value.code not in (0, 3)
+
+
+def test_missing_subtitle_file_is_a_clear_error(monkeypatch, tmp_path):
+    monkeypatch.setattr(transcribe, "yt_dlp", lambda *args: "")
+    with pytest.raises(RuntimeError, match="no subtitle file"):
+        transcribe.from_subtitles("https://yt/x", "automatic_captions", "ru", tmp_path)

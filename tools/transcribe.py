@@ -7,10 +7,12 @@ Usage:
 Order of attempts:
 1. YouTube's own subtitles (manual first, then its original automatic
    captions, never a machine translation), via yt-dlp.
-2. If there are none, if YouTube refuses them (HTTP 429), or with
-   --force-audio: download the audio only and
+2. If there are none, or with --force-audio: download the audio only and
    transcribe it locally with MacWhisper's `mw` CLI, or with whisper.cpp's
    `whisper-cli` when `mw` is missing (set WHISPER_MODEL to a ggml model).
+
+If YouTube refuses the subtitles (HTTP 429, a "not a bot" check), the tool
+stops with exit code 1 and sends no more requests: find the cause first.
 
 Batches go cheap first: a pass with --subs-only takes every video that has
 subtitles in seconds and exits with code 3 for those without; a second pass
@@ -22,6 +24,7 @@ Transcripts are other people's words, so they stay in git-ignored data/.
 import argparse
 import json
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -53,23 +56,34 @@ def stamp(ms):
     return f"{s // 3600}:{s % 3600 // 60:02d}:{s % 60:02d}" if s >= 3600 else f"{s // 60}:{s % 60:02d}"
 
 
-def json3_to_text(data):
-    """YouTube json3 captions -> lines '[m:ss] text', grouped into ~30 s paragraphs."""
-    paragraphs, start, words = [], None, []
-    for event in data.get("events", []):
-        text = "".join(seg.get("utf8", "") for seg in event.get("segs", [])).replace("\n", " ").strip()
+def paragraphs(cues):
+    """(start ms, text) cues -> lines '[m:ss] text', grouped into ~30 s paragraphs."""
+    out, start, words = [], None, []
+    for t, text in cues:
+        text = text.replace("\n", " ").strip()
         if not text:
             continue
-        t = event.get("tStartMs", 0)
         if start is None:
             start = t
         elif t - start >= CHUNK_SECONDS * 1000:
-            paragraphs.append(f"[{stamp(start)}] {' '.join(words)}")
+            out.append(f"[{stamp(start)}] {' '.join(words)}")
             start, words = t, []
         words.append(text)
     if words:
-        paragraphs.append(f"[{stamp(start)}] {' '.join(words)}")
-    return "\n\n".join(paragraphs)
+        out.append(f"[{stamp(start)}] {' '.join(words)}")
+    return "\n\n".join(out)
+
+
+def json3_to_text(data):
+    """YouTube json3 captions -> timestamped paragraphs."""
+    return paragraphs((event.get("tStartMs", 0), "".join(seg.get("utf8", "") for seg in event.get("segs", [])))
+                      for event in data.get("events", []))
+
+
+def srt_to_text(srt):
+    """whisper.cpp's SRT output -> timestamped paragraphs, so its transcripts can be cited @ m:ss too."""
+    cues = re.findall(r"(\d+):(\d\d):(\d\d)[,.](\d{3}) -->.*\n((?:.+\n?)*)", srt)
+    return paragraphs((((int(h) * 60 + int(m)) * 60 + int(sec)) * 1000 + int(ms), text) for h, m, sec, ms, text in cues)
 
 
 def pick_track(meta, lang):
@@ -102,7 +116,9 @@ def youtube_labels(meta):
 def from_subtitles(url, kind, key, tmp):
     flag = "--write-subs" if kind == "subtitles" else "--write-auto-subs"
     yt_dlp(url, "--skip-download", flag, "--sub-langs", key, "--sub-format", "json3", "-o", f"{tmp}/sub.%(ext)s")
-    path = next(Path(tmp).glob("sub*.json3"))
+    path = next(Path(tmp).glob("sub*.json3"), None)
+    if path is None:
+        raise RuntimeError("yt-dlp wrote no subtitle file")
     return json3_to_text(json.loads(path.read_text(encoding="utf-8")))
 
 
@@ -118,9 +134,9 @@ def from_audio(url, lang, tmp):
     if shutil.which("whisper-cli") and os.environ.get("WHISPER_MODEL"):
         wav = f"{tmp}/audio.wav"  # whisper.cpp wants 16 kHz mono WAV
         subprocess.run(["ffmpeg", "-loglevel", "error", "-i", audio, "-ar", "16000", "-ac", "1", wav], check=True)
-        subprocess.run(["whisper-cli", "-m", os.environ["WHISPER_MODEL"], "-l", lang, "-otxt", "-of", f"{tmp}/out", wav],
+        subprocess.run(["whisper-cli", "-m", os.environ["WHISPER_MODEL"], "-l", lang, "-osrt", "-of", f"{tmp}/out", wav],
                        check=True, capture_output=True)
-        return Path(f"{tmp}/out.txt").read_text(encoding="utf-8").strip(), "whisper.cpp"
+        return srt_to_text(Path(f"{tmp}/out.srt").read_text(encoding="utf-8")), "whisper.cpp"
     sys.exit("No subtitles and no local Whisper: install MacWhisper, or whisper.cpp and set WHISPER_MODEL (see README).")
 
 
@@ -150,20 +166,17 @@ def main():
         print(f"The label differs from --lang {args.lang}: it may be wrong; check the text.", file=sys.stderr)
     track = None if args.force_audio else pick_track(meta, args.lang)
     with tempfile.TemporaryDirectory() as tmp:
-        text = None
         if track:
             try:
                 text = from_subtitles(args.url, *track, tmp)
-                kind = "manual subtitles" if track[0] == "subtitles" else "automatic captions"
-                method = f"YouTube {kind} (track {track[1]})"
-            except RuntimeError as err:
-                if args.subs_only:  # a refusal (e.g. HTTP 429) must stop the batch, not join the Whisper queue
-                    sys.exit(f"Subtitles failed ({err}); stop the batch and find the cause.")
-                print(f"Subtitles failed ({err}); transcribing the audio instead.", file=sys.stderr)
-        if text is None and args.subs_only:
+            except RuntimeError as err:  # a refusal (e.g. HTTP 429): no more requests, not even for the audio
+                sys.exit(f"Subtitles failed ({err}); stop the batch and find the cause.")
+            kind = "manual subtitles" if track[0] == "subtitles" else "automatic captions"
+            method = f"YouTube {kind} (track {track[1]})"
+        elif args.subs_only:
             print("No usable subtitles: leave this video for the Whisper pass.", file=sys.stderr)
             sys.exit(3)
-        if text is None:
+        else:
             text, method = from_audio(args.url, args.lang, tmp)
 
     date = meta.get("upload_date") or ""

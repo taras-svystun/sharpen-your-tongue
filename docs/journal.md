@@ -114,3 +114,18 @@ Newest at the bottom.
 - Taras listened to the 12 passages marked "check the audio" (10 riddles, 2 words). All captions held; added from the audio: the domino answer «половину или середину» (`ps:r:21`), the full swan rhyme, «пацаном» where the captions garbled it, «бурбулятор», and «за бабу» as the wrong first answer to «за что сел». A viewer's comment gives another reading of the corners riddle (угол = уголовник), kept with the lowest reliability.
 - Open: «яма» (S5UJgZkT2vw @ 16:12). Not clear from context; the 1992 dictionary gives «Оперчасть ИТУ» among its meanings (p. 301).
 - Structure: ok.
+
+## 2026-10-25: Clean-up before step 5
+
+A review of every file gave 30 points; Taras approved all but Windows encodings; the `sys.path` hack in tests stays, as advised.
+
+- Bug: without `--subs-only`, a subtitle refusal (HTTP 429) fell back to downloading the audio, one more request after a refusal, against the rule in `CLAUDE.md`. Cause: the fallback dated from the first 429, which came from asking for translations; `pick_track` fixed that, so the fallback only hid real refusals. Fix: any subtitle failure exits 1 in every mode; test added, and it fails on the old code.
+- Bug: when yt-dlp wrote no subtitle file, `next(glob)` crashed with `StopIteration`; now a clear error. The whisper.cpp path wrote text without time stamps; it now reads SRT into the same `[m:ss]` paragraphs as the captions (unit test; whisper.cpp itself still not run).
+- Quote check is now a test (`tests/test_quotes.py`, skips without copies in `data/`), moved up from step 9. The checker skips riddle names in headings, splits dictionary senses, and ignores a space before punctuation: 11 unmatched fragments became 1, the mybook citation, listed in the test with its reason. A new test checks that every reference entry has a label.
+- Labels: the two dictionaries now count together as one source. A third source was found in Абрамкин, Лозовский or Lebed & Shaman for фраер, сука, параша, баланда, намордник, мойка, чифир, so they stay general; грев has none and is now local. This corrects the step 4 entry that called грев general.
+- Reference: one ID for малолетка/взросляк; the первоход quote attributed; `ps:src:12` citations carry the video ID; a video quote is from captions unless marked *Whisper* (each transcript's header names its method, so the marker is not repeated per quote).
+- One home per fact: the general/local rule lives in `GLOSSARY.md`, the harshness limits in `teaching-method.md` §8; PLAN and the school READMEs link to them. "riddle" added to the glossary and counted as an item; step 5 will tag each riddle with its trap type.
+- Catalogues: stale lines on ps:src:01 updated, duplicate candidates removed; East Coast: Taras's copies of Anderson and Conover are Bookey summaries, a retelling, never quoted as the authors. README: Turbo timing, the refusal stop, an explicit second loop (the old "same loop" would have emptied its own queue), `pdftotext` for the quote check, the state of `data-examples/`.
+- In `data/` (not tracked): a duplicate Кудин copy removed, three copies renamed to the naming scheme.
+- Checked: `pytest` 16 passed; quote check 286 quotes, 1 known unmatched; a real `--subs-only` run on R6bgO2gqXaM gave the same text as before in 17 s; the README loops pass `bash -n`.
+- Structure: CLAUDE.md layout map now lists README, GLOSSARY and `docs/`; fixed.
