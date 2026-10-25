@@ -108,6 +108,8 @@ One move answers every riddle you do not know: decline and ask for the purpose. 
 
 In juvenile pre-trial cells a newcomer gets «пацанское время для обдумывания ответа … равное 45 секундам», and a "blackmail" kind of prank rests on «незнание не освобождает от ответственности» (`ps:src:19` / yZPTMttbTQQ @ 16:25-16:56, captions; low). A правильная хата holds the opposite: «нельзя спрашивать с человека за нарушение нормы, о которой он не знает» (`ps:src:18`, §2.5). Which rule a cell follows tells you what kind of cell it is.
 
+The narrators of `ps:src:01` call the riddle tests mostly a myth: «заходи нормально уверенно», and if someone picks at you, it is «чтобы посмотреть на реакцию человека» (`ps:src:01` / RF56GM6X_TI @ 3:10-4:13, captions). The riddles below are what a newcomer may meet, not what he will.
+
 ### ps:r:1 «Кто ты по жизни?»
 
 - **Trap type**: `trap:fishing`
@@ -333,6 +335,7 @@ In juvenile pre-trial cells a newcomer gets «пацанское время дл
 - **The trap**: a friendly question about your past. A charge can rest on «неожиданно всплывший компрометирующий факт, относящийся к далекому прошлому, иногда даже к вольной, долагерной жизни заключенного», or on something never chosen at all: «сам факт проживания в Москве или в Ленинграде, служба во внутренних войсках» (`ps:src:22`, s.v. предъявить). Your honest answer becomes the charge.
 - **Accepted answer**: the code's own rules: a first-timer «согласно тюремному закону чист. На воле он мог быть кем угодно» (`ps:src:21`), and a charge must be grounded, with a right to defence (`ps:t:lyudskoe-gadskoe`). Name the rule, and ask what the charge is. Our reading: which rule wins depends on the cell (compare `ps:r:7`).
 - Ukraine, 2000s: a young man who had worked as a баландёр in a juvenile colony hid it and became the man «в ответе за бараком»; an old cellmate named him. The accuser must prove it, or «ты есть интригант» (`ps:src:01` / oGRj_2O3who @ 9:59, captions); until it is settled the accused is «под вопросом», and «ты не мужик ты не ни кто» (ibid. @ 13:39). A search note goes round every cell: «Кто знает такого-то такого-то который сидел там-то там-то в таких-то таких-то годах» (ibid. @ 29:49). The narrators' verdict: the one who hid a slip and lived quietly is forgiven more easily than the one who also beat others while in power (ibid. @ 33:28-35:03).
+- The same narrators on ordinary jobs: «такой закон не писан и что со свободы нет спроса», except a homosexual past or work for the police (`ps:src:01` / RF56GM6X_TI @ 12:02-12:33, captions). A young man who hid his army service was told off for the lie, not the service: «во первых надо говорить правду а во-вторых здесь еще такого нету» (ibid. @ 11:32). So the answer that holds best is the truth, said first.
 - *Local*: Russia, 1960s-1990s (`ps:src:21`, `ps:src:22`, one source); Ukraine, 2000s (`ps:src:01`).
 
 ### ps:r:35 «Займи до конца месяца»
