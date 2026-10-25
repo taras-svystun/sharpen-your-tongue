@@ -158,6 +158,23 @@ The catalogue of this school. The reference may cite only sources listed here, b
 - Access: online text of part 1 (about 8 000 words) saved as `data/sources/text/8_lozovsky_part1.txt`; it may be incomplete. Cite by section title.
 - Checked: author's background from the text itself; the phrase «На тюрьме не спрашивают, а интересуются» is quoted from this book on mybook.ru (citation page, 2020-01-22), but is not in the saved part. 2026-10-25.
 
+### ps:src:18 Валерий Абрамкин, Юрий Чижов, «Как выжить в советской тюрьме: В помощь узнику», ch. 2 «Тюрьма — взгляд изнутри»
+
+- Genre: survival guide built on interviews: many interviews with former prisoners taken in 1988-91 by the Центр «Содействие», by a method of the sociologist В. Ф. Чеснокова, written as the monologue of an experienced prisoner answering a first-timer. Абрамкин was himself a political prisoner.
+- Scope: USSR and Russia, camps and pre-trial prisons, 1980s-1990s. First edition Красноярск, «Восток», 1992; the copy is the internet version of a planned 2nd edition, updated to at least 1997 (it cites the 1997 penal code).
+- Reliability: high: many witnesses, a stated method, an author who served. One narrating voice, so it counts as one source.
+- Access: chapter 2 only, `data/sources/abramkin_2chapter.txt` (found by Taras). Cite by section: `ps:src:18, §2.6`.
+- Checked: the chapter's own header (edition, method, interview years), 2026-10-25.
+
+### ps:src:19 Anonymous YouTube channels on прописка riddles
+
+- Channels: «Криминальный Аналитик» (yZPTMttbTQQ, 2017), «Криминальный Мир» (JmHBUhEsCk4, 2015), «Арестант ТВ» (XdDS0EejjSw, 2019), «Твой Дом - Тюрьма» (ZyjGVME3knk, 2019).
+- Genre: video, a narrator reads or retells riddles with their answers; «Криминальный Аналитик» sounds like a criminology manual read aloud, with no title given.
+- Scope: unknown; Russian speech, no place or years.
+- Reliability: low. Narrators unnamed, sources not given, and the channels likely copy each other, so they count together as one source.
+- Access: transcripts in `data/transcripts/<video-id>.md` (YouTube captions; «Арестант ТВ» badly garbled).
+- Checked: transcripts read, 2026-10-25. Cited only for riddles, and a riddle is used only where another source agrees or Taras has checked the audio.
+
 ## Candidates
 
 Found, not yet checked. A candidate is cited only after it moves to the catalogue with all fields.
@@ -188,7 +205,7 @@ Found, not yet checked. A candidate is cited only after it moves to the catalogu
   - Kazakhstan: searches found only news about torture, no testimony on понятия yet.
 - Newcomer riddles («прописка»), from searches on 2026-10-25; all low reliability so far:
   - vse42.ru, «Тюремные загадки: как и зачем в тюрьме проверяют новеньких» (2020-09-15, no author, no witness): the train riddle, «кенты» on one track and the mother on the other.
-  - YouTube channels «Криминал ТВ», «Криминальный Мир», «Криминальный Аналитик», «Арестант ТВ»: many videos on прописка and riddles (e.g. yZPTMttbTQQ, JmHBUhEsCk4); narrators unnamed, scope unknown.
+  - YouTube channel «Криминал ТВ»: many more videos on прописка; same kind as ps:src:19.
   - Wanted: a named former prisoner telling the riddles he was asked, with place and years.
 - Rejected: «Мопс дядя Пес» (Сергей Новик, Ukraine, about 27 years inside): famous for humiliation streams for money (Медуза, 2017); entertainment, not testimony.
 
@@ -196,9 +213,8 @@ Found, not yet checked. A candidate is cited only after it moves to the catalogu
 
 Worth having, but I could not open it. Taras spends a few minutes on each; a copy he finds goes to git-ignored `data/sources/<id-or-name>.<ext>` (agreement 18 in `docs/PLAN.md`). Most valuable first.
 
-Found on 2026-10-25: Росси (now ps:src:07), Балдаев 1992 (ps:src:08), Лихачёв (ps:src:06), a Вясна interview (ps:src:16), and Кудин (ps:src:15), which came in place of Абрамкин.
+Found on 2026-10-25: Росси (now ps:src:07), Балдаев 1992 (ps:src:08), Лихачёв (ps:src:06), a Вясна interview (ps:src:16), Кудин (ps:src:15), and chapter 2 of Абрамкин (ps:src:18).
 
 1. Олейник, «Тюремная субкультура в России» (2001 or 2010): the main study; no free text found. Not found by Taras either.
-2. Абрамкин, «Как выжить в советской тюрьме» (around 1992): written by an ex-prisoner for prisoners; title and year unconfirmed. The file found under this title is Кудин's book.
-3. Вясна, the ИК-17 (Шклов) report, 2024: the only Belarusian document with many witnesses.
-4. Lenta.ru, «Арестантский канал един» (2018-04-22, https://lenta.ru/articles/2018/04/22/zeki): a list of ex-prisoners' YouTube channels; did not open for me or for Taras.
+2. Вясна, the ИК-17 (Шклов) report, 2024: the only Belarusian document with many witnesses.
+3. Lenta.ru, «Арестантский канал един» (2018-04-22, https://lenta.ru/articles/2018/04/22/zeki): a list of ex-prisoners' YouTube channels; did not open for me or for Taras.

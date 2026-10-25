@@ -89,3 +89,14 @@ Newest at the bottom.
 - Errors caught in review: three citations did not hold (Кудин has no «грев», only «подогревают»; Лозовский's «до хаты» means "home"; Балдаев says «Напускной вид»); fixed. Sentences that explain why a rule exists are marked *our reading*, so inference is not passed off as a source.
 - YouTube: 3 videos by captions, 2 by Whisper, one search. One gap was shorter than a minute: the Whisper loop started while the captions loop was in its last pause. One Whisper transcript (oEFwzU8sk9U, «Как правильно заходить в камеру») is a prank vlog, not about prison; not cited. «в ответе» rests on captions only and is marked not usable until checked against the audio.
 - Structure: the reference no longer restates the general/local rule (links to `GLOSSARY.md`); `data-examples/README.md` said files arrive in step 4, now step 6. Structure: fixed (2 items).
+
+## 2026-10-25: Step 4, Абрамкин and the newcomer riddles
+
+- Taras's answers: take riddles from anonymous channels, flagged low; «в ответе» checked against the audio (S5UJgZkT2vw @ 16:12) and now usable; drop the search for the rest of Абрамкин.
+- Catalogued `ps:src:18` Абрамкин and Чижов, ch. 2 (interviews of 1988-91, the copy Taras found) and `ps:src:19`, four anonymous YouTube channels as one low-reliability source, since they likely copy each other.
+- Reference now: 6 concepts, 18 trap riddles, 87 terms (93 `ps:t:` IDs). Абрамкин was the third source that made общак, грев, конь, малява, беспредел and наколка general, and gave 8 riddles with accepted answers, among them a false choice answered by a third way (`ps:r:10`) and an insult left unanswered (`ps:r:9`).
+- Research verdict, correcting the step 4 entry above: «смотрящий» is late Soviet, not post-Soviet. It is absent from Росси (to 1961) and Балдаев (1992) but used in the interviews of 1988-91 (`ps:src:18`, §2.6).
+- Research verdict: the classic прописка riddles (свадьба, гармошка) appear both in Абрамкин (late 1980s) and in anonymous videos of 2015-2019: the answers have stayed the same for 30 years.
+- Method: a script checked all 231 «quotes» in the reference against the source texts. Fixed 4 that were not word for word (two words corrected from the captions, one dropped «это», one case ending). The 11 left unmatched are headings, term mentions, the mybook citation, and two OCR misreads checked by eye. Also dropped a riddle variant (the train) whose answer the captions do not give.
+- YouTube: 4 videos by captions, one at a time, a minute apart; no refusals.
+- Structure: ok.
