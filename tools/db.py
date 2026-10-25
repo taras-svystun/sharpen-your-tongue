@@ -4,7 +4,7 @@ The log is the only record. Item states are computed from it on every run, so th
 twice, and a change to the schedule rules applies to the whole history at once.
 
 Usage:
-  db.py record ID=Q [ID=Q ...] [--date YYYY-MM-DD]   append one session; Q is a quality 0-5
+  db.py record ID=Q [ID=Q ...] [--date YYYY-MM-DD]   append one session, then read it back; Q is 0-5
   db.py next [-n 3] [--school S]                      the next targets: due, then weak, then new
   db.py status [--school S]                           counts, due items, the reserve rule
 
@@ -73,8 +73,21 @@ def record(scores, day, path=None, known=None):
     if not path.exists():  # ADR 0001: data/ is created from the public template
         path.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy(TEMPLATE, path)
+    entry = {"date": day.isoformat(), "scores": scores}
     with path.open("a") as f:
-        f.write(json.dumps({"date": day.isoformat(), "scores": scores}, ensure_ascii=False) + "\n")
+        f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+    return check_recorded(entry, path)
+
+
+def check_recorded(entry, path=None):
+    """Read the log back: its last line must be this entry. Returns {item id: State} after the replay.
+
+    A lesson missing from the log did not happen for SM-2, so the lesson trusts this, not the write.
+    """
+    log = read_log(path or LOG)
+    if not log or log[-1] != entry:
+        raise RuntimeError(f"log does not end with {entry}; last line: {log[-1] if log else 'none'}")
+    return states(log)
 
 
 def pick(known, st, today, n=3, school=None):
@@ -117,10 +130,12 @@ def main(argv=None):
     if a.cmd == "record":
         try:
             scores = {i: int(q) for i, q in (s.rsplit("=", 1) for s in a.scores)}
-            record(scores, a.date, known=known)
-        except ValueError as e:
+            st = record(scores, a.date, known=known)
+        except (ValueError, RuntimeError) as e:
             sys.exit(f"not recorded: {e}")
-        print(f"recorded {len(scores)} items on {a.date}")
+        print(f"recorded and read back {len(scores)} items on {a.date}")
+        for i, q in scores.items():
+            print(f"{i}={q}\tnext due {st[i].due}")
         return
     st = states(read_log())
     if a.cmd == "next":

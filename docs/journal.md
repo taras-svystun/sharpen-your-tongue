@@ -171,3 +171,10 @@ A review of every file gave 30 points; Taras approved all but Windows encodings;
 - Taras could not tell when the lesson had ended. `/interest` §6 now checks that the log holds today's scores (`tail -1 data/sessions.jsonl`, `db.py next`), and a new §7 closes with one fixed line: done, what was recorded, what comes tomorrow.
 - Check: today's log line holds the session; `pytest` 34 passed (the path test covers the skill).
 - Structure: ok.
+
+## 2026-10-25: record checks itself
+
+- The close check from the last entry was an instruction the model could skip. Now `db.py record` reads the log back after the write: the last line must be the entry it sent, or it exits with "not recorded". It then prints each target with its next due date, and `/interest` §7 closes from that output, so a lesson cannot close with numbers the log does not hold.
+- Not covered: a lesson where `record` is never run. The fixed close line names the recorded scores, which makes that slip visible to Taras; a hook would be the next step if it ever happens.
+- Check: `pytest` 35 passed; the new test edits the log after the write and expects the read-back to fail.
+- Structure: ok.

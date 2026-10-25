@@ -58,6 +58,14 @@ def test_record_refuses_unknown_items_and_bad_quality(tmp_path):
     assert not log.exists()
 
 
+def test_record_reads_its_entry_back(tmp_path):
+    log, known = tmp_path / "sessions.jsonl", {"trap:a": "shared"}
+    assert db.record({"trap:a": 2}, D0, log, known)["trap:a"].due == day(1)
+    log.write_text(log.read_text().replace('"trap:a": 2', '"trap:a": 3'))  # the write did not land as sent
+    with pytest.raises(RuntimeError):
+        db.check_recorded({"date": D0.isoformat(), "scores": {"trap:a": 2}}, log)
+
+
 def test_pick_due_then_weak_then_new_and_skips_mastered():
     known = dict.fromkeys(["trap:due", "trap:weak", "trap:done", "trap:new"], "shared")
     known["ec:t:x"] = "east-coast"
@@ -81,6 +89,7 @@ def test_cli_record_then_next(tmp_path, monkeypatch, capsys):
     monkeypatch.setattr(db, "LOG", tmp_path / "sessions.jsonl")
     first = next(iter(items.load()))
     db.main(["record", f"{first}=1", "--date", "2026-01-01"])
+    assert capsys.readouterr().out.splitlines()[-1] == f"{first}=1\tnext due 2026-01-02"
     db.main(["next", "-n", "1"])
     assert capsys.readouterr().out.splitlines()[-1].startswith(first + "\t")
     assert json.loads((tmp_path / "sessions.jsonl").read_text()) == {"date": "2026-01-01", "scores": {first: 1}}
