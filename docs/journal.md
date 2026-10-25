@@ -100,3 +100,11 @@ Newest at the bottom.
 - Method: a script checked all 231 «quotes» in the reference against the source texts. Fixed 4 that were not word for word (two words corrected from the captions, one dropped «это», one case ending). The 11 left unmatched are headings, term mentions, the mybook citation, and two OCR misreads checked by eye. Also dropped a riddle variant (the train) whose answer the captions do not give.
 - YouTube: 4 videos by captions, one at a time, a minute apart; no refusals.
 - Structure: ok.
+
+## 2026-10-25: Keep every scrap; quote checker kept in the repo
+
+- Agreement 19 (Taras): nothing found is thrown away; a one-source or low-reliability item goes in, flagged. Applied to what step 4 had skipped: 8 more riddles (`ps:r:19`-`ps:r:26`, among them the train riddle, «рога есть?», the swan, precision tests, pranks) and 33 more terms (скатка, дальняк, сечка, кобура, локалка, микрон, батя, обосновывать and others). Reference: 6 concepts, 26 riddles, 120 terms. Where a riddle's answer is not legible in the captions, the entry says so and asks for the audio.
+- Catalogued `ps:src:20`, the vse42.ru article (low); it is a second source for «здесь не спрашивают, а интересуются».
+- The quote checker moved from the session scratchpad to `tools/check_quotes.py`, since the scratchpad is lost with the session; README has its command; making it a test is in step 9 of `docs/PLAN.md`. Run: 292 quotes, 11 unmatched, all headings, term mentions, the mybook citation or OCR misreads.
+- Taras's YouTube suggestions found and listed as candidates: «Всё о тюрьме», «ТЮРЕМНЫЙ ПОДКАСТ», Варламов's «Тюрьмы»; «Азбука тюрьмы» is ps:src:02. Three searches, a minute apart.
+- Structure: added `check_quotes` to the layout map; otherwise ok.

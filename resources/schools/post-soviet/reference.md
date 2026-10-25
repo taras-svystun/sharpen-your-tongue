@@ -5,7 +5,7 @@ What the scenes and debriefs of this school may stand on. Every claim cites a so
 ## How to read an entry
 
 - **ID**: `ps:t:<word>` for a concept or term, `ps:r:<n>` for a trap riddle. The database tracks these IDs.
-- **Label**: *general* or *local* as defined in `GLOSSARY.md` (agreement 7 in `docs/PLAN.md`); a local entry says where it holds. *One source* is flagged.
+- **Label**: *general* or *local* as defined in `GLOSSARY.md` (agreement 7 in `docs/PLAN.md`); a local entry says where it holds. *One source* is flagged, and so is *low reliability* (the source's rating in `sources.md`). Nothing is dropped for being thin (agreement 19): a scene may use a flagged entry, saying so in the debrief.
 - **Scope**: place and years of the sources. A word attested in the 1930s and in 2019 is general across time, but its meaning may have moved; the entry says so.
 - **Quote**: in the source's language. Books by chapter or page, dictionaries by headword (`s.v.`; their cross-references «(см.)» are left out), videos by `<video-id> @ m:ss`. Quotes from YouTube captions are marked *(captions)*: machine text, not yet checked against the audio.
 - **Our reading**: a sentence so marked is our inference from the sources, not a source's claim.
@@ -44,7 +44,7 @@ What the scenes and debriefs of this school may stand on. Every claim cites a so
 **Mechanism.** Three facts stack up. First, questions collect information, and in a cell the one who collects information is suspected of working for the опер: «сами никого ни о чем не расспрашивайте, а то и вас могут принять за курицу – а расправа обычно за это очень жестокая» (`ps:src:17`); «Не приставай к нему с вопросами: за что сел, как было дело?..» (`ps:src:18`, §2.5); «чрезмерное любопытство справедливо рассматривается как проявление дурного тона … вполне достаточно назвать статью, по которой тебя закрыли, да имя» (`ps:src:15`, Introduction). Second, the verb «спросить с кого-то» means to call someone to account and punish him (`ps:src:17`, quoted above; «нельзя спрашивать с человека за нарушение нормы, о которой он не знает», `ps:src:18`, §2.5), so "I want to ask you" can sound like a threat. Third, the root is old: «правила воровского „приличия“ не позволяют вору задавать вопросы», tied to the same belief in the power of words (`ps:src:06`, p. 62). Hence the safe verb: «На тюрьме не спрашивают, а интересуются» (`ps:src:17`, quoted on mybook.ru; not in our saved part).
 
 - In a riddle the phrase turns defensive: «с какой целью интересуешься» answers a question you do not want to answer (`ps:src:19` / JmHBUhEsCk4 @ 0:00, captions).
-- *Label*: the ban on questions is *general* (`ps:src:06` Соловки 1930s, `ps:src:18` Russia late 1980s, `ps:src:15` Kyiv 1997, `ps:src:17` Russia and Ukraine around 2000); so is «спросить с» as "call to account" (`ps:src:17`, `ps:src:18`, `ps:src:01`). The pair «не спрашивают, а интересуются» is *one source* (`ps:src:17`).
+- *Label*: the ban on questions is *general* (`ps:src:06` Соловки 1930s, `ps:src:18` Russia late 1980s, `ps:src:15` Kyiv 1997, `ps:src:17` Russia and Ukraine around 2000); so is «спросить с» as "call to account" (`ps:src:17`, `ps:src:18`, `ps:src:01`). The pair itself is *local*: `ps:src:17`, and a low-reliability article: «здесь не спрашивают, а интересуются», since «спросить» means «предъявить претензию» (`ps:src:20`).
 - **In ordinary life**: a question can be heard as an audit. Say why you ask before you ask.
 
 ### Масти: the ladder of status `ps:t:mast`
@@ -81,6 +81,8 @@ A newcomer is tested with words before anything else. The custom is old: «КИ�
 
 One move answers every riddle you do not know: decline and ask for the purpose. «если ты их не знаешь то лучше сказать с какой целью интересуешься и лежать спокойно нужно вообще поменьше говорить» (`ps:src:19` / JmHBUhEsCk4 @ 1:02, captions). The riddles from `ps:src:19` (low reliability) are kept only where another source agrees; one resting on a single video is marked **check the audio**.
 
+In juvenile pre-trial cells a newcomer gets «пацанское время для обдумывания ответа … равное 45 секундам», and a "blackmail" kind of prank rests on «незнание не освобождает от ответственности» (`ps:src:19` / yZPTMttbTQQ @ 16:25-16:56, captions; low). A правильная хата holds the opposite: «нельзя спрашивать с человека за нарушение нормы, о которой он не знает» (`ps:src:18`, §2.5). Which rule a cell follows tells you what kind of cell it is.
+
 ### ps:r:1 «Кто ты по жизни?»
 
 - **The trap**: a talkative cellmate asks «кто ты по жизни — мужик или пацан, поддерживаешь или нет воровскую жизнь». Both answers cost: one claims a rank you must then defend, the other gives it up; and in a pre-trial prison the answers reach the investigator. Kudin: such questions come from provocateurs, «это как раз то, что хотели узнать у тебя мусора» (`ps:src:15`, ch. 12).
@@ -115,7 +117,7 @@ One move answers every riddle you do not know: decline and ask for the purpose. 
 
 - **The trap**: «Кем хочешь стать - летчиком или танкистом? - Летчиком. - Прыгай вниз головой» (`ps:src:18`, §2.5). A blindfolded variant: tied to the upper bunk with what feels like a rope: «Прыгай».
 - **Accepted answer**: jump. The "rope" is a thread, and the jumper is caught; «Не прыгнешь, струсишь - сам себе приговор подпишешь» (ibid.). What is tested is nerve, not wit; if a jumper is hurt, the cell is held to account (ibid.).
-- *Local, one source*: Russia, late 1980s.
+- *Local*: Russia, late 1980s (`ps:src:18`); the same test as «десантник»: «со второго яруса коек заставляют прыгать вниз головой … новичка внизу ловят» (`ps:src:19` / yZPTMttbTQQ @ 13:48, captions; low).
 
 ### ps:r:7 The unclean chair
 
@@ -192,6 +194,55 @@ One move answers every riddle you do not know: decline and ask for the purpose. 
 - **Accepted answer**: «если ты не хочешь кричать решку про погоняла то не кричи никто тебя не заставит» (ibid. @ 4:42). Not every order is an order.
 - *Local, low reliability, one video*: **check the audio**.
 
+### ps:r:19 The train: «кенты» or mother
+
+- **The trap**: your train can turn only left or right; on the left your «кенты» are tied to the rails, on the right your mother (`ps:src:20`; also `ps:src:19` / XdDS0EejjSw @ 3:13, captions, garbled).
+- **Accepted answer**: «сегодня кенты, а завтра менты», meaning that «на зоне ни у кого на самом деле нет друзей»; whoever runs over his mother becomes a servant, since «мать – это святое» (`ps:src:20`).
+- *Local, low reliability* (`ps:src:20`, `ps:src:19`); the same answer in the snake riddle `ps:r:15`.
+
+### ps:r:20 «Рога есть?»
+
+- **The trap**: asked «рога есть», a newcomer answers no, then yes; either answer is mocked (`ps:src:19` / JmHBUhEsCk4 @ 2:34, captions).
+- **Accepted answer**: «А отвечать надо потерял перед тюрьмой» (ibid. @ 3:07).
+- *Local, low reliability, one video*: **check the audio**.
+
+### ps:r:21 Six or seven
+
+- **The trap**: dominoes 6 and 7 are thrown down: «что возьмёшь шестёрку или Семёрку» (`ps:src:19` / JmHBUhEsCk4 @ 2:04, captions). Taking the шестёрка names you a servant.
+- **Accepted answer**: not legible in the captions; **check the audio**. *Our reading*: refuse both, as in `ps:r:14`.
+- *Local, low reliability, one video*.
+
+### ps:r:22 «Бурбулятор»
+
+- **The trap**: «посадить на бурбуля Тор … это таз с водой»: sit on a basin of water and see if it bubbles; someone will always "see" bubbles (`ps:src:19` / JmHBUhEsCk4 @ 0:31-1:02, captions).
+- **Accepted answer**: none given. The narrator's general advice applies: «с какой целью интересуешься» (ibid. @ 1:02).
+- *Local, low reliability, one video*: **check the audio**.
+
+### ps:r:23 The swan
+
+- **The trap**: a vulgar riddle about riding someone like a swan (`ps:src:19` / yZPTMttbTQQ @ 4:47, captions).
+- **Accepted answer**: «лебедь не скачет я не лебедь я не птица» (ibid.). Refuse the role the riddle assigns.
+- *Local, low reliability, one video*: **check the audio**.
+
+### ps:r:24 «Кем будешь жить?»
+
+- **The trap**: in a pre-trial cell: will you live as a пацан or as an активист? (`ps:src:19` / yZPTMttbTQQ @ 5:17, captions, the word «пацан» garbled.) Then: pick the strongest cellmate and hit him; he hits back.
+- **Accepted answer**: «пацаном», then hit the strongest and stay on your feet; picking the weakest, falling or freezing gives low status, and «активистом» makes you «ломиться из хаты» (ibid. @ 5:52-6:24).
+- *Local, low reliability, one video*: **check the audio**.
+
+### ps:r:25 Precision tests
+
+- «ты какого года рождения» → the full year: «а правильно сказать я 1985 года», not «85-го» (`ps:src:19` / yZPTMttbTQQ @ 6:24-6:57). The newcomer is caught on everyday sloppiness.
+- «обоснуй что ты пацан» → name an age of 16 or more, since under 16 one is a «микрон» (ibid. @ 8:31; «"микронов" - тех, кому 16 не исполнилось», `ps:src:18`, §2.5).
+- «хитрый сосед»: eyes closed, someone hits your hand, all raise their thumbs; answer «ударил хитрый сосед», do not guess a person (yZPTMttbTQQ @ 13:15).
+- *Local, low reliability, one video*: **check the audio**.
+
+### ps:r:26 Pranks with no right answer
+
+- **The traps**: write a request to be let out «сходить на базар купить витаминов» for the cell; a phone moulded from bread (`ps:src:19` / JmHBUhEsCk4 @ 4:42-5:46); «игра в жмурки», where a blindfolded newcomer is made to touch what makes him unclean (yZPTMttbTQQ @ 12:11-12:43).
+- **Accepted answer**: «надо не поддаваться на все эти провокации» (JmHBUhEsCk4 @ 5:46). *Our reading*: refuse any game with a blindfold.
+- *Local, low reliability*: **check the audio**.
+
 ## Terms
 
 Grouped by topic. Each: ID, meaning, label and scope, quote.
@@ -223,6 +274,14 @@ Grouped by topic. Each: ID, meaning, label and scope, quote.
 - **наседка** `ps:t:nasedka`: an informer planted in a cell. *Local* (`ps:src:08` p. 152, `ps:src:17`). «осведомитель, подсаженный в камеру для сбора информации» (`ps:src:08`, p. 152).
 - **первоход, первоходочник** `ps:t:pervokhod`: a first-time prisoner. *Local* (`ps:src:18` Russia late 1980s; `ps:src:16` Belarus 2022): «теми, кто первый раз попадает в застенки и ни разу не был в колонии до этого».
 - **баландёр** `ps:t:balander`: the prisoner who serves the food; half despised for currying favour. *Local* (`ps:src:15` ch. 4, `ps:src:08` p. 22). «их недолюбливают за заискивание перед тюремным начальством и называют козлами» (`ps:src:15`, ch. 4).
+- **этапник** `ps:t:etapnik`: a newcomer just arrived by transport. *Local, one source* (`ps:src:18`, §2.8).
+- **микрон** `ps:t:mikron`: a juvenile under 16, who may not be put through прописка. *Local* (`ps:src:18` §2.5; `ps:src:19` / yZPTMttbTQQ @ 9:02, low).
+- **батя** `ps:t:batya`: an adult prisoner placed by the staff in a juvenile cell; the post is «косячной». *Local, one source* (`ps:src:18`, §2.6): «подсаживают в камеры малолеток "батю" - взрослого арестанта».
+- **главпетух** `ps:t:glavpetukh`: the leader of the bottom caste, its go-between with the авторитеты. *Local, one source* (`ps:src:18`, §2.6).
+- **атлеты, бойцы, гладиаторы** `ps:t:atlety`: the пахан's guard. *Local, one source* (`ps:src:18`, §2.6).
+- **кент, кинт** `ps:t:kent`: a mate, a pal; not a true friend. *Local* (`ps:src:01` / S5UJgZkT2vw @ 13:02, «каким-то кинтам»; `ps:src:20`; `ps:src:19`).
+- **духовитый, гнилой** `ps:t:dukhovityy`: strong in spirit; rotten. What прописка is said to find out: «гнилой - не гнилой, слабый духом - сильный ("духовитый")» (`ps:src:18`, §2.5). *Local, one source*.
+- **конегон** `ps:t:konegon`: a prisoner who runs the «кони» between cells all day. *Local, one source* (`ps:src:15`, ch. 4).
 - **провокатор** `ps:t:provokator`: a prisoner placed by the опера to set cellmates against each other. *Local, one source* (`ps:src:15`, ch. 12): «Провокатор всегда кричит громче всех, но в случае чего он, естественно, "не при делах"».
 - **беспредельщик, беспредел** `ps:t:bespredel`: one who uses force without a reason the code accepts; lawlessness. *General* (`ps:src:18`, `ps:src:17`, `ps:src:01` / cxWhs1uv2HY @ 19:47). «беспредел - это полное отсутствие порядка, а произвол вполне возможен и при наличии порядка» (`ps:src:18`, §2.8).
 - **крыса** `ps:t:krysa`: one who steals from his own. *Local* (`ps:src:08` p. 119, `ps:src:18` §2.7): «Человек, ворующий у своих» (`ps:src:08`, p. 119); «Крыс на зоне мигом опускают» (`ps:src:18`, §2.7).
@@ -235,6 +294,9 @@ Grouped by topic. Each: ID, meaning, label and scope, quote.
 - **мусор, мент** `ps:t:musor`: a police officer or guard (contemptuous). *General* (`ps:src:08` p. 140, 146; `ps:src:15`; `ps:src:03`; `ps:src:12`). «Промеж блатных и промежду мусоров» (`ps:src:03`, 2019).
 - **вертухай** `ps:t:vertukhay`: a guard. *Local, one source* (`ps:src:08`, p. 41): «контролер, надзиратель, охранник в ИТУ».
 - **попкарь** `ps:t:popkar`: in Kyiv, the corridor guard. *Local, one source* (`ps:src:15`, ch. 4): «попкарь (контролер), который пасет (следит) арестантов».
+- **шмонщик** `ps:t:shmonshchik`: a guard who searches cells. *Local, one source* (`ps:src:15`, ch. 4): «шмонщики (от слова шмон — обыск)».
+- **левитанша** `ps:t:levitansha`: in Kyiv, the woman who brings the mail and the bad news. *Local, one source* (`ps:src:15`, ch. 4).
+- **каптёр, каптерка** `ps:t:kapter`: the storekeeper who issues bedding; his store. *Local, one source* (`ps:src:15`, ch. 4).
 - **лепила** `ps:t:lepila`: the prison medic. *Local* (`ps:src:08` p. 127, `ps:src:15` ch. 4).
 - **шмон** `ps:t:shmon`: a search. *General* (`ps:src:07`, `ps:src:08` p. 290, `ps:src:15` ch. 4, `ps:src:01` / cxWhs1uv2HY @ 20:19).
 - **зона** `ps:t:zona`: a camp or colony; prison in general. *General* (`ps:src:08` p. 92, `ps:src:15`, `ps:src:01`).
@@ -246,18 +308,35 @@ Grouped by topic. Each: ID, meaning, label and scope, quote.
 - **пресс-хата** `ps:t:press-khata`: a cell where prisoners beat others on the staff's orders, to force a confession. *General* (`ps:src:18`; `ps:src:12`; `ps:src:17`, section «Пресс-хата»; `ps:src:01` / S5UJgZkT2vw @ 6:16). «Пресс-хата - это самое страшное, что на зоне или в тюрьме есть» (`ps:src:18`, §2.8).
 - **шерстяные** `ps:t:sherstyanye`: prisoners condemned by the prison world who beat others in a пресс-хата for the staff. *Local, one source* (`ps:src:18`, §2.8).
 - **запретка** `ps:t:zapretka`: the raked strip by the fence; whoever rakes it becomes a козёл. *Local, one source* (`ps:src:18`, §2.8). See `ps:r:10`.
+- **локалка** `ps:t:lokalka`: a fenced sector inside a colony. *Local* (`ps:src:18` §2.6, «"локалками" - оградами внутри зоны»; `ps:src:01` / S5UJgZkT2vw @ 16:12).
+- **жилуха, промка** `ps:t:promka`: the living and the industrial parts of a colony. *Local* (`ps:src:18` §2.6; «промка» also `ps:src:01` / S5UJgZkT2vw @ 12:31).
+- **яма** `ps:t:yama`: probably the punishment cell, «карантин туда-сюда в яму он там поехал» (`ps:src:01` / S5UJgZkT2vw @ 16:12, captions). *One source*; the meaning is our guess: **check**.
+- **сборка, транзитка** `ps:t:sborka`: the holding cells and transit prisons where prisoners pass through; «проходной двор тюремного мира, место без традиций» (`ps:src:18`, §2.3). *Local, one source*.
+- **непрерывка** `ps:t:nepreryvka`: back-to-back ШИЗО terms with one night in the barracks between them, «"через постель"» (`ps:src:18`, §2.8). *Local, one source*.
+- **стакан** `ps:t:stakan`: a standing-room holding box. *Local, one source* (`ps:src:17`).
+- **малолетка, взросляк** `ps:t:maloletka-vzroslyak`: adult cells, opposed to juvenile ones. *Local, one source* (`ps:src:18`, §2.5).
 - **малолетка** `ps:t:maloletka`: a juvenile colony. *Local* (`ps:src:15` ch. 12; `ps:src:01` / S5UJgZkT2vw @ 6:46).
 
 ### Cell life
 
 - **хата** `ps:t:khata`: a cell. *General* (`ps:src:08` p. 267, `ps:src:18` §2.5, `ps:src:15` ch. 4, `ps:src:01` / S5UJgZkT2vw @ 10:27, `ps:src:12` @ 18:48). «Камера в изоляторе» (`ps:src:08`, p. 267).
+- **скатка, вата** `ps:t:skatka`: the rolled bedding a newcomer is issued; «вата (в переводе — матрас)» (`ps:src:15`, ch. 4). *Local, one source*.
+- **дальняк** `ps:t:dalnyak`: the toilet. *Local, one source* (`ps:src:18`, §2.5): «Пришел с дальняка, то есть из туалета - руки помой».
+- **лепень** `ps:t:lepen`: a jacket, taken off at the table. *Local, one source* (`ps:src:18`, §2.5).
+- **решка** `ps:t:reshka`: the cell window's grating; «крикнуть через решетку ("с решки")» (`ps:src:18`, §2.5); «Вылези в решку» (`ps:src:19` / JmHBUhEsCk4 @ 4:11). *Local*.
+- **сечка; висеть на ушном, на глазном** `ps:t:sechka`: the spyhole; a guard's eavesdropping and peeping. *Local, one source* (`ps:src:15`, ch. 4): «висеть на ушном (подслушивать разговоры в камерах) и на глазном (подсматривать) через сечку».
+- **кобура** `ps:t:kobura`: a hole between cells. *Local, one source* (`ps:src:15`, ch. 4): «кобуру (дырку между камерами)».
+- **пакован** `ps:t:pakovan`: a packet for tea and cigarettes sent by «дорога». *Local, one source* (`ps:src:15`, ch. 4).
+- **куреха; голяки** `ps:t:kurekha`: tobacco; being cleaned out. *Local, one source* (`ps:src:15`, ch. 4, in a note: «Загоните по возможности чая и курехи, а то совсем голяки»).
+- **вечер в хату** `ps:t:vecher-v-khatu`: the greeting on entering a cell. *One source*, from captions (`ps:src:12` @ 23:00): **check the audio**.
+- **здороваться за руку** `ps:t:za-ruku`: not done in a cell. *Local, one source* (`ps:src:17`): «в тюрьме не принято здороваться за руку».
 - **нара, пальма** `ps:t:palma`: a bunk; «пальма» is the upper one. *Local*, by the source's own words: «верхнюю нару принято называть пальмой. В Днепропетровске, для сравнения, — грушей» (`ps:src:15`, ch. 4).
 - **шконка** `ps:t:shkonka`: a bed or bunk. *Local, one source* (`ps:src:08`, p. 289).
 - **параша** `ps:t:parasha`: the cell's toilet tub; also a false rumour. *General* (`ps:src:07`, `ps:src:08` p. 169, `ps:src:15` ch. 12). «Загнали на парашу» means pushed to the lowest place (`ps:src:15`, ch. 12).
 - **баланда** `ps:t:balanda`: prison soup. *General* (`ps:src:08` p. 22, `ps:src:15` ch. 4, `ps:src:07`).
 - **кормушка** `ps:t:kormushka`: the hatch in a cell door. *Local* (`ps:src:08` p. 112, `ps:src:15` ch. 4).
-- **весло, шлёмка, тромбон, телевизор** `ps:t:veslo`: spoon, bowl, mug, and the shelf under the table. *Local* (Kyiv `ps:src:15` ch. 4; «весло» also `ps:src:08` p. 42).
-- **намордник** `ps:t:namordnik`: the metal screen welded outside a cell window. *General* (`ps:src:07`, `ps:src:08` p. 151, `ps:src:15` ch. 4).
+- **весло, шлёмка (нифель), тромбон, телевизор** `ps:t:veslo`: spoon, bowl, mug, and the shelf under the table. *Local* (Kyiv `ps:src:15` ch. 4; «весло» also `ps:src:08` p. 42).
+- **намордник** `ps:t:namordnik`: the metal screen welded outside a cell window; in Kyiv also «баян или забрало» (`ps:src:15`, ch. 4). *General* (`ps:src:07`, `ps:src:08` p. 151, `ps:src:15` ch. 4).
 - **мойка** `ps:t:moyka`: a razor blade. *General* (`ps:src:07`, `ps:src:08` p. 142, `ps:src:15` ch. 4).
 - **марочка** `ps:t:marochka`: a handkerchief, often painted as a gift home. *Local* (`ps:src:08` p. 136, `ps:src:15` ch. 4).
 - **кабан** `ps:t:kaban`: in Kyiv, a food and clothes parcel. *Local, one source* (`ps:src:15`, ch. 4); the 1992 dictionary knows other meanings only (`ps:src:08`, p. 98).
@@ -278,6 +357,11 @@ Grouped by topic. Each: ID, meaning, label and scope, quote.
 - **рамсы (развести, попутать; убитый рамс)** `ps:t:ramsy`: a dispute; to settle who is right; to misjudge one's place; a dispute closed for good. *Local* (`ps:src:15` ch. 4; `ps:src:12` @ 1:27:38). In the 1992 dictionary «РАМС» is only a card game (`ps:src:08`, p. 206).
 - **дать дупля** `ps:t:dat-duplya`: to understand. *Local* (`ps:src:15` ch. 4; «раздупляется» in `ps:src:01` / S5UJgZkT2vw @ 22:36).
 - **благодарю** `ps:t:blagodaryu`: said instead of «спасибо». *Local, one source* (`ps:src:15`, ch. 4): «В тюрьме не принято употреблять слово "Спасибо", говорят "Благодарю"». Kudin gives no reason.
+- **прозреть** `ps:t:prozret`: to be shocked by what one has understood. *Local, one source* (`ps:src:15`, ch. 4).
+- **шифроваться** `ps:t:shifrovatsya`: to hide who one is; Kudin: such a newcomer usually breaks. *Local, one source* (`ps:src:15`, ch. 4): «шифруется (ведет себя скрытно)».
+- **делюга** `ps:t:delyuga`: one's criminal case; the thing a planted informer wants to hear. *Local, one source* (`ps:src:17`).
+- **обосновывать, не доказывать** `ps:t:obosnovyvat`: give reasons; «доказывать» is the informers' word. *Local, low reliability* (`ps:src:20`: «лучше использовать более нейтральный термин – "обосновывать"»); usage in `ps:src:01` / S5UJgZkT2vw @ 18:21, «если запрещают, то обосновывают».
+- **игрульки** `ps:t:igrulki`: another word for приколы. *Local, low reliability, one source* (`ps:src:19` / yZPTMttbTQQ @ 0:00).
 - **базар** `ps:t:bazar`: talk; a conversation. *Local* (`ps:src:08` p. 21-22; `ps:src:15` ch. 13, «вклинится в чужой базар»).
 - **западло** `ps:t:zapadlo`: beneath one's dignity, against the code. *General* (`ps:src:08` p. 87, `ps:src:15`, `ps:src:17`). «О том, что считается ниже собственного достоинства. 2. О нарушении воровских законов» (`ps:src:08`, p. 87).
 - **законтачить, зашкварить** `ps:t:zakontachit`: to make someone or something unclean by contact. *Local* for each word (законтачить `ps:src:17`; зашкварить, шкварный `ps:src:18` §2.6-2.7: «не "зашквариваются", то есть не оскверняются»); the mechanism is general (see `ps:t:mast`).

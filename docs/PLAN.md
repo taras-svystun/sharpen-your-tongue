@@ -30,6 +30,7 @@ Standing decisions. Each is written once, here; other files link to this list in
 16. After every step, a structure review (rule in `CLAUDE.md`, "Finishing a step"), so the repo never turns into mush. Cheap now, expensive later.
 17. Requests to YouTube are slow and polite, so we are never blocked as a bot (rule in `CLAUDE.md`). Cheap first: a batch makes one pass that takes YouTube's captions for every video (`--subs-only`), then a second pass runs MacWhisper only on the videos the first pass skipped.
 18. A source I find but cannot open goes to the "Ask Taras" list in its school's `sources.md`; he spends a few minutes on each. Any copy, pirated ones included, goes to git-ignored `data/sources/` and is read from there. The public repo holds only the bibliographic record and short quotes, never the copy or a link to a pirated one.
+19. Nothing found is thrown away. A word, riddle or rule seen in only one source, or only in a low-reliability one, still goes into the reference, labelled *one source* and *low reliability*; scenes may use it with that flag. Sources are hard to find, so every scrap counts.
 
 ## Steps
 
@@ -58,6 +59,7 @@ Each step has a check. A step is done when its check passes.
 8. **Three real sessions, then tune.**
    Check: a journal line per session with what changed.
 9. **East Coast school.** Reference (Big L "Ebonics" as a slang anchor; Nas, Wu-Tang, Common, Mos Def, Biggie, 2Pac, KRS-One, Mobb Deep; documentary sources first) and its characters in `/interest`.
+   Before it: turn `tools/check_quotes.py` into a pytest test that skips when `data/` has no source copies, so quote checking runs with the other checks instead of by hand.
    Check: as in steps 4 and 7.
 
 ## Later: more lesson types

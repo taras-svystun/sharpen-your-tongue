@@ -175,6 +175,15 @@ The catalogue of this school. The reference may cite only sources listed here, b
 - Access: transcripts in `data/transcripts/<video-id>.md` (YouTube captions; «Арестант ТВ» badly garbled).
 - Checked: transcripts read, 2026-10-25. Cited only for riddles, and a riddle is used only where another source agrees or Taras has checked the audio.
 
+### ps:src:20 vse42.ru, «Тюремные загадки: как и зачем в тюрьме проверяют новеньких» (2020-09-15)
+
+- Genre: popular journalism on a Kuzbass news site; no author, no witness named; retells prison lore.
+- Scope: Russia, unspecified; "российских тюрем".
+- Reliability: low.
+- Link: https://vse42.ru/amp/articles/31370988
+- Access: page saved as `data/sources/text/10_vse42_2020.txt`, read in full.
+- Checked: read in full, 2026-10-25.
+
 ## Candidates
 
 Found, not yet checked. A candidate is cited only after it moves to the catalogue with all fields.
@@ -204,9 +213,14 @@ Found, not yet checked. A candidate is cited only after it moves to the catalogu
   - Gavin Slade, "Reorganizing Crime: Mafia and Anti-Mafia in Post-Soviet Georgia" (Oxford University Press, 2013): has a chapter on prison and recruitment of воры.
   - Kazakhstan: searches found only news about torture, no testimony on понятия yet.
 - Newcomer riddles («прописка»), from searches on 2026-10-25; all low reliability so far:
-  - vse42.ru, «Тюремные загадки: как и зачем в тюрьме проверяют новеньких» (2020-09-15, no author, no witness): the train riddle, «кенты» on one track and the mother on the other.
   - YouTube channel «Криминал ТВ»: many more videos on прописка; same kind as ps:src:19.
   - Wanted: a named former prisoner telling the riddles he was asked, with place and years.
+- Suggested by Taras, 2026-10-25 (found by `--list` search; scope to check for each):
+  - «Всё о тюрьме» (YouTube channel): short explainers on castes, козлы, правильная хата, погоняла, transit prisons (e.g. V15MVgyjVqs «Что такое правильная хата», KtbSHiahUH4 «Кто такой козел»). Narrator and his record unknown.
+  - «ТЮРЕМНЫЙ ПОДКАСТ» (YouTube channel): long interviews with named former prisoners, men and women, Russia (e.g. Yjja1dZJnlc, Ue6K-xDR83U). Each guest may count as a separate witness.
+  - Илья Варламов, playlist «Тюрьмы» (channel varlamov): documentary episodes on Russian colonies, transport, juvenile and women's prisons (e.g. 5bT1thBqh_Y «Тюрьмы России: гайд», gIBqNZG0mf4 on этап). Journalism with interviews.
+  - Playlist «Азбука тюрьмы»: this is ps:src:02; the playlist is its access.
+  - PRO DОБРО, «ОТСИДЕЛ 28 ЛЕТ - ПОНЯТИЯ И ТЮРЕМНЫЙ БЫТ» (jme3pQ-DVWA), already listed above, came up again.
 - Rejected: «Мопс дядя Пес» (Сергей Новик, Ukraine, about 27 years inside): famous for humiliation streams for money (Медуза, 2017); entertainment, not testimony.
 
 ## Ask Taras
