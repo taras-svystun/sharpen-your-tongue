@@ -255,3 +255,4 @@ A review of every file gave 30 points; Taras approved all but Windows encodings;
 - Also: `ps:r:1` and `ps:r:29` raised to *general*; `ps:r:33` *general*; `ps:r:10` a Russian 2020 case (the broom on camera, Покров); the riddle tests called mostly a myth by three more witnesses, except for juveniles; a cell reading a court verdict and judging it (`ps:t:lyudskoe-gadskoe`).
 - Check: quote check 565 quotes, 1 known unmatched; `pytest` 37 passed.
 - Structure: `reference.md` under 500 lines. Structure: ok.
+- Later: Taras lifted the limit on how a weapon is made or hidden, as part of self-defence. Witnesses' accounts now keep it (`ps:r:10`: how Станислав got and hid the blade); the AI adds no weapon instructions of its own beyond the sources (`resources/teaching-method.md` §8).
