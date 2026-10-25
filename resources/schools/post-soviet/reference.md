@@ -79,7 +79,7 @@ What the scenes and debriefs of this school may stand on. Every claim cites a so
 
 A newcomer is tested with words before anything else. The custom is old: «КИДАТЬ НА РЕШКУ - проверять заключенного-новичка на знание тюремных (лагерных) обычаев» (`ps:src:08`, p. 104); «ПРОВЕРКА ЗРЕНИЯ - камерная игра, в которой новичку предлагают рассматривать (и называть) предметы через вытянутый рукав пиджака, а в определенный момент в рукав льют воду» (p. 195-196). Russia, late 1980s: «Заставляют загадки разные отгадывать … все это "приколами" называется … Тут не столько твоя сообразительность проверяется, сколько знания. Знаешь приколы - свой»; yet «прописка правильными понятиями не одобряется, потому что игра там сплошь и рядом в издевательство переходит» (`ps:src:18`, §2.5). Each riddle below is a trap with the answer its source accepts.
 
-One move answers every riddle you do not know: decline and ask for the purpose. «если ты их не знаешь то лучше сказать с какой целью интересуешься и лежать спокойно нужно вообще поменьше говорить» (`ps:src:19` / JmHBUhEsCk4 @ 1:02, captions). The riddles from `ps:src:19` (low reliability) are kept only where another source agrees; one resting on a single video is marked **check the audio**.
+One move answers every riddle you do not know: decline and ask for the purpose. «если ты их не знаешь то лучше сказать с какой целью интересуешься и лежать спокойно нужно вообще поменьше говорить» (`ps:src:19` / JmHBUhEsCk4 @ 1:02, captions). The riddles from `ps:src:19` are low reliability and kept with that flag (agreement 19); one resting on a single video is marked **check the audio** until someone has listened.
 
 In juvenile pre-trial cells a newcomer gets «пацанское время для обдумывания ответа … равное 45 секундам», and a "blackmail" kind of prank rests on «незнание не освобождает от ответственности» (`ps:src:19` / yZPTMttbTQQ @ 16:25-16:56, captions; low). A правильная хата holds the opposite: «нельзя спрашивать с человека за нарушение нормы, о которой он не знает» (`ps:src:18`, §2.5). Which rule a cell follows tells you what kind of cell it is.
 
@@ -171,7 +171,7 @@ In juvenile pre-trial cells a newcomer gets «пацанское время дл
 
 - **The trap**: in the desert a snake bites your friend («кент») where sucking out the poison would make you unclean. Will you sacrifice your standing for a friend? (`ps:src:19` / yZPTMttbTQQ @ 9:02-9:35, captions.)
 - **Accepted answer**: «сегодня кент а завтра мент»: a friend is «не друг ради которого можно пожертвовать своей репутации а просто приятель» (yZPTMttbTQQ @ 9:35). The test is whether you know what is sacred and what is not.
-- *Local, low reliability* (`ps:src:19`); **check the audio** (only one video legible).
+- *Local, low reliability* (`ps:src:19`); audio checked by Taras, 2026-10-25.
 
 ### ps:r:16 Parachute
 
@@ -181,18 +181,18 @@ In juvenile pre-trial cells a newcomer gets «пацанское время дл
 
 ### ps:r:17 Quick ones: the cell, the article, the cliff, the truck
 
-- «сколько в хате … углов» → «со мной 5», since a newcomer counts as a corner; answering «4» means being made to look for the fifth, a beating (`ps:src:19` / yZPTMttbTQQ @ 8:00).
-- «за что сел» → «сел за решетку» (yZPTMttbTQQ @ 2:08).
+- «сколько в хате … углов» → «со мной 5», since a newcomer counts as a corner; answering «4» means being made to look for the fifth, a beating (`ps:src:19` / yZPTMttbTQQ @ 8:00). Another reading, from an anonymous YouTube comment under the video (lowest reliability): «угол» means «уголовник», so the right answer is the number of people in the cell.
+- «за что сел» → «сел за решетку»; the wrong answer offered first is «за бабу», meaning rape (yZPTMttbTQQ @ 2:08).
 - a pilot over the sea with one cliff: where do you land? → «сяду за решетку» (yZPTMttbTQQ @ 11:41).
 - a чёрт jumps on the bonnet of your КамАЗ → «у камаза нет капота» (yZPTMttbTQQ @ 11:09).
 - a free bunk is offered → «буду спать там где укажут»: a newcomer waits to be given his place (yZPTMttbTQQ @ 2:40).
-- *Local, low reliability, one video*: **check the audio**. The last one agrees with `ps:src:15` (ch. 4: the смотрящий shows where to put your bedroll).
+- *Local, low reliability, one video*; audio checked by Taras, 2026-10-25. The last one agrees with `ps:src:15` (ch. 4: the смотрящий shows where to put your bedroll).
 
 ### ps:r:18 «Тюрьма, тюрьма, дай погоняло»
 
 - **The trap**: you are told everyone gets a new nickname from the prison itself, so climb to the window and shout «тюрьма тюрьма Дай погоняло» (`ps:src:19` / JmHBUhEsCk4 @ 3:40-4:11, captions). The cell watches you perform.
 - **Accepted answer**: «если ты не хочешь кричать решку про погоняла то не кричи никто тебя не заставит» (ibid. @ 4:42). Not every order is an order.
-- *Local, low reliability, one video*: **check the audio**.
+- *Local, low reliability, one video*; audio checked by Taras, 2026-10-25.
 
 ### ps:r:19 The train: «кенты» or mother
 
@@ -204,44 +204,44 @@ In juvenile pre-trial cells a newcomer gets «пацанское время дл
 
 - **The trap**: asked «рога есть», a newcomer answers no, then yes; either answer is mocked (`ps:src:19` / JmHBUhEsCk4 @ 2:34, captions).
 - **Accepted answer**: «А отвечать надо потерял перед тюрьмой» (ibid. @ 3:07).
-- *Local, low reliability, one video*: **check the audio**.
+- *Local, low reliability, one video*; audio checked by Taras, 2026-10-25.
 
 ### ps:r:21 Six or seven
 
 - **The trap**: dominoes 6 and 7 are thrown down: «что возьмёшь шестёрку или Семёрку» (`ps:src:19` / JmHBUhEsCk4 @ 2:04, captions). Taking the шестёрка names you a servant.
-- **Accepted answer**: not legible in the captions; **check the audio**. *Our reading*: refuse both, as in `ps:r:14`.
-- *Local, low reliability, one video*.
+- **Accepted answer**: «половину или середину» (from the audio): take neither number, so neither names you. The same move as `ps:r:14`: refuse the frame.
+- *Local, low reliability, one video*; audio checked by Taras, 2026-10-25.
 
 ### ps:r:22 «Бурбулятор»
 
-- **The trap**: «посадить на бурбуля Тор … это таз с водой»: sit on a basin of water and see if it bubbles; someone will always "see" bubbles (`ps:src:19` / JmHBUhEsCk4 @ 0:31-1:02, captions).
+- **The trap**: «посадить на бурбуля Тор … это таз с водой»: sit on a basin of water and see if it bubbles; someone will always "see" bubbles (`ps:src:19` / JmHBUhEsCk4 @ 0:31-1:02, captions; the audio says «бурбулятор»).
 - **Accepted answer**: none given. The narrator's general advice applies: «с какой целью интересуешься» (ibid. @ 1:02).
-- *Local, low reliability, one video*: **check the audio**.
+- *Local, low reliability, one video*; audio checked by Taras, 2026-10-25.
 
 ### ps:r:23 The swan
 
 - **The trap**: a vulgar riddle about riding someone like a swan (`ps:src:19` / yZPTMttbTQQ @ 4:47, captions).
-- **Accepted answer**: «лебедь не скачет я не лебедь я не птица» (ibid.). Refuse the role the riddle assigns.
-- *Local, low reliability, one video*: **check the audio**.
+- **Accepted answer**: «лебедь не скачет я не лебедь я не птица хуй мне в крылья не годится» (ibid.). Refuse the role the riddle assigns, in rhyme.
+- *Local, low reliability, one video*; audio checked by Taras, 2026-10-25.
 
 ### ps:r:24 «Кем будешь жить?»
 
-- **The trap**: in a pre-trial cell: will you live as a пацан or as an активист? (`ps:src:19` / yZPTMttbTQQ @ 5:17, captions, the word «пацан» garbled.) Then: pick the strongest cellmate and hit him; he hits back.
+- **The trap**: in a pre-trial cell: will you live as a пацан or as an активист? (`ps:src:19` / yZPTMttbTQQ @ 5:17; the captions garble «пацаном», the audio has it.) Then: pick the strongest cellmate and hit him; he hits back.
 - **Accepted answer**: «пацаном», then hit the strongest and stay on your feet; picking the weakest, falling or freezing gives low status, and «активистом» makes you «ломиться из хаты» (ibid. @ 5:52-6:24).
-- *Local, low reliability, one video*: **check the audio**.
+- *Local, low reliability, one video*; audio checked by Taras, 2026-10-25.
 
 ### ps:r:25 Precision tests
 
 - «ты какого года рождения» → the full year: «а правильно сказать я 1985 года», not «85-го» (`ps:src:19` / yZPTMttbTQQ @ 6:24-6:57). The newcomer is caught on everyday sloppiness.
 - «обоснуй что ты пацан» → name an age of 16 or more, since under 16 one is a «микрон» (ibid. @ 8:31; «"микронов" - тех, кому 16 не исполнилось», `ps:src:18`, §2.5).
 - «хитрый сосед»: eyes closed, someone hits your hand, all raise their thumbs; answer «ударил хитрый сосед», do not guess a person (yZPTMttbTQQ @ 13:15).
-- *Local, low reliability, one video*: **check the audio**.
+- *Local, low reliability, one video*; audio checked by Taras, 2026-10-25.
 
 ### ps:r:26 Pranks with no right answer
 
-- **The traps**: write a request to be let out «сходить на базар купить витаминов» for the cell; a phone moulded from bread (`ps:src:19` / JmHBUhEsCk4 @ 4:42-5:46); «игра в жмурки», where a blindfolded newcomer is made to touch what makes him unclean (yZPTMttbTQQ @ 12:11-12:43).
+- **The traps**: write a request to be let out «сходить на базар купить витаминов» for the cell; a phone moulded from bread (`ps:src:19` / JmHBUhEsCk4 @ 4:42-5:46); «игра в жмурки»: a blindfolded newcomer is offered genitals to touch, and touching them lowers his status (yZPTMttbTQQ @ 12:11-12:43).
 - **Accepted answer**: «надо не поддаваться на все эти провокации» (JmHBUhEsCk4 @ 5:46). *Our reading*: refuse any game with a blindfold.
-- *Local, low reliability*: **check the audio**.
+- *Local, low reliability*; audio checked by Taras, 2026-10-25 (the end of the bazaar prank is hard to hear).
 
 ## Terms
 
@@ -310,7 +310,7 @@ Grouped by topic. Each: ID, meaning, label and scope, quote.
 - **запретка** `ps:t:zapretka`: the raked strip by the fence; whoever rakes it becomes a козёл. *Local, one source* (`ps:src:18`, §2.8). See `ps:r:10`.
 - **локалка** `ps:t:lokalka`: a fenced sector inside a colony. *Local* (`ps:src:18` §2.6, «"локалками" - оградами внутри зоны»; `ps:src:01` / S5UJgZkT2vw @ 16:12).
 - **жилуха, промка** `ps:t:promka`: the living and the industrial parts of a colony. *Local* (`ps:src:18` §2.6; «промка» also `ps:src:01` / S5UJgZkT2vw @ 12:31).
-- **яма** `ps:t:yama`: probably the punishment cell, «карантин туда-сюда в яму он там поехал» (`ps:src:01` / S5UJgZkT2vw @ 16:12, captions). *One source*; the meaning is our guess: **check**.
+- **яма** `ps:t:yama`: a place a newcomer is sent after quarantine, «карантин туда-сюда в яму он там поехал» (`ps:src:01` / S5UJgZkT2vw @ 16:12; audio checked by Taras, 2026-10-25, meaning not clear from context). The 1992 dictionary gives «Оперчасть ИТУ» among its meanings (`ps:src:08`, p. 301); our first guess was ШИЗО. *Local*; the meaning is **open**.
 - **сборка, транзитка** `ps:t:sborka`: the holding cells and transit prisons where prisoners pass through; «проходной двор тюремного мира, место без традиций» (`ps:src:18`, §2.3). *Local, one source*.
 - **непрерывка** `ps:t:nepreryvka`: back-to-back ШИЗО terms with one night in the barracks between them, «"через постель"» (`ps:src:18`, §2.8). *Local, one source*.
 - **стакан** `ps:t:stakan`: a standing-room holding box. *Local, one source* (`ps:src:17`).
@@ -328,7 +328,7 @@ Grouped by topic. Each: ID, meaning, label and scope, quote.
 - **кобура** `ps:t:kobura`: a hole between cells. *Local, one source* (`ps:src:15`, ch. 4): «кобуру (дырку между камерами)».
 - **пакован** `ps:t:pakovan`: a packet for tea and cigarettes sent by «дорога». *Local, one source* (`ps:src:15`, ch. 4).
 - **куреха; голяки** `ps:t:kurekha`: tobacco; being cleaned out. *Local, one source* (`ps:src:15`, ch. 4, in a note: «Загоните по возможности чая и курехи, а то совсем голяки»).
-- **вечер в хату** `ps:t:vecher-v-khatu`: the greeting on entering a cell. *One source*, from captions (`ps:src:12` @ 23:00): **check the audio**.
+- **вечер в хату** `ps:t:vecher-v-khatu`: the greeting on entering a cell. *Local, one source* (`ps:src:12` @ 23:00; audio checked by Taras, 2026-10-25).
 - **здороваться за руку** `ps:t:za-ruku`: not done in a cell. *Local, one source* (`ps:src:17`): «в тюрьме не принято здороваться за руку».
 - **нара, пальма** `ps:t:palma`: a bunk; «пальма» is the upper one. *Local*, by the source's own words: «верхнюю нару принято называть пальмой. В Днепропетровске, для сравнения, — грушей» (`ps:src:15`, ch. 4).
 - **шконка** `ps:t:shkonka`: a bed or bunk. *Local, one source* (`ps:src:08`, p. 289).

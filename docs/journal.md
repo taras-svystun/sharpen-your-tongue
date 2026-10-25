@@ -108,3 +108,9 @@ Newest at the bottom.
 - The quote checker moved from the session scratchpad to `tools/check_quotes.py`, since the scratchpad is lost with the session; README has its command; making it a test is in step 9 of `docs/PLAN.md`. Run: 292 quotes, 11 unmatched, all headings, term mentions, the mybook citation or OCR misreads.
 - Taras's YouTube suggestions found and listed as candidates: «Всё о тюрьме», «ТЮРЕМНЫЙ ПОДКАСТ», Варламов's «Тюрьмы»; «Азбука тюрьмы» is ps:src:02. Three searches, a minute apart.
 - Structure: added `check_quotes` to the layout map; otherwise ok.
+
+## 2026-10-25: Audio checks by Taras
+
+- Taras listened to the 12 passages marked "check the audio" (10 riddles, 2 words). All captions held; added from the audio: the domino answer «половину или середину» (`ps:r:21`), the full swan rhyme, «пацаном» where the captions garbled it, «бурбулятор», and «за бабу» as the wrong first answer to «за что сел». A viewer's comment gives another reading of the corners riddle (угол = уголовник), kept with the lowest reliability.
+- Open: «яма» (S5UJgZkT2vw @ 16:12). Not clear from context; the 1992 dictionary gives «Оперчасть ИТУ» among its meanings (p. 301).
+- Structure: ok.

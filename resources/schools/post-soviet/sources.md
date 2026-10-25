@@ -173,7 +173,7 @@ The catalogue of this school. The reference may cite only sources listed here, b
 - Scope: unknown; Russian speech, no place or years.
 - Reliability: low. Narrators unnamed, sources not given, and the channels likely copy each other, so they count together as one source.
 - Access: transcripts in `data/transcripts/<video-id>.md` (YouTube captions; «Арестант ТВ» badly garbled).
-- Checked: transcripts read, 2026-10-25. Cited only for riddles, and a riddle is used only where another source agrees or Taras has checked the audio.
+- Checked: transcripts read, 2026-10-25. Cited for riddles, flagged low. Taras checked the audio of every single-video riddle, 2026-10-25.
 
 ### ps:src:20 vse42.ru, «Тюремные загадки: как и зачем в тюрьме проверяют новеньких» (2020-09-15)
 
