@@ -59,6 +59,8 @@ done < ids.txt
 
 Any other failure stops the loop (`break`): find the cause before running it again.
 
+Books and articles: each school's `sources.md` gives the bibliographic record of every source; find your own copy and put it in `data/sources/`. The reference cites dictionaries by headword and books by page or chapter, so any edition with the same pagination works. Two copies used here are scans without text (Балдаев 1992, Лихачёв); to search them, OCR them first, for example with the open [OCRmyPDF](https://ocrmypdf.readthedocs.io) (`ocrmypdf -l rus in.pdf out.pdf`) or macOS Live Text.
+
 Run the tests:
 
 ```bash

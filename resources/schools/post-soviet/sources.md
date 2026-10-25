@@ -49,7 +49,7 @@ The catalogue of this school. The reference may cite only sources listed here, b
 - Scope: Kolyma camps, 1930s-1950s; the блатной world seen by a political prisoner who hated it.
 - Reliability: high as a witness, openly hostile to блатные; old: shows the roots, not today's rules.
 - Link: https://shalamov.ru/library/6/
-- Access: free full text on shalamov.ru, checked on 2026-10-25.
+- Access: free full text on shalamov.ru. Chapters 2, 3, 4 and 6 («Жульническая кровь», «Сучья война» and others) saved as text in `data/sources/text/7_shalamov_<n>.txt`, 2026-10-25. Cite by chapter: `ps:src:05, ch. 3`.
 - Checked: dating via booksite.ru (web search, 2026-10-25); the link opens the cycle's table of contents (2026-10-25).
 
 ### ps:src:06 Д. С. Лихачёв, «Черты первобытного примитивизма воровской речи» (1935)
@@ -57,9 +57,9 @@ The catalogue of this school. The reference may cite only sources listed here, b
 - Genre: linguistics; the author studied thieves' speech as a prisoner of Соловки.
 - Scope: Соловецкий лагерь and Белбалтлаг, late 1920s-early 1930s.
 - Reliability: high, scholarly; old.
-- Published in «Язык и мышление», т. 3-4, М.; Л., 1935, с. 47-100.
-- Access: no free text found; the lihachev.ru PDF is only his bibliography. Library, or a reprint in «Статьи ранних лет» (Тверь, 1993).
-- Checked: bibliography on lihachev.ru (web search, 2026-10-25).
+- Published in «Язык и мышление», т. 3-4, М.; Л., 1935, с. 47-100. Written in 1933.
+- Access: copy in `data/sources/5_cherti_perv.pdf` (scan, 40 pages), OCR text in `data/sources/text/`. The scan is the reprint inside ps:src:08 (1992), pages 54-93; cite those pages.
+- Checked: the reprint's own footnote gives the 1933 writing date and the 1935 publication (scan p. 40), 2026-10-25.
 
 ### ps:src:07 Жак Росси, «Справочник по ГУЛАГу»
 
@@ -67,16 +67,18 @@ The catalogue of this school. The reference may cite only sources listed here, b
 - Scope: USSR camps, 1937-1950s.
 - Reliability: high, careful, old.
 - Editions: London 1987 (Russian, first); English "The Gulag Handbook", Paragon House, New York 1989; Moscow, «Просвет», 1991 (2nd, expanded).
-- Access: no legal free text found; a scan of the 1991 part 1 sits on Calameo (legality unclear). Library or bought copy.
-- Checked: WorldCat and krimdok records (web search, 2026-10-25).
+- Access: copy of the London 1987 edition in `data/sources/2_rossi_spravochnik_po_gulagu_1987_text.pdf` (560 pages, with a text layer). Cite by headword: `ps:src:07, s.v. мужик`.
+- Method (preface): material gathered 1937-1958 (Лубянка, Бутырки, transit prisons, Норильск camps, Владимирский централ), cards written from 1961 and checked with other former prisoners. Tags before a word: (Д) specifically criminal, (Г) general prison and camp, (Е) guards' jargon, (А) popular.
+- Checked: title page and preface of the copy, 2026-10-25.
 
-### ps:src:08 Д. С. Балдаев, «Словарь блатного воровского жаргона» (Кампана, Москва, 1997)
+### ps:src:08 Д. С. Балдаев, В. К. Белко, И. М. Исупов, «Словарь тюремно-лагерно-блатного жаргона (речевой и графический портрет советской тюрьмы)» («Края Москвы», 1992)
 
-- Genre: dictionary, two volumes, by a former warder and collector of prison tattoos and drawings.
-- Scope: USSR and Russia, 1940s-1990s, all regions.
-- Reliability: medium-high; large but compiled from a guard's side, few dates per entry.
-- Access: not checked.
-- Checked: one bibliography (web search, 2026-10-25).
+- Genre: dictionary, about 11 000 entries, plus proverbs, tattoo abbreviations, a catalogue of tattoos, prisoners' drawings, and reprints of Лихачёв (ps:src:06).
+- Scope: USSR, mostly 1950s-1980s, all regions; place names only for Leningrad and its oblast.
+- Reliability: medium-high; large, but compiled by a criminalist (Балдаев, about 40 years of collecting) and two journalists, so seen from outside; no dates or places per entry.
+- Access: copy in `data/sources/4_Baldaev_Slovar_Tyuremno-Lagerno-Blatnogo_Zhargona_rechev.pdf` (scan, 527 pages), OCR text in `data/sources/text/`. Printed page = PDF page − 1. Cite as `ps:src:08, s.v. МУЖИК, p. 145`.
+- A later two-volume edition («Словарь блатного воровского жаргона», Кампана, 1997) is known from one bibliography only.
+- Checked: title page, ISBN 5-900310-01-9, publisher's note, 2026-10-25.
 
 ### ps:src:09 А. Н. Олейник, «Тюремная субкультура в России: от повседневной жизни до государственной власти»
 
@@ -131,6 +133,31 @@ The catalogue of this school. The reference may cite only sources listed here, b
 - Access: free PDF, 8 pages; read the first pages, 2026-10-25.
 - Checked: title, author, date from the PDF itself, 2026-10-25.
 
+### ps:src:15 Андрей Кудин, «Как выжить в тюрьме»
+
+- Genre: memoir and survival guide for a first-time prisoner, with a chapter on prison words (ch. 4), cellmates (ch. 12) and games (ch. 13).
+- Scope: Ukraine, Kyiv: КПЗ on Подол, then Лукьяновское СИЗО, 1997 to February 1998. A pre-trial prison, not a colony; Russian with Ukrainian quotes.
+- Reliability: medium. One first-hand witness, educated, openly scornful of other prisoners and of блатные; acquitted, his arrest ruled illegal (ХПГ). He names some words as local to Kyiv ("пальма" here, "груша" in Dnipropetrovsk).
+- Access: text copy `data/sources/3_kak_vyzhit_v_tyurme.u.txt`. No page numbers: cite by chapter, `ps:src:15, ch. 4`. Publication year unknown.
+- Checked: author and dates from О. Крижанівська, ХПГ, 2001-12-12 (https://archive.khpg.org/1008168656), which says he wrote the book in Лукьяновка; the copy's chapters match (Kyiv, Лукьяновка, Подол). Not the Абрамкин book it was taken for. 2026-10-25.
+
+### ps:src:16 Вясна, «"Это всё одно огромное преступление против человечности", — бывший политзаключённый шкловской колонии» (2023-04-04)
+
+- Genre: human-rights journalism; one anonymous former political prisoner's testimony.
+- Scope: Belarus, ИК-17 (Шклов), spring-summer 2022, from the side of political prisoners in a colony run by the administration.
+- Reliability: medium-high: one witness, but a human-rights organisation that collects many such accounts; names 19 staff.
+- Link: https://spring96.org/ru/news/111309
+- Access: saved page `data/sources/6_viasna.pdf`, read in full.
+- Checked: read in full, 2026-10-25. Not the 18-witness ИК-17 report (still a candidate below).
+
+### ps:src:17 Виталий Лозовский, «Как выжить и провести время с пользой в тюрьме. Часть 1»
+
+- Genre: survival guide grown from the author's mailing list, with readers' letters and his answers. Only the author's own voice is cited; a reader's letter is a separate, anonymous witness.
+- Scope: Russia and Ukraine, 1990s-early 2000s: 4 prisons in Russia, 7 in Ukraine, one year in a Ukrainian усиленный режим camp (3 years in all). Afterword dated Прага, 2004.
+- Reliability: medium: one first-hand witness, reflective; convicted of embezzlement, which he denies.
+- Access: online text of part 1 (about 8 000 words) saved as `data/sources/text/8_lozovsky_part1.txt`; it may be incomplete. Cite by section title.
+- Checked: author's background from the text itself; the phrase «На тюрьме не спрашивают, а интересуются» is quoted from this book on mybook.ru (citation page, 2020-01-22), but is not in the saved part. 2026-10-25.
+
 ## Candidates
 
 Found, not yet checked. A candidate is cited only after it moves to the catalogue with all fields.
@@ -159,16 +186,19 @@ Found, not yet checked. A candidate is cited only after it moves to the catalogu
   - Вясна and the International Committee for the Investigation of Torture in Belarus: a report on ИК-17 (Шклов) from 18 former political prisoners, 2020-2024; full text not yet found.
   - Gavin Slade, "Reorganizing Crime: Mafia and Anti-Mafia in Post-Soviet Georgia" (Oxford University Press, 2013): has a chapter on prison and recruitment of воры.
   - Kazakhstan: searches found only news about torture, no testimony on понятия yet.
+- Newcomer riddles («прописка»), from searches on 2026-10-25; all low reliability so far:
+  - vse42.ru, «Тюремные загадки: как и зачем в тюрьме проверяют новеньких» (2020-09-15, no author, no witness): the train riddle, «кенты» on one track and the mother on the other.
+  - YouTube channels «Криминал ТВ», «Криминальный Мир», «Криминальный Аналитик», «Арестант ТВ»: many videos on прописка and riddles (e.g. yZPTMttbTQQ, JmHBUhEsCk4); narrators unnamed, scope unknown.
+  - Wanted: a named former prisoner telling the riddles he was asked, with place and years.
 - Rejected: «Мопс дядя Пес» (Сергей Новик, Ukraine, about 27 years inside): famous for humiliation streams for money (Медуза, 2017); entertainment, not testimony.
 
 ## Ask Taras
 
 Worth having, but I could not open it. Taras spends a few minutes on each; a copy he finds goes to git-ignored `data/sources/<id-or-name>.<ext>` (agreement 18 in `docs/PLAN.md`). Most valuable first.
 
-1. Олейник, «Тюремная субкультура в России» (2001 or 2010): the main study; no free text found.
-2. Росси, «Справочник по ГУЛАГу» (1991, two parts): a scan of part 1 is on Calameo (legality unclear, so no link here); I did not try it.
-3. Абрамкин, «Как выжить в советской тюрьме» (around 1992): written by an ex-prisoner for prisoners; title and year unconfirmed.
-4. Балдаев, «Словарь блатного воровского жаргона» (1997): needed for the 60 terms of step 4.
-5. Лихачёв, «Черты первобытного примитивизма воровской речи» (1935), or its reprint in «Статьи ранних лет» (Тверь, 1993).
-6. Вясна, the ИК-17 (Шклов) report, 2024: the only Belarusian document with many witnesses.
-7. Lenta.ru, «Арестантский канал един» (2018-04-22, https://lenta.ru/articles/2018/04/22/zeki): a list of ex-prisoners' YouTube channels; the page did not open for me.
+Found on 2026-10-25: Росси (now ps:src:07), Балдаев 1992 (ps:src:08), Лихачёв (ps:src:06), a Вясна interview (ps:src:16), and Кудин (ps:src:15), which came in place of Абрамкин.
+
+1. Олейник, «Тюремная субкультура в России» (2001 or 2010): the main study; no free text found. Not found by Taras either.
+2. Абрамкин, «Как выжить в советской тюрьме» (around 1992): written by an ex-prisoner for prisoners; title and year unconfirmed. The file found under this title is Кудин's book.
+3. Вясна, the ИК-17 (Шклов) report, 2024: the only Belarusian document with many witnesses.
+4. Lenta.ru, «Арестантский канал един» (2018-04-22, https://lenta.ru/articles/2018/04/22/zeki): a list of ex-prisoners' YouTube channels; did not open for me or for Taras.

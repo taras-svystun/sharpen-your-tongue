@@ -44,7 +44,7 @@ Each step has a check. A step is done when its check passes.
    Why: the reference may only cite what is catalogued; scope tells a local rule from a general one.
    Check: every entry has all fields; the verdict is in the journal.
    Machine transcripts (YouTube's captions or Whisper) garble jargon and names, so a term is quoted from a transcript only after checking it against a second source or the audio.
-4. **Post-Soviet reference.** Concepts (понятия, the difference спрашивать / интересоваться, roles such as смотрящий, масти, debts, words and responsibility), classic trap riddles with their accepted answers, and at least 60 terms. Each claim: meaning, a quote in its source language, source IDs, scope, general or local.
+4. ✅ **Post-Soviet reference.** Concepts (понятия, the difference спрашивать / интересоваться, roles such as смотрящий, масти, debts, words and responsibility), classic trap riddles with their accepted answers, and at least 60 terms. Each claim: meaning, a quote in its source language, source IDs, scope, general or local.
    Why: scenes and debriefs stand on this; a thin start means invented detail.
    Check: no claim without a source ID; at least 60 terms.
 5. **Shared curriculum.** About 12 trap types and about 8 answer moves. Each: mechanism, an example from each school, an everyday example, and the test that tells it from its look-alike.
