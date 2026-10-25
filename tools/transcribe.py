@@ -1,7 +1,8 @@
 """Turn a YouTube video into a plain-text transcript in data/transcripts/.
 
 Usage:
-    .venv/bin/python tools/transcribe.py <url> [--lang ru] [--force-audio]
+    .venv/bin/python tools/transcribe.py <url> [--lang ru] [--force-audio | --subs-only]
+    .venv/bin/python tools/transcribe.py <channel-playlist-or-ytsearch> --list
 
 Order of attempts:
 1. YouTube's own subtitles (manual first, then its original automatic
@@ -10,6 +11,10 @@ Order of attempts:
    --force-audio: download the audio only and
    transcribe it locally with MacWhisper's `mw` CLI, or with whisper.cpp's
    `whisper-cli` when `mw` is missing (set WHISPER_MODEL to a ggml model).
+
+Batches go cheap first: a pass with --subs-only takes every video that has
+subtitles in seconds and exits with code 3 for those without; a second pass
+runs Whisper on those alone.
 
 Transcripts are other people's words, so they stay in git-ignored data/.
 """
@@ -119,12 +124,24 @@ def from_audio(url, lang, tmp):
     sys.exit("No subtitles and no local Whisper: install MacWhisper, or whisper.cpp and set WHISPER_MODEL (see README).")
 
 
+def list_videos(url):
+    """Print one line per video of a channel, playlist or "ytsearch20:<words>" search:
+    id, duration, channel, title. Metadata only."""
+    for entry in json.loads(yt_dlp(url, "--flat-playlist", "-J")).get("entries") or []:
+        print(f"{entry['id']}\t{stamp((entry.get('duration') or 0) * 1000)}\t{entry.get('channel')}\t{entry.get('title')}")
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     parser.add_argument("url")
     parser.add_argument("--lang", default="ru", help="ISO 639-1 language of the speech (default: ru)")
-    parser.add_argument("--force-audio", action="store_true", help="skip subtitles, transcribe the audio")
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument("--force-audio", action="store_true", help="skip subtitles, transcribe the audio")
+    mode.add_argument("--subs-only", action="store_true", help="no Whisper: exit with code 3 if there are no subtitles")
+    mode.add_argument("--list", action="store_true", help="list the videos of a channel, playlist or ytsearchN:words query; download nothing")
     args = parser.parse_args()
+    if args.list:
+        return list_videos(args.url)
 
     meta = json.loads(yt_dlp(args.url, "-J", "--skip-download"))
     labels = youtube_labels(meta)
@@ -141,6 +158,9 @@ def main():
                 method = f"YouTube {kind} (track {track[1]})"
             except RuntimeError as err:
                 print(f"Subtitles failed ({err}); transcribing the audio instead.", file=sys.stderr)
+        if text is None and args.subs_only:
+            print("No usable subtitles: leave this video for the Whisper pass.", file=sys.stderr)
+            sys.exit(3)
         if text is None:
             text, method = from_audio(args.url, args.lang, tmp)
 

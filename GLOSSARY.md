@@ -11,5 +11,7 @@ School jargon (смотрящий, хата, "Ebonics" slang) is not here: it li
 - **term**: a word or concept of one school, with sources. Lives in that school's `reference.md`.
 - **item**: anything the database tracks and schedules: a trap, a move or a term.
 - **scope**: where a source's claims hold: place, years, institution, genre.
+- **source catalogue**: a school's `sources.md`. Each source has an ID, genre, scope, reliability, link, and what was checked. Not-yet-checked finds wait in its "Candidates" list.
+- **reliability**: how far a source can be trusted. *High*: scholarly work, or journalism with named sources and documents. *Medium*: one first-hand witness, or a narrator in an entertainment format. *Low*: anonymous or made for shock. *Lyrics only*: the romanticised layer.
 - **general / local**: a claim backed by at least three independent sources from different places is general; otherwise local.
 - **reserve**: researched terms Taras has not studied yet. Must be at least as many as the terms he has studied.

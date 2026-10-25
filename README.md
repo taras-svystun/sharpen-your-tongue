@@ -40,6 +40,25 @@ It takes YouTube's own subtitles first: manual ones in `--lang`, else YouTube's 
 
 It pauses between requests (yt-dlp's `-t sleep` preset), so one video takes about 20 seconds; for several videos, run them one after another, not in parallel. It also prints the languages YouTube claims for the video; they can be wrong, so it warns when they differ from `--lang`.
 
+For many videos, go cheap first. List a channel (metadata only), then take captions for every video in one pass and run Whisper only on what that pass skipped (exit code 3 means "no usable subtitles"):
+
+```bash
+mkdir -p data/catalogue
+.venv/bin/python tools/transcribe.py "https://www.youtube.com/@LebedShaman/videos" --list > data/catalogue/lebed-shaman.tsv
+.venv/bin/python tools/transcribe.py "ytsearch30:бывший заключенный понятия интервью" --list   # search YouTube
+
+# ids.txt: one video id per line, picked from the list
+: > data/catalogue/whisper-queue.txt
+while read -r id; do
+  .venv/bin/python tools/transcribe.py "https://www.youtube.com/watch?v=$id" --subs-only < /dev/null \
+    || { [ $? -eq 3 ] && echo "$id" >> data/catalogue/whisper-queue.txt || break; }
+  sleep 60
+done < ids.txt
+# then the same loop over data/catalogue/whisper-queue.txt, without --subs-only
+```
+
+Any other failure stops the loop (`break`): find the cause before running it again.
+
 Run the tests:
 
 ```bash

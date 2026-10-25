@@ -48,3 +48,15 @@ Newest at the bottom.
 - The tool now prints YouTube's labels (video, audio and original caption languages) and warns when they differ from `--lang`; they also go into the transcript header. The audio track was labelled "uk" too, so checking audio tracks does not reveal a wrong label; only the text does.
 - MacWhisper fallback passes `--model whisper-cpp:ggml-model-whisper-turbo` when downloaded, without changing the app's selected model. Same video: 7 min 16 s; on the test passage it matches YouTube's captions («тюрях маячит», «в инсте мы публикуем») where `small` garbled them.
 - Structure: ok.
+
+## 2026-10-25: Step 3, source catalogue
+
+- `resources/schools/post-soviet/sources.md`: 10 catalogued sources (`ps:src:01`-`10`): Lebed & Shaman, «Азбука тюрьмы», Медиазона, Новая газета, Шаламов, Лихачёв, Росси, Балдаев, Олейник, Galeotti; plus candidates, including Ukrainian journalism (Радіо Свобода, hromadske, ХПГ) and the Ombudsman's prison reports. `resources/schools/east-coast/sources.md`: 5 (Anderson, Bourgois, Canada, Conover, Big L "Ebonics") plus candidates. Each catalogue entry has genre, scope, reliability, link and a "Checked" line.
+- Decision: one entry per channel, book or outlet, not per video; a video is cited as `ps:src:01 / <video-id> @ m:ss`. Why: 169 prison videos from one channel are one narrator pair, and the general/local rule counts independent sources, not videos.
+- Decision: candidates sit in the same file under "Candidates", so finding a source and checking it are separate moves. The reliability scale is defined once, in `GLOSSARY.md`.
+- Cheap first (Taras's addition, agreement 17): `tools/transcribe.py --subs-only` never runs Whisper and exits with code 3, so a batch takes every captioned video in seconds and leaves the rest for a Whisper pass. `--list` lists a channel or a `ytsearch` query (metadata only), so YouTube still gets every request through the one polite tool.
+- Research verdict: Lebed & Shaman has 732 videos, about 169 on prison by title; places named: Бучанская колония, Бердянская 77, Лукьяновское СИЗО, Чернигов, a juvenile colony (`--list`, 2026-10-25).
+- Research verdict: «Азбука тюрьмы», 12 episodes from 50 interviews, Настоящее Время, summer 2021 (https://www.currenttime.tv/a/azbuka-tyurmy-podkast/31682968.html).
+- Research verdict: «Мопс дядя Пес» rejected: a humiliation stream for money, not testimony (Медуза, 2017-06-08).
+- Weak spots: Ukraine has only one catalogued voice (Lebed & Shaman); its Ukrainian candidates must be checked before step 4 calls any Ukrainian rule general. Олейник's publisher and year, and every "from memory" candidate, are unconfirmed. Russian web search returned thin results; YouTube search through the tool worked better.
+- Structure: added "video lists" to `data/` in the layout map; otherwise ok.

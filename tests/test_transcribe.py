@@ -1,6 +1,8 @@
 import sys
 from pathlib import Path
 
+import pytest
+
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
 import transcribe  # noqa: E402
 
@@ -48,3 +50,13 @@ def test_youtube_labels_show_the_mislabel():
                         {"vcodec": "avc1", "acodec": "none"}],
             "automatic_captions": {"uk-orig": [], "ru": []}}
     assert transcribe.youtube_labels(meta) == "video uk, audio uk, original captions uk-orig"
+
+
+def test_subs_only_skips_whisper_when_no_captions(monkeypatch):
+    # Cheap first: a batch's first pass must not spend minutes on Whisper.
+    monkeypatch.setattr(transcribe, "yt_dlp", lambda *args: '{"id": "x", "automatic_captions": {}}')
+    monkeypatch.setattr(transcribe, "from_audio", lambda *args: pytest.fail("Whisper ran"))
+    monkeypatch.setattr(sys, "argv", ["transcribe.py", "https://yt/x", "--subs-only"])
+    with pytest.raises(SystemExit) as exit_info:
+        transcribe.main()
+    assert exit_info.value.code == 3

@@ -28,7 +28,7 @@ Standing decisions. Each is written once, here; other files link to this list in
 14. One fact lives in one file; others link to it by ID. The layout is in `CLAUDE.md`.
 15. The repo is for other people too: anyone can clone it and rebuild everything from public instructions in `README.md`.
 16. After every step, a structure review (rule in `CLAUDE.md`, "Finishing a step"), so the repo never turns into mush. Cheap now, expensive later.
-17. Requests to YouTube are slow and polite, so we are never blocked as a bot (rule in `CLAUDE.md`). YouTube's captions come first; Whisper only for videos without them.
+17. Requests to YouTube are slow and polite, so we are never blocked as a bot (rule in `CLAUDE.md`). Cheap first: a batch makes one pass that takes YouTube's captions for every video (`--subs-only`), then a second pass runs MacWhisper only on the videos the first pass skipped.
 
 ## Steps
 
@@ -38,7 +38,7 @@ Each step has a check. A step is done when its check passes.
 2. ✅ **Transcript tool.** `tools/transcribe.py <url>`: take YouTube's subtitles with `yt-dlp` (it needs a JavaScript runtime: Node 22+ or Deno); if there are none, download the audio only and transcribe it locally with MacWhisper's `mw` CLI, or with open `whisper.cpp` on other machines. Saves to `data/transcripts/`.
    Why: YouTube interviews are a large source, and the AI cannot watch video.
    Check: one prison video from Lebed & Shaman (https://www.youtube.com/@LebedShaman) gives a text file in `data/transcripts/`; then decide whether the `small` model is good enough for Russian or a larger one is needed.
-3. **Source catalogue, both schools.** For each source: ID, genre (memoir, ethnography, dictionary, journalism, video, lyrics), scope (place, years, institution), reliability, link.
+3. ✅ **Source catalogue, both schools.** For each source: ID, genre (memoir, ethnography, dictionary, journalism, video, lyrics), scope (place, years, institution), reliability, link.
    Video: start from Lebed & Shaman (only the prison videos: series «НаКумаре», «Культяпка» (juvenile prison), «Зона строгого режима», феня, понятия; the channel has about 730 videos), then find other channels of former prisoners, so no claim rests on one narrator.
    Why: the reference may only cite what is catalogued; scope tells a local rule from a general one.
    Check: every entry has all fields; the verdict is in the journal.
