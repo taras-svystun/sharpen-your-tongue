@@ -68,3 +68,11 @@ Newest at the bottom.
 - Fixed: the Новая газета entry named a second article that was never found; it is one piece by А. Виноградов (written 2019-11-10). Its citations (Кузнецов, Амальрик) went to Candidates.
 - Defined **independent** in `GLOSSARY.md`: a retelling does not count as a second source, and guests of a channel may count separately when cited by name.
 - Structure: ok.
+
+## 2026-10-25: Step 3, more voices and the "Ask Taras" list
+
+- Catalogued 4 more: `ps:src:11` Олейник 2005 (five colonies of Kharkiv oblast, 2003), `ps:src:12` a Belarusian talk show on понятия (2019), `ps:src:13` hromadske's film on the Кременчуцька juvenile colony (2022), `ps:src:14` a Georgian policy brief on criminal subculture in prisons (2022). Ukraine now has three independent voices (Lebed & Shaman, Олейник, hromadske); Belarus and Georgia one each.
+- Method: two videos taken with `--subs-only`, a minute apart (13 170 and 2 852 words, seconds each); PDFs that WebFetch could not decode were read with `pdftotext`.
+- Agreement 18: sources I cannot open go to an "Ask Taras" list; copies, pirated ones included, live only in `data/sources/`. Why: a link to a pirated copy in a public repo invites a takedown of the whole repo.
+- Research verdict: Belarus has a talk show and a series («Закон в натуре») but its key document, Вясна's ИК-17 report, was not found in full; Kazakhstan gave no testimony on понятия, only news on torture (web and YouTube search, 2026-10-25).
+- Structure: added "source copies" to `data/` in the layout map; otherwise ok.

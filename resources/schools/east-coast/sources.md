@@ -58,3 +58,11 @@ Found, not yet checked. A candidate is cited only after it moves to the catalogu
 - Piri Thomas, "Down These Mean Streets" (1967): Spanish Harlem memoir with prison years; from memory.
 - Lyrics to catalogue at step 9: Nas "Illmatic" (1994), Wu-Tang Clan "Enter the Wu-Tang (36 Chambers)" (1993), Mobb Deep "The Infamous" (1995), The Notorious B.I.G., KRS-One, Common, Mos Def, 2Pac.
 - Not East Coast, so only for comparison: Sudhir Venkatesh, "Gang Leader for a Day" (Chicago, 2008).
+
+## Ask Taras
+
+Worth having, but I could not open it. Not urgent: this school starts at step 9. A copy goes to git-ignored `data/sources/` (agreement 18 in `docs/PLAN.md`).
+
+1. Anderson, "Code of the Street" (1999).
+2. Bourgois, "In Search of Respect" (1995): a PDF on americananthro.org answered 403.
+3. Conover, "Newjack" (2000).

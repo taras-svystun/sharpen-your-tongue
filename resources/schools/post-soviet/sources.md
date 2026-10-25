@@ -95,6 +95,42 @@ The catalogue of this school. The reference may cite only sources listed here, b
 - Access: paid book.
 - Checked: library catalogue records (web search, 2026-10-25).
 
+### ps:src:11 А. Н. Олейник, «Театр недоверия и пессимизма (опыт социологического анализа арт-проекта)», Мир России, 2005, № 2, с. 160-173
+
+- Genre: sociology. How prisoners, prison staff and ordinary viewers reacted to a play about betrayal and informers.
+- Scope: Ukraine, five penal institutions of Kharkiv oblast, April-May 2003.
+- Reliability: high, scholarly; about trust and informing, not a list of rules.
+- Link: https://mirros.hse.ru/article/download/5238/5599
+- Access: free PDF; read the first pages, 2026-10-25.
+- Checked: title, author, journal, scope from the PDF itself, 2026-10-25.
+
+### ps:src:12 MSPRING ONLINE, «Тюремные понятия в Беларуси» (talk show, 2019-03-28, 1:44:02)
+
+- Genre: video, a talk show: former prisoners and human-rights experts on понятия, козлы, those who "signed the papers" to cooperate, life по понятиям in Belarusian colonies.
+- Scope: Belarus, 2000s-2010s colonies and СИЗО; Russian and Belarusian speech.
+- Reliability: medium-high (several witnesses and experts in one room).
+- Link: https://www.youtube.com/watch?v=fL9vcSlAIXk
+- Access: transcript `data/transcripts/fL9vcSlAIXk.md` (YouTube captions, 13 170 words; music and Belarusian passages garbled).
+- Checked: transcript skimmed for key terms, 2026-10-25.
+
+### ps:src:13 hromadske, «Виправити, а не карати. Фільм про підліткові колонії» (2022-01-25, 24:48)
+
+- Genre: video documentary: teenagers, staff and a psychologist in a juvenile colony.
+- Scope: Ukraine, Кременчуцька виховна колонія, 2021. Mostly about how teenagers end up inside and come back; little on rules, but it shows the one "on понятия" refusing to clean.
+- Reliability: high (journalism, many speakers, named place); thin on понятия.
+- Link: https://www.youtube.com/watch?v=R6bgO2gqXaM
+- Access: transcript `data/transcripts/R6bgO2gqXaM.md` (YouTube captions, 2 852 words, punctuated; Ukrainian and Russian).
+- Checked: transcript skimmed, 2026-10-25.
+
+### ps:src:14 Tsira Chanturia, "Deep-rooted problem of criminal subculture conducive to ill-treatment" (Open Society Georgia Foundation policy brief, Tbilisi, November 2022)
+
+- Genre: policy brief by Penal Reform International's regional director; draws on CPT and Ombudsman reports.
+- Scope: Georgia, prisons 2018-2022 (e.g. Ksani prison 15): staff delegating order to informal prisoner leaders.
+- Reliability: high (named author, official reports cited).
+- Link: https://csf.ge/wp-content/uploads/2022/12/Tsira-Chanturia_ForWeb.pdf
+- Access: free PDF, 8 pages; read the first pages, 2026-10-25.
+- Checked: title, author, date from the PDF itself, 2026-10-25.
+
 ## Candidates
 
 Found, not yet checked. A candidate is cited only after it moves to the catalogue with all fields.
@@ -105,8 +141,7 @@ Found, not yet checked. A candidate is cited only after it moves to the catalogu
 - Laura Piacentini, "Surviving Russian Prisons" (2004): from memory.
 - Леся Ставицька, «Український жаргон. Словник» (2005): Ukrainian, includes criminal slang; from memory.
 - Ukrainian Ombudsman, National Preventive Mechanism visit reports: record "informal groups of prisoners" and segregation (e.g. Старобабанівська колонія 92, 2024: https://ombudsman.gov.ua/en/news_details/vidviduvannya-derzhavnoyi-ustanovi-starobabanivska-vipravna-koloniya-92). Official, Ukrainian, recent; thin on detail.
-- Джужа, Колб, on criminal subculture in Ukrainian places of detention (Історико-правовий часопис, 2016): https://evnuir.vnu.edu.ua/bitstream/123456789/10812/1/%d0%b4%d0%b6%d1%83%d0%b6%d0%b0.pdf
-- Олейник, «Театр недоверия и пессимизма» (Мир России, 2005, № 2): prison subculture and an art project in Ukrainian colonies: https://mirros.hse.ru/article/download/5238/5599
+- Джужа, Колб, on criminal subculture in Ukrainian places of detention (Історико-правовий часопис, 2016): https://evnuir.vnu.edu.ua/bitstream/123456789/10812/1/%d0%b4%d0%b6%d1%83%d0%b6%d0%b0.pdf (the link opens only a DSpace page).
 - YouTube, from one search on 2026-10-25 (scope to check for each):
   - PRO DОБРО: a man who served 28 years explains понятия, slang and words you must not say; country and colonies unknown.
   - Onliner, «Опустить можно любого: #монолог отсидевшего 15 лет» (Belarusian media).
@@ -116,7 +151,24 @@ Found, not yet checked. A candidate is cited only after it moves to the catalogu
   - МЫ ВЕРНЕМСЯ (Руслан Кулевич): interview on low status and смотрящий.
   - Черная Хата: short videos on the rules for «неприкасаемые».
 - YouTube, Ukrainian journalism, from one search on 2026-10-25 (a second Ukrainian view beside ps:src:01):
-  - Радіо Свобода, «Тюремне братство | #ВУКРАЇНІ».
-  - hromadske, «Виправити, а не карати. Фільм про підліткові колонії» (juvenile colonies, like «Культяпка»).
+  - Радіо Свобода, «Тюремне братство | #ВУКРАЇНІ»: a second YouTube search did not find it.
   - Харківська правозахисна група (khpg.org): human-rights monitoring of Ukrainian prisons since the 1990s.
+- Other post-Soviet voices, from searches on 2026-10-25:
+  - vitaminE, «Закон в натуре»: a series on prison in Belarus and Russia (e.g. https://www.youtube.com/watch?v=oxLEZT8GiCU, «Политика в белорусской тюрьме» https://www.youtube.com/watch?v=zlVjjA-iinU).
+  - Onliner, «Опустить можно любого: #монолог отсидевшего 15 лет» (Belarus).
+  - Вясна and the International Committee for the Investigation of Torture in Belarus: a report on ИК-17 (Шклов) from 18 former political prisoners, 2020-2024; full text not yet found.
+  - Gavin Slade, "Reorganizing Crime: Mafia and Anti-Mafia in Post-Soviet Georgia" (Oxford University Press, 2013): has a chapter on prison and recruitment of воры.
+  - Kazakhstan: searches found only news about torture, no testimony on понятия yet.
 - Rejected: «Мопс дядя Пес» (Сергей Новик, Ukraine, about 27 years inside): famous for humiliation streams for money (Медуза, 2017); entertainment, not testimony.
+
+## Ask Taras
+
+Worth having, but I could not open it. Taras spends a few minutes on each; a copy he finds goes to git-ignored `data/sources/<id-or-name>.<ext>` (agreement 18 in `docs/PLAN.md`). Most valuable first.
+
+1. Олейник, «Тюремная субкультура в России» (2001 or 2010): the main study; no free text found.
+2. Росси, «Справочник по ГУЛАГу» (1991, two parts): a scan of part 1 is on Calameo (legality unclear, so no link here); I did not try it.
+3. Абрамкин, «Как выжить в советской тюрьме» (around 1992): written by an ex-prisoner for prisoners; title and year unconfirmed.
+4. Балдаев, «Словарь блатного воровского жаргона» (1997): needed for the 60 terms of step 4.
+5. Лихачёв, «Черты первобытного примитивизма воровской речи» (1935), or its reprint in «Статьи ранних лет» (Тверь, 1993).
+6. Вясна, the ИК-17 (Шклов) report, 2024: the only Belarusian document with many witnesses.
+7. Lenta.ru, «Арестантский канал един» (2018-04-22, https://lenta.ru/articles/2018/04/22/zeki): a list of ex-prisoners' YouTube channels; the page did not open for me.

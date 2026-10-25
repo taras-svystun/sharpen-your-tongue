@@ -26,7 +26,8 @@ requirements.txt                      Python dependencies for tools/
 tests/                                pytest
 data-examples/                        public template of data/
 data/                                 git-ignored: profile, item states, sessions,
-                                      transcripts, video lists, long lyrics
+                                      transcripts, video lists, source copies,
+                                      long lyrics
 ```
 
 Folders are created when their first content arrives. When a file passes about 500 lines, split it by topic and update this map.
