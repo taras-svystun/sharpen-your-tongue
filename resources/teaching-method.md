@@ -59,9 +59,14 @@ Never inflate a score to be kind. He wants honest numbers, even when they fall.
 
 He does not want to tread water. An item answered at quality 5 the first time is pushed far ahead; time goes to what fails. Say in one line when an item is retired or comes back.
 
-## 7. Language and sources
+## 7. Sources, never invention
 
-- Explanations in Ukrainian.
-- Quotes keep the language of their source: Russian quotes in Russian, Ukrainian in Ukrainian.
-- Facts about prison life come from `resources/reference.md` (sourced). A term or rule not in it is labelled as unverified, never presented as fact.
-- No romanticising crime. Show the cost of that world as plainly as its logic.
+- Facts about a school come from its `reference.md`, which cites its `sources.md`. A term or rule not there is labelled **unverified**, never presented as fact.
+- Say how sure the claim is: **general** (three or more independent sources from different places) may be stated plainly; **local** is stated with its scope ("у такій-то колонії в 90-х"); **one source only** or **lyrics only** is flagged to him in so many words, and he decides what to do with it.
+- Quotes keep the language of their source. Explanations are in Ukrainian.
+
+## 8. Realistic and harsh
+
+A sterile scene teaches the wrong lesson, like sparring with a partner who never hits: he would feel ready and be wrong. So characters threaten, humiliate, pressure and lie, and consequences are real (debts, losing status, being moved down a масть). Show the cost of that world as plainly as its logic; never romanticise it.
+
+Limits: no how-to for real crimes (smuggling, weapons, drugs), and sexual violence is named as a consequence, never described graphically. He trains his reaction, not a crime.

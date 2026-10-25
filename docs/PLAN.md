@@ -2,39 +2,64 @@
 
 ## Purpose
 
-A daily trainer for quick wit under pressure. Taras learns to notice manipulation and word traps (for example a false choice, where both offered options are bad), to answer provocations briefly, precisely and calmly, without swearing or insults, and to stand up for himself and his people. Ukrainian and post-Soviet prison subculture is the training ground: a world where words are binding ("за базар отвечаешь"), so every trap and every answer is sharp. A second, smaller aim: know what prison life and its words really are (смотрящий, хата, масти, and so on), from sources, without romanticising crime.
+A daily trainer for quick wit under pressure. Taras learns to notice manipulation and word traps (for example a false choice, where both offered options are bad), to answer provocations briefly, precisely and calmly, without swearing or insults, and to stand up for himself and his people. The training grounds are **schools**: closed worlds where words are binding, so every trap and every answer is sharp. First school: Ukrainian and post-Soviet prison subculture. Second: US East Coast street and prison culture, through documentary sources and old-school hip-hop. A smaller aim: know what that life and its words really are, from sources, without romanticising crime.
 
-What it is not: French, offices, or a script to speak in prison slang at work.
+What it is not: French, or a script for speaking slang at work.
 
-## What we agreed (2026-10-25)
+## What we agreed
 
-- Short daily sessions, around 10-15 minutes. French comes first.
-- It must be fun enough to want every morning: riddles, traps, games, logic.
-- A full tutor, not a riddle prompt: exercises, analysis, feedback, adaptation. What he masters fast is left behind; time goes to his weakest spots.
-- Methods that work on Taras are copied from Fluent and adapted. No shared code or library with Fluent, ever (Taras's rule).
-- The repo is public. Everything personal (his answers, scores, profile) lives in `data/`, which git ignores. Method, prompts and curriculum are public. See `docs/adr/0001-public-repo-local-data.md`.
-- Quotes keep the language of their source (Russian or Ukrainian). Explanations are in Ukrainian.
-- First and only lesson type for now: a conversation simulation. The AI plays a character (смотрящий за хатой, a cellmate, a guard), tests or provokes Taras, and then debriefs: what he misread, where he took the bait, where he got cornered.
+Standing decisions. Each is written once, here; other files link to this list instead of repeating it.
+
+2026-10-25:
+
+1. Short daily sessions, about 10-15 minutes. French comes first.
+2. It must be fun enough to want every morning: riddles, traps, games, logic.
+3. A full tutor: exercises, analysis, feedback, adaptation. What he masters fast is left behind; time goes to his weakest spots.
+4. Methods that work on Taras are copied from Fluent and adapted. **No shared code or library with Fluent, ever.**
+5. Public repo; everything personal or copyrighted at length lives in git-ignored `data/` (ADR 0001).
+6. No invention. Every fact about a school comes from a source in its catalogue, with its scope (place, years, institution, genre). A claim backed by one source, or only by lyrics, is flagged to Taras as such.
+7. A claim is labelled **general** when at least three independent sources from different places agree, otherwise **local**. General claims may be stated plainly.
+8. One shared curriculum of traps and answer moves for all schools. Schools differ in reference, language and characters, not in traps: learn the abstraction, not the setting.
+9. Characters speak the school's language: Russian with феня for post-Soviet, English with slang for East Coast. The debrief is in Ukrainian. *Revisit later*: Taras may want the debrief in the school's language.
+10. Lessons are realistic and harsh: threats, humiliation, pressure, real consequences. Limits: no how-to for real crimes; sexual violence never described graphically.
+11. Lyrics: short quotes with a link, or a summary in our words, go public. Long quotes go to `data/`. Lyrics are a romanticised layer; documentary sources come first.
+12. **Reserve rule**: the reference always holds at least as many researched terms he has not studied as terms he has studied (so at least twice what he knows in total).
+13. The lesson skill is `/interest`: in the post-Soviet code you do not "спрашивать", you "интересоваться".
+14. One fact lives in one file; others link to it by ID. The layout is in `CLAUDE.md`.
 
 ## Steps
 
 Each step has a check. A step is done when its check passes.
 
-1. **Foundations.** Adapt Fluent's teaching method to this project; keep `data/` out of git, with a public template in `data-examples/`.
-   Why: without the method, sessions fall back to generic chatbot feedback; without the ignore rule, his answers leak to a public repo.
-   Check: `git check-ignore data/x.json` prints the path; `resources/teaching-method.md` exists.
-2. **Sourced reference.** Research the core concepts (понятия, масти, роли: смотрящий and others), around 30 terms, and the classic trap riddles with their accepted answers. Each entry: plain meaning, a quote in its source language, the source and date.
-   Why: without sources, the AI invents "понятия" that sound right and are wrong.
-   Check: every entry in `resources/reference.md` names a source; the verdict is in the journal.
-3. **Curriculum of traps and moves.** About 12 trap types (false choice, gift as debt, question about your past, a dare to swear or promise, flattery, leading question, ...) and about 8 answer moves (reject the premise, answer with a question, take a third option, a short pause, ...). Each: the mechanism, a prison example, an everyday example, and the test that tells it apart from its look-alike.
-   Why: this is what the database tracks and what the next lesson is built from; without it, adaptation has nothing to count.
-   Check: every entry in `resources/curriculum.md` has the four fields.
-4. **Database and script.** `tools/db.py` (standard library only): read the state, record a session, schedule items with SM-2 (spaced repetition: an item you answer well comes back later and later; a failed one comes back tomorrow), and pick the next targets (due items first, then the weakest). Tested with pytest.
-   Why: so the next lesson comes from a record, not from the AI's memory.
+1. ✅ **Foundations.** Teaching method adapted from Fluent; `data/` git-ignored; repo layout set.
+2. **Transcript tool.** `tools/transcribe.py <url>`: download subtitles with `yt-dlp`; if there are none, transcribe locally with Whisper. Saves to `data/transcripts/`.
+   Why: YouTube interviews are a large source, and the AI cannot watch video.
+   Check: one video from the channel Taras names gives a text file in `data/transcripts/`.
+3. **Source catalogue, both schools.** For each source: ID, genre (memoir, ethnography, dictionary, journalism, video, lyrics), scope (place, years, institution), reliability, link.
+   Why: the reference may only cite what is catalogued; scope tells a local rule from a general one.
+   Check: every entry has all fields; the verdict is in the journal.
+4. **Post-Soviet reference.** Concepts (понятия, the difference спрашивать / интересоваться, roles such as смотрящий, масти, debts, words and responsibility), classic trap riddles with their accepted answers, and at least 60 terms. Each claim: meaning, a quote in its source language, source IDs, scope, general or local.
+   Why: scenes and debriefs stand on this; a thin start means invented detail.
+   Check: no claim without a source ID; at least 60 terms.
+5. **Shared curriculum.** About 12 trap types and about 8 answer moves. Each: mechanism, an example from each school, an everyday example, and the test that tells it from its look-alike.
+   Why: this is what the database tracks and what lessons are built from.
+   Check: every entry has the fields.
+6. **Database and script.** `tools/db.py` (standard library): read the state, record a session, schedule items with SM-2 (spaced repetition: a well-answered item comes back later and later, a failed one tomorrow), pick the next targets (due first, then weakest), and report the reserve rule. Tested with pytest.
+   Why: the next lesson comes from a record, not from the AI's memory.
    Check: `pytest` passes.
-5. **The `/scene` lesson.** A skill in `.claude/skills/scene/`: load the state, pick 1-3 target items, build a scene with a hidden goal for the character, play 4-8 exchanges, then let Taras guess what the character wanted before the debrief, then debrief errors only, then record.
-   Why: this is the product; steps 1-4 feed it.
-   Check: one real session runs end to end; `data/` changes; `git status` shows nothing from `data/`.
-6. **Three real sessions, then tune.** Fix what bores or misleads; choose the second lesson type.
-   Why: the format is a guess until he has played it.
+7. **`/interest`, post-Soviet school.** Load the state, pick 1-3 targets, build a scene with a hidden goal for the character, play 4-8 exchanges, let Taras guess what the character wanted, debrief errors only, record.
+   Check: one real session end to end; `data/` changes; nothing from `data/` in `git status`.
+8. **Three real sessions, then tune.**
    Check: a journal line per session with what changed.
+9. **East Coast school.** Reference (Big L "Ebonics" as a slang anchor; Nas, Wu-Tang, Common, Mos Def, Biggie, 2Pac, KRS-One, Mobb Deep; documentary sources first) and its characters in `/interest`.
+   Check: as in steps 4 and 7.
+
+## Later: more lesson types
+
+In this order unless sessions show otherwise:
+
+1. **Riddle of the day**: one trap, 60 seconds.
+2. **Parry in 10 words**: a series of provocations; scored for precision and brevity.
+3. **Find the trap**: a finished dialogue; name the moment and the trap type.
+4. **Transfer**: the same trap at a job interview or a negotiation.
+5. **Term cards** with spaced repetition.
