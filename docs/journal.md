@@ -158,3 +158,9 @@ A review of every file gave 30 points; Taras approved all but Windows encodings;
 - Decision: only the targets are scored. A move Taras happens to use is not recorded unless it was a target, so the log measures what was tested, not what came up.
 - Check: `tests/test_skill.py`, every file path the skill names exists (a misspelled path makes it fail). `pytest` 34 passed. `db.py next` on the empty log gives `trap:false-choice`, so the first lesson is one new trap, alone. The step's own check, one real session, waits for Taras.
 - Structure: layout map now lists the skill and the session notes; the skill links to agreements 1 and 13 instead of restating them. Structure: ok.
+
+## 2026-10-25: Are all instructions reachable?
+
+- Taras's worry from Fluent: method files that nothing points to are never read. Checked every tracked `.md`: who links to it and when it is read. `CLAUDE.md` loads every session and says when to read the plan, the method and the ADR; `/interest` names every file a lesson needs.
+- Found one gap: the school README (language and characters) was linked by nothing, and the skill restated its rule instead. The skill now reads it and links to it; `moves.md` is named by full path, so the path test covers it.
+- Structure: fixed (1 item).

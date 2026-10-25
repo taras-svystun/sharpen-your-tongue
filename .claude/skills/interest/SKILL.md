@@ -20,7 +20,7 @@ If `status` says RESEARCH MORE TERMS, tell Taras in one line before the lesson (
 
 The targets are what `next` prints, in its order. If they mix a **new** item with old ones, play two scenes: first the old ones together, then the new one alone (§2), shorter. If time runs out, drop the new one; it comes back next time.
 
-Read each target where it is defined: traps in `resources/curriculum/traps.md` with the moves they name in `moves.md`, terms and riddles in `resources/schools/post-soviet/reference.md`. Read the last five entries of `data/session-notes.md` (if it exists), so a scene is not repeated.
+Read the school's rules for language and characters in `resources/schools/post-soviet/README.md`. Read each target where it is defined: traps in `resources/curriculum/traps.md` with the moves they name in `resources/curriculum/moves.md`, terms and riddles in `resources/schools/post-soviet/reference.md`. Read the last five entries of `data/session-notes.md` (if it exists), so a scene is not repeated.
 
 ## 2. Build the scene, and seal it
 
@@ -34,7 +34,7 @@ Write this plan as the start of today's entry in `data/session-notes.md` (create
 
 ## 3. Play 4-8 exchanges
 
-- Open with one line in Ukrainian setting the place, then the character speaks Russian with феня, as in the sources. Taras may answer in any language.
+- Open with one line in Ukrainian setting the place, then the character speaks as the school's README says. Taras may answer in any language.
 - One character reply per turn; wait for Taras. No hints, no out-of-scene comments.
 - The world reacts: a weak answer has a real cost in the scene (a debt, a nickname, lost status), harsh within §8.
 - If Taras asks something out of scene (he marks it with `(?)`), answer in one line. If it was a target term, its quality is at most 3.
