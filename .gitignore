@@ -2,3 +2,6 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# Personal: answers, scores, profile. See docs/adr/0001-public-repo-local-data.md
+data/
