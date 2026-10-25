@@ -228,3 +228,11 @@ A review of every file gave 30 points; Taras approved all but Windows encodings;
 - Cause: ih9QIwMSWX8 is Russian speech labelled "uk" with an English dub; originals `en-US-orig` and `uk-orig`, none in `ru`, so the old order took the English one. Evidence: header «track en-US-orig», English text.
 - Fix: after `--lang`, the track in the video's own label comes next (a dub is never in it). Test `test_pick_track_prefers_the_video_label_over_a_dub` failed before, passes now; `pytest` 37 passed; the video fetched again gives `uk-orig`, Russian text.
 - Batch result: 27 of 30 videos have transcripts; 2 age-restricted (skipped), 3 more without captions joined the Whisper queue (5 in all). One request per video, 60 s apart; no 429.
+
+## 2026-10-25: Batch of 7 new voices; Whisper queue done
+
+- Subtitles for 7 videos from three new channels (PRO DОБРО: jme3pQ-DVWA, LmsJKz8TCuY, qOPssWEjRUc, dB3XjzXCoGI; Onliner: 4gPlvix6-Vc, Q8NQzICf2qQ; Люди PRO: -6i1CFFPrTU). All had Russian original captions; -6i1CFFPrTU also has an English dub, and the tool took `ru-orig`, so the dub fix holds on a live case.
+- Whisper (MacWhisper) on the 5 queued Lebed & Shaman videos without captions (-iAs9oLL2hk, 8Agq-Yt8N9Q, iSUIjVWPhWM, iBivH1hYT7o, IorOMHUBn20); the queue is now empty.
+- Check: 12 transcripts on disk, each Cyrillic with no Ukrainian letters (Russian speech, as labelled); Whisper text spot-checked, readable. One request per video, 60 s apart; no 429, no "not a bot" check.
+- Not yet read: all 12. They are the second, independent voices for records marked one source.
+- Structure: ok.

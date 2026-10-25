@@ -236,7 +236,7 @@ Found, not yet checked. A candidate is cited only after it moves to the catalogu
   - «Всё о тюрьме» (YouTube channel): short explainers on castes, козлы, правильная хата, погоняла, transit prisons (e.g. V15MVgyjVqs «Что такое правильная хата», KtbSHiahUH4 «Кто такой козел»). Narrator and his record unknown.
   - «ТЮРЕМНЫЙ ПОДКАСТ» (YouTube channel): long interviews with named former prisoners, men and women, Russia (e.g. Yjja1dZJnlc, Ue6K-xDR83U). Each guest may count as a separate witness.
   - Илья Варламов, playlist «Тюрьмы» (channel varlamov): documentary episodes on Russian colonies, transport, juvenile and women's prisons (e.g. 5bT1thBqh_Y «Тюрьмы России: гайд», gIBqNZG0mf4 on этап). Journalism with interviews.
-- Checked by search on 2026-10-25 (`--list`, three requests); next batch, a voice other than ps:src:01 in each:
+- Checked by search on 2026-10-25 (`--list`, three requests); a voice other than ps:src:01 in each. Transcripts of the 7 videos below fetched 2026-10-25, not yet read:
   - PRO DОБРО: one man, 28 years inside; jme3pQ-DVWA «ОТСИДЕЛ 28 ЛЕТ - ПОНЯТИЯ И ТЮРЕМНЫЙ БЫТ» (54 min), LmsJKz8TCuY (card sharps), qOPssWEjRUc, dB3XjzXCoGI (slang; check the language). Country and colonies still to check.
   - Onliner (Belarusian media, named speakers): 4gPlvix6-Vc «Опустить можно любого: #монолог отсидевшего 15 лет», Q8NQzICf2qQ «#монолог отсидевшего милиционера» (the view of a man the code despises).
   - Люди PRO: -6i1CFFPrTU «9 лет в самой жестокой тюрьме России: про пытки, убийства и понятия».
